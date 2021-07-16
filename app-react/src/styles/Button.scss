@@ -1,0 +1,28 @@
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: blue;
+  color: pink;
+}
+
+.btn-outline {
+background-color: plum;
+color: black;
+transition: all 0.3s ease-out;
+}
+
+.btn-medium {
+  font-size: 20px;
+  padding: 8px 20px;
+  
+}
+
+.btn-large {
+  font-size: 20px;
+}
