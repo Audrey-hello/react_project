@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from '../App';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 import { Nav, NavbarContainer, NavLogo, NavMenu, NavItem, NavLinks } from './Navbar';
 
 
@@ -41,3 +42,5 @@ ReactDOM.render(
 );
 
 export default Navbar;
+
+reportWebVitals();
