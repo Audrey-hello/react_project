@@ -1,0 +1,36 @@
+
+.cards-item-pics {
+  position: absolute;
+  bottom: 0;
+  margin-left: 10px;
+  padding: 8px;
+  max-width: 100%;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 44px;
+}
+
+
+.title-profile {
+  text-align: center;
+}
+
+.profile-content {
+  width: 600px;
+  text-align: justify;
+  margin-left: 40px;
+}
+
+.image-profile {
+  width: 300px;
+  height: 447px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2)
+}

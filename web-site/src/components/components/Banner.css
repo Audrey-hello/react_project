@@ -1,0 +1,59 @@
+/* .lmj-banner {
+	color: black;
+	text-align: right;
+	padding: 32px;
+	border-bottom: solid 3px black;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	align-items: center;
+}
+
+.lmj-title {
+	padding-left: 32px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.lmj-logo {
+	height: 45px;
+	width: 45px;
+} */
+
+img, svg {
+  vertical-align: middle;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  margin-top: 6Px;
+  margin-bottom: 35px;
+}
+
+/* .banner {
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 96.75px);
+  display: flex;
+  align-items: center;
+} */
+
+.banner-container {
+width: 100%;
+display: flex;
+align-items: center;
+}
+/* .container {
+  display: flex;
+ width: 100%;
+ z-index: 1;
+ height: 80px;
+}
+
+.nav {
+background: #000;
+height: 80px;
+
+@media screen and (max-width: 960px) {
+  transition: 0.8s all ease;
+}
+} */
+

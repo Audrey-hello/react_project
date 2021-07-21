@@ -1,0 +1,41 @@
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 44px;
+
+}
+.card-title {
+  margin: 15px;
+}
+.card-category {
+  width: 600px;
+  text-align: justify;
+}
+
+.card-item-pics {
+  position: relative;
+  width: 100%;
+  padding-top: 67%;
+  overflow: hidden;
+}
+
+.fade-img {
+  animation-name: fade-img;
+  animation-duration:2s;
+}
+
+.cards  h1 {
+  margin-top: 15px;
+}
+
+.cards-btns {
+  margin: 56px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
