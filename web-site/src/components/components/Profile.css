@@ -19,12 +19,14 @@
 
 .title-profile {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .profile-content {
   width: 600px;
   text-align: justify;
   margin-left: 40px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .image-profile {

@@ -1,0 +1,60 @@
+input {
+  width: 500px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: none;
+  height: 50px;
+}
+textarea {
+  height: 10em;
+  width: 500px;
+  border-radius: 5px;
+  margin-bottom: 41px;
+}
+
+.contact p {
+  color: white;
+  text-align: initial;
+  margin-left: 4px;
+
+}
+
+
+div[role='alert'] {
+  color: goldenrod;
+  margin-top: 1em;
+}
+
+.message-chars-left {
+  width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+.status-message {
+  opacity: 0;
+}
+.success {
+  opacity: 1;
+  color: green;
+}
+.failure {
+  opacity: 1;
+  color: red;
+}
+
+.title {
+  color: white;
+  font-size: 37px;
+  font-family: 'Poppins', sans-serif;
+}
+.footer-input {
+  padding: 8px;
+  border-radius: 5px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border: 1 px solid #FFFF;
+}

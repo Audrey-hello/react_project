@@ -2,7 +2,6 @@
 .btn {
   padding: 8px 20px;
   border-radius: 5px;
-  border: none;
   cursor: pointer;
 }
 
@@ -12,14 +11,20 @@
 }
 
 .btn--outline {
-background-color: goldenrod;
-color: whitesmoke;
-transition: all 0.3s ease-out;
-width: 150px;
+background-color: transparent;
+border-color: black;
+color: black;
+width: 372px;
 font-weight: bold;
 font-size: 18px;
 margin: 56px;
+font-family: 'Poppins', sans-serif;
 }
+
+.btn--outline:hover {
+  background: #335C67;
+}
+
 
 .btn-medium {
   font-size: 20px;
@@ -31,3 +36,5 @@ margin: 56px;
   font-size: 20px;
   width: 150px;
 }
+
+

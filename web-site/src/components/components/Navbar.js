@@ -1,42 +1,41 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import './Navbar.css';
 import {Link} from 'react-router-dom';
-import {Button} from './Button';
+
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
+
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  const showButton = () => {
-    if(window.innerWidth <= 960) {
-      setButton(false)
-    } else {
-      setButton(true);
-    }
-  };
+  // const showButton = () => {
+  //   if(window.innerWidth <= 960) {
+  //     setButton(false)
+  //   } else {
+  //     setButton(true);
+  //   }
+  // };
 
-  useEffect(() => {
-    showButton();
-  }, []);
+  // useEffect(() => {
+  //   showButton();
+  // }, []);
 
 
-  window.addEventListener('resize', showButton);
+  // window.addEventListener('resize', showButton);
 
 return (
   <>
   <div>
       <div className="navbar-container">
          <div className="menu-icon" onClick={handleClick}>
+
            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
-        <div className="nav-text">
-          <i className="title">  Résonance </i>
-        </div>
             <ul className={click? 'nav-menu active' : 'nav-menu'}>
-
+              <h1>Résonance</h1>
+              <div className='list'>
               <li className='nav-item'>
                 <Link to="/" className='nav-links' onClick={closeMobileMenu}>
                   Home
@@ -52,6 +51,7 @@ return (
                   Events
                 </Link>
             </li>
+          </div>
           </ul>
        </div>
     </div>

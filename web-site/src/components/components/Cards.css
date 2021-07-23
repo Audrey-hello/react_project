@@ -5,16 +5,56 @@
   justify-content: center;
   align-items: center;
   margin-top: 44px;
-
+  font-family: 'Poppins', sans-serif;
+  margin: 22px;
+  background-color: #ffff;
 }
+
 .card-title {
   margin: 15px;
+  font-family: 'Poppins', sans-serif;
 }
 .card-category {
   width: 600px;
   text-align: justify;
 }
 
+.card-ateliers {
+  height: 500px;
+  background: #B07669;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: block;
+  align-items: center;
+  border-radius: 15px;
+  padding: 12px;
+  color: white;
+  margin: 15px;
+}
+.card-ateliers-yoga {
+  height: 500px;
+  background:  #335C67;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: block;
+  align-items: center;
+  border-radius: 15px;
+  padding: 12px;
+  color: white;
+
+}
+.card-ateliers-chaman {
+  height: 500px;
+  background:  #9F5233;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: block;
+  align-items: center;
+  border-radius: 15px;
+  padding: 7px;
+  color: white;
+  border-radius: 15px;
+  padding: 12px;
+  color: white;
+
+}
 .card-item-pics {
   position: relative;
   width: 100%;
@@ -31,11 +71,29 @@
   margin-top: 15px;
 }
 
-.cards-btns {
-  margin: 56px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 15px;
+
+
+.Retraites{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 45px;
 }
 
+.Encart {
+  font-family: 'Poppins', sans-serif;
+}
+
+.image-yoga {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 197px;
+  padding: 9px;
+  width: 285Px;
+}
+
+.image-tambour {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 197px;
+  padding: 9px;
+  width: 285Px;
+}

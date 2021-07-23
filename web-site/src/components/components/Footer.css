@@ -1,51 +1,32 @@
 .footer-container {
-  background-color: blueviolet;
-  padding: 4rem 0 2rem 0;
+  background-color: #335C67;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
-.footer-subs {
+/* .footer-subs {
   display:flex;
   flex-direction: column;
   justify-content:center;
   align-items: center;
   margin-bottom: 24px;
   color: white;
-}
+} */
 
-.footer-input {
-  padding: 8px;
-  border-radius: 5px;
-  margin-right: 10px;
-  outline: none;
-  border: none;
-  font-size: 18px;
-  margin-bottom: 16px;
-  border: 1 px solid #FFFF;
-}
+
 
 .footer-links {
-  width: 100%;
-  max-width: 1000px;
-  display: flex;
-  justify-content: center;
-}
+ display: flex;
+ align-items: center;
 
-.footer-link-wrapper {
-display:flex;
-flex-direction: column;
-margin: 16px;
-width: 160px;
-box-sizing: border-box;
 }
 
 
-.footer-links-items a {
-  color: white;
-  margin-bottom: 8px;
-}
 
 .footer-email-form h2 {
   margin-bottom: 32px;
@@ -60,17 +41,6 @@ color: white;
   font-size: 24px;
 }
 
-.social-media {
-  max-width: 1000px;
-  width: 100%;
-}
-
-.social-media-wrap {
-  max-width: 1000px;
-  width: 90%;
-  display: flex;
-  margin: 40px auto 0 auto;
-}
 
 .social-icons {
   display: flex;
@@ -80,8 +50,56 @@ color: white;
 }
 
 .social-logo {
-  margin-left: 20px;
+  align-items: center;
+  vertical-align: middle;
+  width: 33px;
+  height: 38px;
+  object-fit: none;
+  margin-top: none;
+  margin-bottom: none;
+}
+.social-logo-mail {
+  align-items: center;
+  vertical-align: middle;
+  width: 33px;
+  height: 38px;
+  object-fit: none;
+  margin-top: none;
+  margin-bottom: none;
+}
+
+.social-logo > img, svg {
+  align-items: center;
+  vertical-align: middle;
+  width: 33px;
+  height: 38px;
+  object-fit: none;
+  margin-top: none;
+  margin-bottom: none;
+}
+
+
+.btn-contact {
+    background-color: transparent;
+    border-color: none;
+    color: white;
+    width: 254px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 56px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    box-sizing: none;
+    border: transparent;
+}
+
+.footer-links > h2 {
   color: white;
-  justify-items: center;
-  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.social-media {
+  margin-top: 15px;
+  display: flex;
 }

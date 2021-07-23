@@ -7,16 +7,7 @@ import reportWebVitals from './reportWebVitals';
 
 
 
-const Navbar = () => {
-  return (
-    <div className='lmj-banner'>
-      <p> Résonance </p>
 
-    </div>
-  );
-}
-
-export default Navbar;
 
 ReactDOM.render(
   <React.StrictMode>
