@@ -23,7 +23,7 @@ const Contact = () => {
     .then(function (response) {
       console.log('SUCCESS!', response.status, response.text);
       form.reset();
-      setStatusMessage("Message sent!");
+      setStatusMessage("Message envoyé!");
       statusMessage.className = "status-message success";
       setTimeout(() => {
         statusMessage.className = 'status-message'
@@ -50,31 +50,52 @@ const Contact = () => {
     <div className='contact'>
       <strong><h1 className='title'>Contact</h1></strong>
       <p className='status-message'>{statusMessage}</p>
-      <form id='contact-form' onSubmit={handleSubmit(onSubmit)}>
-        <input type='hidden' name='contact_number' value={contactNumber} />
-        {errors.user_name && errors.user_name.type === "required" && (
-          <div role="alert">Name is required<br /></div>
-        )}
-        <p>Nom complet* </p>
-        <input
-        type='text'
-        name='user_name'
-        ref={register('')}
-        maxLength='30'
-        aria-invalid={errors.user_name ? "true" : "false"}
-        { ...register('user_name', { required: true } )}
-         />
+      <div className="container-contact-form col-12 col-md-6 offset-lg-3">
+        <form id='contact-form' onSubmit={handleSubmit(onSubmit)}>
+          <input type='hidden' name='contact_number' value={contactNumber} />
+          {errors.user_name && errors.user_name.type === "required" && (
+            <div role="alert">Name is required<br /></div>
+          )}
+          <p> Nom complet* </p>
 
-        <br />
-        <p> Email* </p>
-        <input type='email' name='user_email' ref={register('example')}  />
-        <br />
-        <p> Message* </p>
-        <textarea name='message' ref={register('example')} maxLength='1500' />
-        <br />
-        <input type='submit' value='Send' />
-      </form>
-
+          <div className="nom_complet">
+            <span className="container-prénom">
+              <input
+              type='text'
+              className="input-prénom"
+              name='user_firstname'
+              ref={register('')}
+              maxLength='30'
+              aria-invalid={errors.user_firstname ? "true" : "false"}
+              { ...register('user_firstname', { required: true } )}
+                  />
+              <label className="prénom">  Prénom </label>
+            </span>
+            <span className="container-nom">
+              <input
+                type='text'
+                className="input-nom"
+                name='user_lastname'
+                ref={register('')}
+                maxLength='30'
+                aria-invalid={errors.user_lastname ? "true" : "false"}
+                {...register('user_lastname', { required: true })}
+                /><label className="nom"> Nom </label></span>
+          </div>
+          <br />
+          <div className="input-container">
+            <p> Email* </p>
+            <input type='email' name='user_email' ref={register('example')}  />
+            <br />
+            <p className="label-message"> Message* </p>
+          <div className="message-container">
+            <textarea id="input-message" name='message' ref={register('example')} maxLength='1500' />
+          </div>
+          <br />
+            <input type='submit' value='Envoyer' className="envoyer" />
+          </div>
+        </form>
+      </div>
     </div>
   );
 }

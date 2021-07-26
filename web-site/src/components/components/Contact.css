@@ -1,24 +1,109 @@
+
+@media only screen and (max-width: 1024px) {
+.container-contact-form {
+  width: 100% !important;
+  order: 0;
+}
+}
+
+.container-contact-form {
+  max-width: 1248px;
+  margin-left: calc(-4% / 2 );
+  margin-right: calc(-4% / 2 );
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+
+}
+
 input {
-  width: 500px;
-  margin-bottom: 30px;
+  width: 1000px;
   border-radius: 5px;
   border: none;
   height: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+
 }
-textarea {
-  height: 10em;
-  width: 500px;
-  border-radius: 5px;
-  margin-bottom: 41px;
+.envoyer {
+  background-color: whitesmoke;
+  margin-bottom: 66px;
+}
+.envoyer:hover {
+ background-color: lightgray;
 }
 
+.nom_complet {
+  display: flex;
+  margin-left: 218px;
+  justify-content: space-between;
+}
+
+
+.container-nom {
+  margin-right: 220px;
+}
+
+.prénom {
+  display: flex;
+  font-size: .813em;
+  letter-spacing: .5pt;
+  white-space: nowrap;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nom {
+  display: flex;
+  font-size: .813em;
+  letter-spacing: .5pt;
+  white-space: nowrap;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.input-prénom {
+  width: 490px;
+}
+.input-nom {
+  width: 490px;
+}
+
+
+
+textarea {
+  height: 13em;
+  width: 1000px;
+  border-radius: 5px;
+}
+
+.label-message {
+  display: inline-block;
+  line-height: 1.3;
+  clear: both;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 34px;
+
+}
 .contact p {
   color: white;
   text-align: initial;
-  margin-left: 4px;
-
+  margin-left: 222px;
+  vertical-align: inherit;
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  margin-bottom: 0.5em;
 }
 
+.contact {
+  background-color: #335C67;
+}
 
 div[role='alert'] {
   color: goldenrod;
@@ -47,8 +132,10 @@ div[role='alert'] {
   color: white;
   font-size: 37px;
   font-family: 'Poppins', sans-serif;
+  padding: 33px;
+  font-weight: bold;
 }
-.footer-input {
+/* .footer-input {
   padding: 8px;
   border-radius: 5px;
   margin-right: 10px;
@@ -57,4 +144,5 @@ div[role='alert'] {
   font-size: 18px;
   margin-bottom: 16px;
   border: 1 px solid #FFFF;
-}
+  font-family: 'Poppins', sans-serif;
+} */

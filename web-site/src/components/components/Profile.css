@@ -18,21 +18,60 @@
 
 
 .title-profile {
-  text-align: center;
+  margin: 15px;
   font-family: 'Poppins', sans-serif;
+  font-weight: 600;text-align: center;
+  margin-top: 47px;
+  font-size: 46px;
 }
 
 .profile-content {
   width: 600px;
   text-align: justify;
-  margin-left: 40px;
+  margin-left: 109px;
+  margin-top: 45px;
   font-family: 'Poppins', sans-serif;
 }
 
+.profile-content h2 {
+  margin-bottom: 23px;
+}
+.profile-content p {
+  font-weight: 400;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
 .image-profile {
-  width: 300px;
-  height: 447px;
+  width: 380px;
+  height: 431px;
   object-fit: cover;
   border-radius: 8px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2)
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+  margin-top: 131px;
+  margin-bottom: 70px;
+}
+
+@media (max-width: 800px){
+    .profile-grid {
+        width: 100%;
+        align-items: center;
+    }
+}
+@media (max-width: 600px){
+    .profile-grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: none;
+    grid-gap: 5px;
+    margin-top: 0px;
+
+    }
+    .profile-content {
+      width:331px;
+      margin-left: 23px;
+
+ }
 }

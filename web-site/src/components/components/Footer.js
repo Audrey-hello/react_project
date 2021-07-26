@@ -9,23 +9,24 @@ import mail from './mail.svg';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className="footer-links">
-        <Link to={'/Contact'} >
-          <button className='btn-contact'>Me contacter</button>
-        </Link>
-        <img src={mail} className="social-logo-mail" />
-      </section>
-      <div className="footer-links">
-      <h2> Me suivre </h2>
-       <section className="social-media">
-        <Link to="/" className="social-logo">
-          <img src={instagram} />
-        </Link>
-          <Link to="/" className="social-logo">
-            <img src={facebook} />
-          </Link>
-        </section>
+      <div className="contact-content">
+        <h2 className="title-footer" id='footer'>Me contacter</h2>
+          <div className="social-logo-mail" >
+            <Link to={'/Contact'} >
+            <img src={mail} className="social-logo-mail" />
+            </Link>
+          </div>
       </div>
+        <div>
+        <h1 className="title-logo">Résonance</h1>
+        </div>
+        <div className="footer-links">
+          <h2 className="title-footer"> Me suivre </h2>
+          <div className="social media">
+            <a href="#"><i><img src={instagram} className="social-logo" /></i></a>
+            <a href="#" ><i><img src={facebook} className="social-logo" /></i></a>
+          </div>
+       </div>
     </div>
   );
 }

@@ -3,10 +3,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
-  padding: 0px 50px;
+  height: auto;
   color: white;
   font-family: 'Poppins', sans-serif;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /* .footer-subs {
@@ -20,9 +22,10 @@
 
 
 
-.footer-links {
+ .footer-links {
  display: flex;
  align-items: center;
+ padding: 29px;
 
 }
 
@@ -35,7 +38,7 @@
 .footer-input::placeholder {
 color: white;
 }
-
+/*
 .social-icon-link {
   color: white;
   font-size: 24px;
@@ -47,7 +50,7 @@ color: white;
   justify-content: space-between;
   width: 240px;
   align-items: center;
-}
+} */
 
 .social-logo {
   align-items: center;
@@ -55,17 +58,12 @@ color: white;
   width: 33px;
   height: 38px;
   object-fit: none;
-  margin-top: none;
-  margin-bottom: none;
+
 }
-.social-logo-mail {
-  align-items: center;
-  vertical-align: middle;
-  width: 33px;
-  height: 38px;
-  object-fit: none;
-  margin-top: none;
-  margin-bottom: none;
+
+.img .social-logo img:hover {
+  opacity: 3;
+
 }
 
 .social-logo > img, svg {
@@ -74,12 +72,11 @@ color: white;
   width: 33px;
   height: 38px;
   object-fit: none;
-  margin-top: none;
-  margin-bottom: none;
+
 }
 
 
-.btn-contact {
+/* .btn-contact {
     background-color: transparent;
     border-color: none;
     color: white;
@@ -91,15 +88,51 @@ color: white;
     border-radius: 5px;
     box-sizing: none;
     border: transparent;
+    height: 0px;
+} */
+
+.contact-content {
+  display: flex;
+  align-items: center;
 }
 
-.footer-links > h2 {
-  color: white;
+.title-footer {
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
+  font-weight: bold;
+  margin: 22px;
+}
+
+.title-logo {
+  font-size: 28px;
   font-weight: bold;
 }
 
+
 .social-media {
-  margin-top: 15px;
-  display: flex;
+    display: flex;
+    justify-content: space-evenly;
 }
+.social-logo-mail {
+  align-items: center;
+  width: 33px;
+  height: 38px;
+  object-fit: none;
+
+}
+
+
+@media (max-width: 600px){
+    .footer-container {
+      display: block;
+      height: auto;
+    }
+    .contact-content {
+    display: inline-flex;
+    margin: 22px;
+    }
+
+    .footer-links {
+      display: block;
+    }
+ }

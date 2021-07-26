@@ -1,7 +1,6 @@
 @import "bootstrap/scss/bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import "Button";
 @import "Banner";
 @import "Cards";
@@ -10,4 +9,4 @@
 @import "Navbar";
 @import "Products";
 @import "Profile";
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');

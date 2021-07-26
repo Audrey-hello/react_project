@@ -3,17 +3,60 @@
   align-items: center;
   color: black;
   display: flex;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .nav-links {
-  text-decoration: none;
+  text-decoration: none !important;
   color: black;
   justify-content: center;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   font-size: 16px;
+  box-shadow: none;
 }
+
+a:hover {
+
+  text-decoration: none !important;
+  color: black !important;
+
+}
+
+ .nav-item a {
+    position: relative;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    top: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 13px;
+    font-size: 16px;
+}
+
+.nav-item a:after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 3px;
+    width: 0%;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 0;
+    transition: .35s ease;
+    border-radius: 15px;
+    text-decoration: none
+}
+
+.nav-item a:hover:after {
+    width: 100%;
+    text-decoration: none;
+}
+
+
 
 .navbar-container {
   text-align: center;
@@ -22,6 +65,22 @@
   padding: 0.1rem 1rem;
   font-family: 'Poppins', sans-serif;
   background-color: #ffff;
+
+}
+
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+       align-items: center;
+    }
+
+
+
+.navbar-container > .nav-btn {
+  display: none;
 }
 
 .nav-menu {
@@ -54,4 +113,61 @@
   text-align: center;
 }
 
+@media (max-width:600px) {
+  .nav-menu > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav-menu > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav-menu > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav-menu > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav-menu > .nav-item {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav-menu > .nav-item > a {
+    display: block;
+    width: 100%;
+  }
+  .nav-menu > #nav-check:not(:checked) ~ .nav-item {
+    height: 0px;
+  }
+  .nav-menu > #nav-check:checked ~ .nav-item {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
 
+@media (max-width: 600px){
+    .navbar-container {
+      display: block;
+      text-align: none;
+      align-items: none;
+    }
+    .nav-menu {
+    display: block;
+    }
+
+
+ }

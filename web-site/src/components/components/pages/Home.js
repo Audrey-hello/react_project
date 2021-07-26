@@ -1,16 +1,17 @@
 import '../App.css'
-import Events from '../Events';
+import Banner2 from '../Banner2';
 import Cards from '../Cards';
 import Footer from '../Footer';
 import Profile from '../Profile';
 import Banner from '../Banner';
 
+
 function Home () {
   return (
     <>
-   <Events/>
+   <Banner/>
    <Cards />
-   <Banner />
+   <Banner2 />
    <Profile />
    <Footer />
    </>

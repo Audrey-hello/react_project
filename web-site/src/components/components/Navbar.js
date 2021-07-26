@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import './Navbar.css';
 import {Link} from 'react-router-dom';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 
 
 function Navbar() {
@@ -27,33 +29,45 @@ function Navbar() {
 
 return (
   <>
-  <div>
-      <div className="navbar-container">
-         <div className="menu-icon" onClick={handleClick}>
-
-           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+    <div>
+        <div className="navbar-container">
+          {/* <div className="menu-icon" onClick={handleClick}>
+          </div> */}
+          <div class="nav-btn">
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
           </div>
             <ul className={click? 'nav-menu active' : 'nav-menu'}>
-              <h1>Résonance</h1>
+              <Link to="/" className='nav-links' onClick={closeMobileMenu}>
+                <h1>Résonance</h1>
+              </Link>
               <div className='list'>
-              <li className='nav-item'>
-                <Link to="/" className='nav-links' onClick={closeMobileMenu}>
-                  Home
-                </Link>
-              </li>
-              <li className='nav-item'>
-              <Link to="/content" className='nav-links' onClick={closeMobileMenu}>
-                Content
-                </Link>
-              </li>
-              <li className='nav-item'>
-                <Link to="/events" className='nav-links' onClick={closeMobileMenu}>
-                  Events
-                </Link>
-            </li>
-          </div>
-          </ul>
-       </div>
+                <li className='nav-item'>
+                  <AnchorLink href='#cards'  onClick={closeMobileMenu}>
+                    Programme
+                  </AnchorLink>
+                </li>
+                <li className='nav-item'>
+                <AnchorLink  href='#profile' onClick={closeMobileMenu}>
+                  Qui suis-je ?
+                  </AnchorLink>
+                </li>
+                <li className='nav-item'>
+                  <Link to="/events"  onClick={closeMobileMenu}>
+                    Contenu
+                  </Link>
+                </li>
+                <li className='nav-item'>
+                  <AnchorLink href='#footer'  onClick={closeMobileMenu}>
+                    Contact
+                  </AnchorLink>
+                </li>
+              </div>
+            </ul>
+        </div>
     </div>
   </>
 )

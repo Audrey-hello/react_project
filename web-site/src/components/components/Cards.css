@@ -1,18 +1,21 @@
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 16px;
+  grid-gap: 76px;
   justify-content: center;
   align-items: center;
   margin-top: 44px;
   font-family: 'Poppins', sans-serif;
-  margin: 22px;
+  margin: 95px;
   background-color: #ffff;
 }
 
-.card-title {
+.apropos-title {
   margin: 15px;
   font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-top: 47px;
+  font-size: 46px
 }
 .card-category {
   width: 600px;
@@ -28,7 +31,6 @@
   border-radius: 15px;
   padding: 12px;
   color: white;
-  margin: 15px;
 }
 .card-ateliers-yoga {
   height: 500px;
@@ -41,6 +43,11 @@
   color: white;
 
 }
+
+.cards a {
+  text-decoration: none;
+}
+
 .card-ateliers-chaman {
   height: 500px;
   background:  #9F5233;
@@ -80,6 +87,8 @@
 
 .Encart {
   font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin-top: 45px;
 }
 
 .image-yoga {
@@ -88,6 +97,7 @@
   height: 197px;
   padding: 9px;
   width: 285Px;
+  margin-top: 25px;
 }
 
 .image-tambour {
@@ -96,4 +106,76 @@
   height: 197px;
   padding: 9px;
   width: 285Px;
+  margin-top: 25px
+}
+
+.title-cards {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text {
+  margin-top: 46px;
+  font-weight:400;
+}
+
+.rubrique-title {
+  background: linear-gradient(
+180deg
+, transparent 58%, #94b5c0 0);
+  width: fit-content;
+  font-weight: 700;
+  letter-spacing: 2px;
+
+}
+
+.rubrique-title p {
+  font-weight: 500;
+}
+
+.text-retraite {
+font-size: 20px;
+padding: 37px;
+margin: 32px;
+width: 896px;
+margin-left: 282px;
+}
+
+.title-container {
+  display: inline-flex;
+}
+
+@media (max-width: 800px){
+    .cards{
+        width: 100%;
+        align-items: center;
+    }
+}
+@media (max-width: 600px){
+    .cards{
+        width: 85%;
+        display: block;
+        margin: 29px;
+        position: left;
+    }
+    .card-ateliers-chaman{
+        width: 100%;
+        margin-bottom: 4%;
+        margin-top: 31px;
+    }
+    .card-ateliers {
+        width: 100%;
+        margin-bottom: 4%;
+        margin-top: 31px;
+    }
+
+    .text-retraite {
+      width: 0;
+      margin-left: 0;
+      display: table-row;
+    }
+
+    .btn--outline {
+      width: 248px;
+    }
 }
