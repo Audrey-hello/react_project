@@ -1,18 +1,24 @@
 
-.btn {
-  padding: 8px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
+  .btn {
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
 
 .btn--primary {
-  background-color: blue;
-  color: pink;
+  background-color: transparent;
+  border-color: black !important;
+  color: black;
+  width: 372px;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 56px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .btn--outline {
 background-color: transparent;
-border-color: black !important;
+border-color: black!important;
 color: black;
 width: 372px;
 font-weight: bold;
@@ -23,7 +29,7 @@ font-family: 'Poppins', sans-serif;
 
 .btn--outline:hover {
   background: #335C67;
-  color: white;
+  color: white !important;
 }
 
 

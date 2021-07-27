@@ -9,11 +9,13 @@ import Home from './pages/Home';
 import Contact from './Contact';
 import Yoga from './Yoga';
 import Voyage from './Voyage';
-
+import Coaching from './Coaching';
+import Footer from './Footer';
 
 
 
 function App() {
+
   return (
     <div className="App">
       <Router >
@@ -31,7 +33,11 @@ function App() {
             <Route path="/voyage" exact component={Voyage} >
               <Voyage />
             </Route>
+            <Route path="/coaching" exact component={Coaching} >
+            <Coaching />
+          </Route>
         </Switch>
+        <Footer />
       </Router>
     </div>
   );

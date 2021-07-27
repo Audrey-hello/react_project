@@ -29,11 +29,11 @@ function Navbar() {
 
 return (
   <>
-    <div>
-        <div className="navbar-container">
+    <div >
+      <div className="navbar-container" >
           {/* <div className="menu-icon" onClick={handleClick}>
           </div> */}
-          <div class="nav-btn">
+        <div class="nav-btn" >
             <label for="nav-check">
               <span></span>
               <span></span>
@@ -44,9 +44,9 @@ return (
               <Link to="/" className='nav-links' onClick={closeMobileMenu}>
                 <h1>Résonance</h1>
               </Link>
-              <div className='list'>
+          <div className='list' >
                 <li className='nav-item'>
-                  <AnchorLink href='#cards'  onClick={closeMobileMenu}>
+              <AnchorLink href='#cards'  onClick={closeMobileMenu}>
                     Programme
                   </AnchorLink>
                 </li>

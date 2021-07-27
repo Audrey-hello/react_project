@@ -4,15 +4,24 @@ import "./Yoga.css"
 // import video from './video.mp4'
 import ReactPlayer from 'react-player';
 import profile from './profile.jpg';
-import Footer from './Footer';
+import { useEffect } from "react";
 
+
+function ScrollToTopOnMount() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return null;
+}
 
 
 
 export default function Yoga() {
   return (
-    <div className='yoga-container'>
-      <div className="yoga-banner" >
+    <div className='yoga-container' >
+      <ScrollToTopOnMount />
+      <div className="yoga-banner" id='yoga'>
         <ReactPlayer
           url='video.mp4'
           className="video"
@@ -26,12 +35,12 @@ export default function Yoga() {
           allowfullscreen={true}/>
       </div>
       <div className="content">
-        <div className='profile-content'>
+        <div className='profile-content-yoga'>
           <h2>  Se reconnecter </h2>
 
-          <p>Le vinyasa yoga est une pratique dynamique enchaînant plusieurs asanas. Cela permet de relâcher les tensions, se réancrer et se reconnecter à son corps. Cela contribue ainsi à une meilleure santé mentale, à la gestion de ses émotions, et à apprendre à aimer son corps. C'est donc un véritable outil d'empuissancement aidant la confiance en soi ! </p><br>
+          <p>Le vinyasa yoga est une pratique dynamique enchaînant plusieurs asanas. Cela permet de relâcher les tensions, se réancrer et se reconnecter à son corps. Cela contribue ainsi à une meilleure santé mentale, à la gestion de ses émotions, et à apprendre à aimer son corps. C'est donc un véritable outil d'empuissancement aidant la confiance en soi ! </p>
 
-          </br><p> Je propose des cours collectif de débutant.e à intermédiaire. Rejoignez-moi sur insta pour suivre l'actualité !</p>
+          <p> Je propose des cours collectif de débutant.e à intermédiaire. Rejoignez-moi sur insta pour suivre l'actualité !</p>
 
           <p> Les cours indivuel sont aussi proposés dans une optique d'accompagnement.</p>
 
@@ -48,7 +57,6 @@ export default function Yoga() {
           <img className='image-profile-yoga' src={profile} alt='profile' />
         </div>
       </div>
-      <Footer />
     </div>
   );
   }

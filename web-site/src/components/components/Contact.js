@@ -5,7 +5,6 @@ import { init, sendForm } from 'emailjs-com';
 init("user_Boc5zsTh76kXC3qdiR1Fa");
 
 
-// eslint-disable-next-line react-hooks/rules-of-hooks
 
 
 
@@ -48,9 +47,9 @@ const Contact = () => {
 
   return (
     <div className='contact'>
-      <strong><h1 className='title'>Contact</h1></strong>
-      <p className='status-message'>{statusMessage}</p>
-      <div className="container-contact-form col-12 col-md-6 offset-lg-3">
+      <strong><h1 className='title-contact'>Contact</h1></strong>
+      {/* <p className='status-message'>{statusMessage}</p> */}
+      <div className="container-contact-form col-md-6 offset-lg-3">
         <form id='contact-form' onSubmit={handleSubmit(onSubmit)}>
           <input type='hidden' name='contact_number' value={contactNumber} />
           {errors.user_name && errors.user_name.type === "required" && (

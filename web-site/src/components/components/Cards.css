@@ -14,7 +14,7 @@
   margin: 15px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  margin-top: 47px;
+  margin-top: 74px;
   font-size: 46px
 }
 .card-category {
@@ -46,6 +46,11 @@
 
 .cards a {
   text-decoration: none;
+}
+.themes p {
+  font-size: 22px;
+  margin-top: 37px;
+  font-weight: bold;
 }
 
 .card-ateliers-chaman {
@@ -106,7 +111,7 @@
   height: 197px;
   padding: 9px;
   width: 285Px;
-  margin-top: 25px
+  margin-top: 6px
 }
 
 .title-cards {
@@ -126,6 +131,7 @@
   width: fit-content;
   font-weight: 700;
   letter-spacing: 2px;
+  margin-top: 45px;
 
 }
 
@@ -175,7 +181,34 @@ margin-left: 282px;
       display: table-row;
     }
 
-    .btn--outline {
-      width: 248px;
+
+  .cards-container {
+    padding: 15px;
+    text-align: center;
+  }
+
+    .btn-outline:hover {
+      background: #335C67;
+      color: white;
     }
-}
+  }
+  .btn-outlines {
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: black !important;
+    color: black;
+    width: 372px;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 56px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .themes {
+    margin-top: 57px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 20px;
+  }

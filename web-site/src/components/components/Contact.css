@@ -8,7 +8,7 @@
 
 .container-contact-form {
   max-width: 1248px;
-  margin-left: calc(-4% / 2 );
+  margin-left: 151px;
   margin-right: calc(-4% / 2 );
   display: flex;
   flex-wrap: wrap;
@@ -16,6 +16,8 @@
   width: 100%;
   position: relative;
   z-index: 10;
+  display: block;
+  margin-left: 150px;
 
 }
 
@@ -38,10 +40,12 @@ input {
 
 .nom_complet {
   display: flex;
-  margin-left: 218px;
   justify-content: space-between;
 }
 
+.container-prenom {
+  width: 495px;
+}
 
 .container-nom {
   margin-right: 220px;
@@ -69,7 +73,8 @@ input {
   width: 490px;
 }
 .input-nom {
-  width: 490px;
+  width: 495px;
+  margin-left: 5px;
 }
 
 
@@ -92,7 +97,6 @@ textarea {
 .contact p {
   color: white;
   text-align: initial;
-  margin-left: 222px;
   vertical-align: inherit;
   display: flex;
   justify-content: flex-start;
@@ -102,8 +106,11 @@ textarea {
 }
 
 .contact {
-  background-color: #335C67;
+  background-color: #DAE0E6 ;
+  align-items: center;
 }
+/* #DAE0E6 */
+ /* Libre Baskerville  */
 
 div[role='alert'] {
   color: goldenrod;
@@ -128,12 +135,13 @@ div[role='alert'] {
   color: red;
 }
 
-.title {
+.title-contact {
   color: white;
   font-size: 37px;
   font-family: 'Poppins', sans-serif;
   padding: 33px;
   font-weight: bold;
+  margin-left: 524px;
 }
 /* .footer-input {
   padding: 8px;

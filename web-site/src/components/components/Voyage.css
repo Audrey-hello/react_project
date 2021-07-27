@@ -30,3 +30,13 @@ align-items: center;
   margin-top: 8px;
 }
 
+.image-profile-voyage {
+  display: flex;
+  width: 543px;
+  border-radius: 5px;
+  margin-top: 50px;
+  height: auto;
+  margin-bottom: 89px;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+
+}
