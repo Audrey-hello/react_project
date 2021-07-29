@@ -61,6 +61,13 @@ color: white;
 
 }
 
+.social-logo-pint {
+  width: 38px;
+  height: 40px;
+}
+
+
+
 .img .social-logo img:hover {
   opacity: 3;
 
@@ -106,8 +113,12 @@ color: white;
 .title-logo {
   font-size: 28px;
   font-weight: bold;
+  margin-top: 31px;
 }
 
+.title-logo p {
+  font-size: 12px;
+}
 
 .social-media {
     display: flex;

@@ -22,7 +22,7 @@ export default function Voyage() {
       <ScrollToTopOnMount />
       <div className="voyage-banner" >
         <ReactPlayer
-          url='voyage.mp4'
+          url='voyage2.mp4'
           className="video"
           width="100%"
           height="100%"

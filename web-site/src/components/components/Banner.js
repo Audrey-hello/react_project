@@ -7,7 +7,6 @@ import cover4 from './cover4.png'
 function Banner() {
   return (
     <div className='banner-container'>
-      <h1> Coaching de vie et ateliers bien-être </h1>
       <div className="image-banner" >
         <img src={cover4} />
       </div>

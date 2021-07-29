@@ -23,7 +23,7 @@ export default function Yoga() {
       <ScrollToTopOnMount />
       <div className="yoga-banner" id='yoga'>
         <ReactPlayer
-          url='video.mp4'
+          url='yoga2.mp4'
           className="video"
           width="100%"
           height="100%"

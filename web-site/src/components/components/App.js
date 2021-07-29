@@ -1,12 +1,13 @@
 
 import './App.css';
 import React from 'react';
-import Navbar from './Navbar';
+import Topbar from './Topbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 // import Services from './Services';
 // import Products from './Products';
 import Contact from './Contact';
+import Content from './Content';
 import Yoga from './Yoga';
 import Voyage from './Voyage';
 import Coaching from './Coaching';
@@ -15,13 +16,12 @@ import Footer from './Footer';
 
 
 
-
 function App() {
 
   return (
     <div className="App">
       <Router >
-        <Navbar />
+        <Topbar />
         <Switch>
           <Route path="/" exact component={Home} >
           <Home />
@@ -40,6 +40,9 @@ function App() {
           </Route>
           <Route path="/events" exact component={Events} >
             <Events />
+          </Route>
+          <Route path="/content" exact component={Content} >
+            <Content />
           </Route>
         </Switch>
         <Footer />

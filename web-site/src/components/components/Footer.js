@@ -4,6 +4,7 @@ import './Footer.css';
 import instagram from './instagram.svg';
 import facebook from './facebook.svg';
 import mail from './mail.svg';
+import pinterest from './pinterest.svg';
 
 
 function Footer() {
@@ -18,13 +19,15 @@ function Footer() {
           </div>
       </div>
         <div>
-        <h1 className="title-logo">Résonance</h1>
+        <h1 className="title-logo">Résonance </h1>
+        <p>© 2021 Résonance </p>
         </div>
         <div className="footer-links">
           <h2 className="title-footer"> Me suivre </h2>
           <div className="social media">
             <a href="#"><i><img src={instagram} className="social-logo" /></i></a>
             <a href="#" ><i><img src={facebook} className="social-logo" /></i></a>
+            <a href="#" ><i><img src={pinterest} className="social-logo-pint" /></i></a>
           </div>
        </div>
     </div>

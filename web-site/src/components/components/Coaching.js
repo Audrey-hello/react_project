@@ -21,7 +21,7 @@ export default function Coaching() {
       <ScrollToTopOnMount />
       <div className="voyage-banner" >
         <ReactPlayer
-          url='Coaching.mp4'
+          url='coaching2.mp4'
           className="video"
           width="100%"
           height="100%"

@@ -2,18 +2,18 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Events.css';
-import events from './events.png';
+import events2 from './events2.png';
 
 
 function Events() {
 
 
   return (
-    <div className="events-container">
+    <div className="events-container" id="events">
       {/* ---Banner--- */}
       <div className='banner-container2'>
         <div className="image-banner" >
-          <img  src={events} />
+          <img  src={events2} />
         </div>
       </div>
       {/* ---------------- */}
