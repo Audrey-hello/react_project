@@ -10,7 +10,9 @@ import Contact from './Contact';
 import Yoga from './Yoga';
 import Voyage from './Voyage';
 import Coaching from './Coaching';
+import Events from './Events';
 import Footer from './Footer';
+
 
 
 
@@ -35,6 +37,9 @@ function App() {
             </Route>
             <Route path="/coaching" exact component={Coaching} >
             <Coaching />
+          </Route>
+          <Route path="/events" exact component={Events} >
+            <Events />
           </Route>
         </Switch>
         <Footer />

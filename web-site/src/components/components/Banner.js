@@ -2,12 +2,14 @@
 
 import React from 'react';
 import './Banner.css';
+import cover4 from './cover4.png'
 
 function Banner() {
   return (
     <div className='banner-container'>
+      <h1> Coaching de vie et ateliers bien-être </h1>
       <div className="image-banner" >
-        <img src="https://images.unsplash.com/photo-1543348750-466b55f32f16?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80" />
+        <img src={cover4} />
       </div>
     </div>
   )

@@ -1,11 +1,22 @@
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1148px) {
 .container-contact-form {
   width: 100% !important;
-  order: 0;
+  display: block;
+  margin-left: 0;
 }
 }
 
+@media (max-width: 600px){
+    .container-contact-form {
+        width: 100%;
+        align-items: center;
+        display: block;
+        margin: 24px;
+        position: left;
+        margin-left: 0;
+    }
+}
 .container-contact-form {
   max-width: 1248px;
   margin-left: 151px;
@@ -18,7 +29,9 @@
   z-index: 10;
   display: block;
   margin-left: 150px;
-
+}
+.input-container {
+  margin-right: 340px;
 }
 
 input {
@@ -27,36 +40,46 @@ input {
   border: none;
   height: 50px;
   font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-
+  text-indent: 13px;
 }
+input:focus {
+    outline: none !important;
+}
+
 .envoyer {
   background-color: whitesmoke;
+  border-color: black !important;
   margin-bottom: 66px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  letter-spacing: .5pt;
+  font-size: 1rem;
+
 }
 .envoyer:hover {
- background-color: lightgray;
+   background: #335C67;
+   color: white;
+
 }
 
 .nom_complet {
   display: flex;
   justify-content: space-between;
+  width: 1000px;
 }
 
 .container-prenom {
   width: 495px;
 }
 
-.container-nom {
-  margin-right: 220px;
-}
+
 
 .prénom {
   display: flex;
   font-size: .813em;
   letter-spacing: .5pt;
   white-space: nowrap;
-  color: white;
+  color:black;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -65,8 +88,9 @@ input {
   font-size: .813em;
   letter-spacing: .5pt;
   white-space: nowrap;
-  color: white;
+  color: black;
   font-family: 'Poppins', sans-serif;
+  margin-left: 6px;
 }
 
 .input-prénom {
@@ -78,24 +102,27 @@ input {
 }
 
 
-
 textarea {
   height: 13em;
   width: 1000px;
   border-radius: 5px;
+  text-indent: 13px;
+}
+textarea:focus {
+  outline: none !important;
 }
 
 .label-message {
   display: inline-block;
   line-height: 1.3;
   clear: both;
-  color: white;
+  color: black;
   font-family: 'Poppins', sans-serif;
   margin-top: 34px;
 
 }
 .contact p {
-  color: white;
+  color: black;
   text-align: initial;
   vertical-align: inherit;
   display: flex;
@@ -106,7 +133,7 @@ textarea {
 }
 
 .contact {
-  background-color: #DAE0E6 ;
+  background-color: #efeae5;
   align-items: center;
 }
 /* #DAE0E6 */
@@ -115,6 +142,7 @@ textarea {
 div[role='alert'] {
   color: goldenrod;
   margin-top: 1em;
+  font-family: 'Poppins', sans-serif;
 }
 
 .message-chars-left {
@@ -125,7 +153,12 @@ div[role='alert'] {
 
 .status-message {
   opacity: 0;
+  align-items: center;
+  margin-left: 150px;
+  margin-bottom: 150px;
+  background-color: white;
 }
+
 .success {
   opacity: 1;
   color: green;
@@ -136,12 +169,12 @@ div[role='alert'] {
 }
 
 .title-contact {
-  color: white;
+  color: black;
   font-size: 37px;
   font-family: 'Poppins', sans-serif;
   padding: 33px;
   font-weight: bold;
-  margin-left: 524px;
+  margin-right: 138Px;
 }
 /* .footer-input {
   padding: 8px;

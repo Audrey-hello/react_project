@@ -46,12 +46,8 @@ export default function Yoga() {
 
           <p> En ce qui concerne les tarifs, les prix en collectifs sont en tarif libre avec un prix indicatif de 18 euros. Les prix en individuel en tarif libre avec un prix indiatif de 35 euros. </p>
 
-          <p> Pour bénéficier de plusieurs outils complémentaires au yoga, rejoignez le programme "Metta" !
-            Mais qu'est-ce que c'est ?
-            Ce programme est destiné à toutes les personnes qui souhaitent aller plus loin dans leur quête de sens et d'amour de soi.
-            Sur une période de 6 mois, vous serez suivi.e individuellement avec des sessions collectives.
-            En fonction de vos besoins, vous aurez accès à une session de yoga par semaine, une session de coaching toutes les deux semaines et une session voyage au tambour par mois. Un point sera fait de façon régulière et vous aure accès à du contenu écrit pour vous aider à en bénéficier régulièrement.
-          </p>
+          <p>Pour bénéficier de plusieurs outils complémentaires au yoga, rejoignez le programme "Metta" !</p>
+
         </div>
         <div>
           <img className='image-profile-yoga' src={profile} alt='profile' />

@@ -12,6 +12,7 @@ module.exports = {
     clientLogLevel: 'silent',
     port: 9000
   },
+  
   module: {
     rules: [
       {

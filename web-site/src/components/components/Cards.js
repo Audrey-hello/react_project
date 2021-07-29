@@ -12,7 +12,7 @@ function Cards() {
   return (
     <div className="cards-container">
      <h1 className='apropos-title' id='cards'> Programme </h1>
-      <p className="themes"> Les différentes thématiques alliant le corps, le mentale et la quête de sens. </p>
+      <p className="themes"> Les différentes thématiques alliant le corps, le mental et la quête de sens. </p>
       <div className="Encart">
         <div className="title-container">
         <h3 className="rubrique-title">LES ATELIERS </h3>
@@ -61,9 +61,11 @@ function Cards() {
           <p className="text-retraite"> Au sein d’un lieu ressourçant dans la nature et non loin de Paris, je propose des week-ends alliant bien-être, coaching et un cadre de réfléxion sur le thème du moment. </p>
         </div>
         <div className='cards-btns'>
-           <Button buttonStyle='btn--outline' buttonSize='btn--large'>
+           <Link to={'/Events'}>
+            <Button buttonStyle='btn--outline' buttonSize='btn--large'  >
             Regarde les prochains évènements !
-          </Button>
+           </Button>
+          </Link>
         </div>
       </div>
     </div>

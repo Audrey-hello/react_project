@@ -29,15 +29,18 @@ const Contact = () => {
       }, 5000)
     }, function (error) {
       console.log('FAILED...', error);
-      setStatusMessage("Failed to send message! Please try again later.");
+      setStatusMessage("Le message n'est pas passé...retentez !");
       statusMessage.className = "status-message failure";
       setTimeout(() => {
         statusMessage.className = 'status-message'
-      }, 5000)
+      }, 10000)
     });
 }
+
+  const validator = require("email-validator");
+  ;
   const message = watch('message') || "";
-  // const messageCharsLeft = 1500 - message.length;
+  const messageCharsLeft = 1500 - message.length;
   const [contactNumber, setContactNumber] = useState("000000");
   const [statusMessage, setStatusMessage] = useState("Message");
   const generateContactNumber = () => {
@@ -48,8 +51,8 @@ const Contact = () => {
   return (
     <div className='contact'>
       <strong><h1 className='title-contact'>Contact</h1></strong>
-      {/* <p className='status-message'>{statusMessage}</p> */}
-      <div className="container-contact-form col-md-6 offset-lg-3">
+       <p className='status-message'>{statusMessage}</p>
+      <div className="container-contact-form">
         <form id='contact-form' onSubmit={handleSubmit(onSubmit)}>
           <input type='hidden' name='contact_number' value={contactNumber} />
           {errors.user_name && errors.user_name.type === "required" && (
@@ -79,16 +82,17 @@ const Contact = () => {
                 maxLength='30'
                 aria-invalid={errors.user_lastname ? "true" : "false"}
                 {...register('user_lastname', { required: true })}
-                /><label className="nom"> Nom </label></span>
+                />
+              <label className="nom"> Nom </label></span>
           </div>
           <br />
           <div className="input-container">
             <p> Email* </p>
-            <input type='email' name='user_email' ref={register('example')}  />
+            <input type='email' name='user_email' ref={register('a@gmail.com')} onChange={validator.validate("test@email.com")}  />
             <br />
             <p className="label-message"> Message* </p>
           <div className="message-container">
-            <textarea id="input-message" name='message' ref={register('example')} maxLength='1500' />
+            <textarea id="input-message" name='message' ref={register('a@gmail.com')} maxLength='1500' />
           </div>
           <br />
             <input type='submit' value='Envoyer' className="envoyer" />

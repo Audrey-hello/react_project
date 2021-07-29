@@ -30,6 +30,7 @@ font-family: 'Poppins', sans-serif;
 .btn--outline:hover {
   background: #335C67;
   color: white !important;
+  font-size: bold !important;
 }
 
 
