@@ -5,6 +5,7 @@ import "./Yoga.css"
 import ReactPlayer from 'react-player';
 import profile from './profile.jpg';
 import { useEffect } from "react";
+import Topbar from './Topbar';
 
 
 function ScrollToTopOnMount() {
@@ -22,6 +23,7 @@ export default function Yoga() {
     <div className='yoga-container' >
       <ScrollToTopOnMount />
       <div className="yoga-banner" id='yoga'>
+         <Topbar />
         <ReactPlayer
           url='yoga2.mp4'
           className="video"
@@ -30,7 +32,7 @@ export default function Yoga() {
           object-fit="cover"
           muted={true}
           playing={true}
-          loop={true}
+          loop={false}
           controls={false}
           allowfullscreen={true}/>
       </div>

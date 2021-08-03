@@ -18,7 +18,7 @@ function Footer() {
             </Link>
           </div>
       </div>
-        <div>
+        <div className="logo-footer">
         <h1 className="title-logo">Résonance </h1>
         <p>© 2021 Résonance </p>
         </div>

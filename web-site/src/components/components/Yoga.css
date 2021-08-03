@@ -39,3 +39,18 @@ scroll-behavior: smooth;
 
 }
 
+@media (max-width: 600px){
+  .content {
+    display: block;
+    margin: 24px;
+  }
+
+  .profile-content-yoga {
+    display: block;
+    width: 329px;
+  }
+  .image-profile-yoga {
+    display: flex;
+    width: 333px;
+}
+}

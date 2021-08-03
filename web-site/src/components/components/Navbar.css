@@ -15,43 +15,84 @@
   font-size: 16px;
   box-shadow: none;
 }
+
+.nav-item .dropdown {
+  margin-top: -20px;
+}
+#nav-dopdown {
+  margin-top: -2px !important;
+}
+
+.colorChange .nav-links {
+  color: black;
+}
+
+.colorChange .nav-item-init a {
+  color: black !important;
+}
+
+.colorChange .nav-item a {
+  color: black !important;
+}
+
+
+.navbar-light .navbar-nav .nav-link .colorChange {
+  color: black !important;
+  margin-top: -20px;
+}
+
+.colorChange .dropdown-toggle .nav-link {
+  color: black !important;
+  margin-top: -2px;
+}
+.colorChange .dropdown-toggle {
+  color: black !important;
+}
+.colorChange .nav-item .dropdown {
+  color: black !important;
+}
+
+a .dropdown-toggle .nav-link .colorChange {
+   color: black !important;
+}
+
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
+
 }
 
 a:hover {
-
   text-decoration: none !important;
   color: black !important;
 
 }
 
- .nav-item-init a {
-    position: relative;
-    text-align: center;
-    color: #000;
-    text-decoration: none;
-    font-size: 20px;
-    overflow: hidden;
-    top: 5px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin: 13px;
-    font-size: 16px;
+.nav-item-init a {
+  position: relative;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  overflow: hidden;
+  top: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 13px;
+  font-size: 16px;
 }
 
 .nav-item-init a:after {
-    content: "";
-    position: absolute;
-    background-color: black;
-    height: 3px;
-    width: 0%;
-    transform: translateX(-50%);
-    left: 50%;
-    bottom: 0;
-    transition: .35s ease;
-    border-radius: 15px;
-    text-decoration: none
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 3px;
+  width: 0%;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 0;
+  transition: .35s ease;
+  border-radius: 15px;
+  text-decoration: none
 }
 
 .nav-item-init a:hover:after {
@@ -72,8 +113,11 @@ a:hover {
   font-family: 'Poppins', sans-serif;
   background-color: #ffff;
   margin-top: -18px;
-  height: 97px;
+  height: 17px;
+}
 
+.navbar  {
+  z-index: 1001;
 }
 
 
@@ -88,12 +132,8 @@ a:hover {
  justify-content: space-between;
  margin-bottom: auto;
 
+
 }
-
-
-/* .nav-menu .title {
- justify-content: flex-start;
-} */
 
 
 .list {
@@ -103,6 +143,7 @@ a:hover {
   padding: 16px;
   justify-content: flex-end;
   margin-bottom: auto;
+  margin-top: 15px;
 }
 
 
@@ -112,35 +153,36 @@ a:hover {
   text-align: center;
 }
 
-.dropdown-toggle {
-
+.colorChange .dropdown-toggle {
   margin-top: -3px !important;
-  color: black !important;
+  color: black;
 }
 
 .dropdown-item {
   width: 87% !important;
 }
-.dropdown-menu {
+.colorChange .dropdown-menu {
   margin-top: 9px;
   width: 209px;
 }
-a.dropdown-toggle {
+a.dropdown-toggle .colorChange {
    border: none;
    outline: none;
    text-decoration: none;
+   color: black !important;
 }
+
 .dropdown-toggle:after {
   text-decoration: none !important;
   content: none !important;
 }
 
 
-.nav-item .dropdown-toggle {
+.nav-item .dropdown-toggle .colorChange {
    background-color: transparent;
   }
 
-  .nav-item  a {
+.nav-item  a .colorChange {
     position: relative;
     text-align: center;
     color: #000;
@@ -149,7 +191,8 @@ a.dropdown-toggle {
     overflow: hidden;
     font-size: 16px;
 }
-  .nav-item:after {
+
+.nav-item:after {
     content: '';
     position: absolute;
     right: 50%;
@@ -159,16 +202,16 @@ a.dropdown-toggle {
     background-color: black;
     border-radius: 9px;
     transition: all .2s;
-    }
+ }
 
-    .nav-item:hover:after {
+  .nav-item:hover:after {
      right: 0;
       left: 0;
     }
 
 
   .dropdown-item:active {
-    background-color: white !important;
+    background-color: white ;
   }
 
  .dropdown-menu .dropdown-item {
@@ -198,6 +241,32 @@ a.dropdown-toggle {
     width: 50px;
     height: 50px;
     padding: 13px;
+  }
+  .content {
+    display: block;
+  }
+
+  .list {
+    display: block
+  }
+  .navbar-toggler {
+    display: flex;
+    margin-top: -33px;
+  }
+
+  .banner-container img {
+    height: 100vh;
+}
+
+  .navbar-light .navbar-toggler {
+   display: flex;
+   position: relative;
+   margin-top: -40px;
+   margin-left: 59px;
+  }
+
+  .nav-links {
+    margin-top: 14px;
   }
   .nav-menu > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
     background-color: rgba(0, 0, 0, 0.3);

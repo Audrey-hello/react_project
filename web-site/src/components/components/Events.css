@@ -12,3 +12,30 @@
 .title-metta {
   margin: 35px;
 }
+
+.apropos-title2 {
+    margin: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 172px;
+    font-size: 46px;
+}
+@media (max-width: 600px){
+
+  .image-banner img {
+    width: 100%;
+    height: 183px;
+    object-fit: contain;
+  }
+
+.apropos-title2 {
+    margin-top: 40px;
+  }
+  .content-metta {
+    width: 337px;
+  }
+
+  .btn .btn--outline {
+    margin-bottom: 20px;
+  }
+}

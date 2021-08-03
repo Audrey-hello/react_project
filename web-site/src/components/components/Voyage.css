@@ -6,12 +6,7 @@ img {
 
 }
 
-.image-banner {
- vertical-align: middle;
-  width: 100%;
-  height: 600px;
-  object-fit: cover;
-}
+
 
 .event-container {
 font-family: Poppins;
@@ -38,5 +33,15 @@ align-items: center;
   height: auto;
   margin-bottom: 89px;
   box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+}
 
+@media (max-width: 600px){
+  .image-profile-voyage {
+    display: flex;
+    width: 331px;
+}
+.profile-content {
+    width: 300px;
+    margin-left: 20px;
+}
 }

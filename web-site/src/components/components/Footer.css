@@ -82,6 +82,10 @@ color: white;
 
 }
 
+.logo-footer p {
+  margin-top: 12px;
+  font-size: 14px;
+}
 
 /* .btn-contact {
     background-color: transparent;

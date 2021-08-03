@@ -3,6 +3,7 @@ import React from 'react';
 import ReactPlayer from 'react-player';
 import './Voyage.css';
 import voyage from './voyage.jpg';
+import Topbar from './Topbar';
 import { useEffect } from "react";
 
 
@@ -21,6 +22,7 @@ export default function Voyage() {
     <div className='voyage-container'>
       <ScrollToTopOnMount />
       <div className="voyage-banner" >
+       <Topbar />
         <ReactPlayer
           url='voyage2.mp4'
           className="video"

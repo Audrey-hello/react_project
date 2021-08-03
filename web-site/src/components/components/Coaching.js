@@ -4,6 +4,7 @@ import './Voyage.css';
 import './Coaching.css';
 import working from './working.jpg';
 import { useEffect } from "react";
+import Topbar from './Topbar';
 
 
 function ScrollToTopOnMount() {
@@ -20,15 +21,16 @@ export default function Coaching() {
     <div className='voyage-container'>
       <ScrollToTopOnMount />
       <div className="voyage-banner" >
+        <Topbar />
         <ReactPlayer
-          url='coaching2.mp4'
+          url='coaching.mp4'
           className="video"
           width="100%"
           height="100%"
           object-fit="cover"
           muted={true}
           playing={true}
-          loop={true}
+          loop={false}
           controls={false}
           allowfullscreen={true} />
       </div>

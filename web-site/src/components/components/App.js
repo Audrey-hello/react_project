@@ -8,6 +8,8 @@ import Home from './pages/Home';
 // import Products from './Products';
 import Contact from './Contact';
 import Content from './Content';
+import ArticleSono from './ArticleSono';
+import ArticleYoga from './ArticleYoga';
 import Yoga from './Yoga';
 import Voyage from './Voyage';
 import Coaching from './Coaching';
@@ -21,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <Router >
-        <Topbar />
+
         <Switch>
           <Route path="/" exact component={Home} >
           <Home />
@@ -43,6 +45,12 @@ function App() {
           </Route>
           <Route path="/content" exact component={Content} >
             <Content />
+          </Route>
+          <Route path="/articleSono" exact component={ArticleSono} >
+            <ArticleSono />
+          </Route>
+          <Route path="/articleYoga" exact component={ArticleYoga} >
+            <ArticleYoga />
           </Route>
         </Switch>
         <Footer />

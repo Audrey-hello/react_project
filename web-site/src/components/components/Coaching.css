@@ -1,12 +1,6 @@
 .content-coaching {
 display: block;
 }
-.image-banner {
- vertical-align: middle;
-  width: 100%;
-  height: 600px;
-  object-fit: cover;
-}
 
 .event-container {
 font-family: Poppins;
@@ -54,4 +48,24 @@ align-items: center;
   line-height: 1.8;
   text-align: justify;
   font-weight: 500px;
+}
+
+@media (max-width: 600px){
+  .image-profile-coaching {
+    display: flex;
+    width: 333px;
+    border-radius: 5px;
+    margin-top: 50px;
+    height: auto;
+    margin-bottom: none;
+}
+.content-coaching {
+    display: block;
+    height: 700Px;
+}
+.coaching-text {
+    display: block;
+    width: 3OOpx;
+    margin: 22px;
+}
 }

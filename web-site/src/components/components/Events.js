@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Events.css';
 import events2 from './events2.png';
-
+import Topbar from './Topbar';
 
 function Events() {
 
@@ -11,13 +11,14 @@ function Events() {
   return (
     <div className="events-container" id="events">
       {/* ---Banner--- */}
-      <div className='banner-container2'>
+      <div className='banner-container3'>
         <div className="image-banner" >
+          <Topbar />
           <img  src={events2} />
         </div>
       </div>
       {/* ---------------- */}
-      <h1 className='apropos-title'> Le programme Metta </h1>
+      <h1 className='apropos-title2'> Le programme Metta </h1>
       <div className="cards-content">
         <img src="https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" className="image-yoga" />
         <div className="text-metta">
