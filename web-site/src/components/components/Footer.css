@@ -11,24 +11,12 @@
   font-weight: bold;
 }
 
-/* .footer-subs {
-  display:flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items: center;
-  margin-bottom: 24px;
-  color: white;
-} */
-
-
-
  .footer-links {
  display: flex;
  align-items: center;
  padding: 29px;
 
 }
-
 
 
 .footer-email-form h2 {
@@ -38,19 +26,6 @@
 .footer-input::placeholder {
 color: white;
 }
-/*
-.social-icon-link {
-  color: white;
-  font-size: 24px;
-}
-
-
-.social-icons {
-  display: flex;
-  justify-content: space-between;
-  width: 240px;
-  align-items: center;
-} */
 
 .social-logo {
   align-items: center;
@@ -84,7 +59,7 @@ color: white;
 
 .logo-footer p {
   margin-top: 12px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* .btn-contact {
@@ -117,7 +92,7 @@ color: white;
 .title-logo {
   font-size: 28px;
   font-weight: bold;
-  margin-top: 31px;
+  margin-top: 47px;
 }
 
 .title-logo p {

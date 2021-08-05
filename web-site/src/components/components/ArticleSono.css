@@ -4,10 +4,37 @@
   text-align: justify;
   padding-right: 99px;
   line-height: 1.75;
+  margin-top: 166px;
+
+}
+.article-name {
+  font-family: 'Lora', serif;
+  font-size: 60px;
+  margin-top: -332px;
+  background: linear-gradient(
+180deg
+ , transparent 55%, #335c679e 0);
+  margin-left: 231px;
+  font-weight: bolder;
+}
+
+.header-article {
+  color: #FFF;
+  margin-top: 50px !important;
+  width: fit-content !important;
+  background-size: 10px 40px !important;
+  position: relative;
+}
+
+.banner-container-article img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 350px;
 }
 
 .image-banner-article {
-  height: 100vh;
+  height: 450px;
 }
 
 .navigation .row-navigation-light {
@@ -23,10 +50,10 @@
 }
 
 .row-navigation {
-    outline-width: 1px;
-    outline-style: solid;
-    background-color: #f7f7f7;
-    outline-color: #eaeaea;
+  outline-width: 1px;
+  outline-style: solid;
+  background-color: #f7f7f7;
+  outline-color: #eaeaea;
 }
 
 .container .row-container {
@@ -51,26 +78,27 @@
 
 .btn-link {
   text-decoration: none !important;
-  color: black !important;
+  color: #335C67 !important;
+  font-weight: 600 !important;
 }
 
-.btn, .btn-link {
-    display: inline-block;
-    font-size: 12px;
-    padding: 13px 31px 13px 31px !important;
-    font-style: normal !important;
-    text-align: center;
-    vertical-align: middle;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    cursor: pointer;
-    background-image: none;
-    border-style: solid;
-    border-radius: 2px;
-    outline: none;
-    white-space: pre-wrap;
-    -webkit-text-stroke: 0px;
-    text-decoration: none !important;
+.btn-link {
+  display: inline-block;
+  font-size: 15px;
+  padding: 13px 31px 13px 31px !important;
+  font-style: normal !important;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  cursor: pointer;
+  background-image: none;
+  border-style: none;
+  border-radius: 2px;
+  outline: none;
+  white-space: pre-wrap;
+  -webkit-text-stroke: 0px;
+  text-decoration: none !important;
   }
 
 .container .row {
@@ -80,6 +108,7 @@
 .style-light {
     color: #1b1d1f;
 }
+
 .pagination, .navigation {
     display: table;
     table-layout: fixed;

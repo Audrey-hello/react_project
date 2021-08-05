@@ -1,25 +1,37 @@
 import React from 'react';
 import './ArticleSono.css';
-import ressources2 from './ressources2.png';
+import Articles from './Articles.png';
 import Topbar from './Topbar';
+import { useEffect } from "react";
 import 'font-awesome/css/font-awesome.min.css';
 
 function ArticleYoga() {
 
+  function ScrollToTopOnMount() {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
+    return null;
+  }
 
   return (
     <div className="container-sono">
+      <ScrollToTopOnMount />
       {/* ---Banner--- */}
-      <div className='banner-container3'>
+      <div className='banner-container-article'>
         <div className="image-banner-article" >
           <Topbar />
-          <img src={ressources2} />
+          <img src={Articles} />
+        </div>
+        <div className="header-article">
+          <h1 className="article-name"> Le yoga et ma connexion au corps</h1>
         </div>
       </div>
       {/* ---------------- */}
       <div className="text-blog">
         <div>
-          <h1> Le yoga et ma connexion au corps</h1>
+
           <hr></hr>
           <h4> Connexion au corps et amour de soi </h4>
 
@@ -34,7 +46,7 @@ function ArticleYoga() {
 
           <p>Le yoga peut remuer des émotions dont je n’avais pas conscience. Surtout quand je joins ma pratique avec des exercices de respiration. Dans tous les cas, ça me permet de m’ancrer dans une sorte de sérénité, de satisfaction et d’apaisement. </p>
 
-          <h4>Yoga et spititualité</h4>
+          <h4>Yoga et spiritualité</h4>
 
           <p>Il y a aussi toute la partie spirituelle dont le sens philosophique du terme. Les valeurs qui y sont données telles que la compassion et la bienveillance se font ressentir. Il y a de même un valeur d’inclusivité que je souhaite divulguer, quelle que soit ta morphologie, ton niveau, ta souplesse...tu y vas à ton rythme ! Il n’y a pas de compétition ni d’objectif si ce n’est de mener ta pratique comme tu le sens pour que cela te fasse du bien.</p>
 
@@ -47,12 +59,21 @@ function ArticleYoga() {
       <div className="row-container row-navigation row-navigation-light">
         <div className="row row-parent style-light limit-width">
           <nav className="post-navigation">
-            <ul className="navigation"><li className="page-prev">
-              <span className="btn-container">
-                <a className="btn btn-link text-default-color btn-icon-left" href="" rel="prev"><i className="fa fa-angle-left"></i><span>Précédent</span></a>
-              </span>
-            </li>
-              <li className="page-next"><span className="btn-container"><span className="btn btn-link btn-icon-right ">Suivant<i className="fa fa-angle-right"></i></span></span></li></ul>
+            <ul className="navigation">
+              <li className="page-prev">
+                <span className="btn-container">
+                  <a className="btn-link text-default-color btn-icon-left" href="./ArticleSono" rel="prev">
+                    <i className="fa fa-angle-left"></i>
+                    <span>Précédent</span>
+                  </a>
+                </span>
+              </li>
+              <li className="page-next">
+                <span className="btn-container">
+                  <a className="btn-link btn-icon-right " href="" rel="nex">Suivant<i className="fa fa-angle-right"></i></a>
+                </span>
+              </li>
+            </ul>
           </nav>
         </div>
       </div>

@@ -1,5 +1,11 @@
-.content-coaching {
-display: block;
+
+.container-coaching {
+  background-color: #efeae5;
+  display: flex;
+  margin-top: -20px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .event-container {
@@ -19,6 +25,18 @@ align-items: center;
   margin-top: 8px;
 }
 
+.coaching-content {
+  width: 602px;
+  text-align: justify;
+  margin-top: 45px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+
+.coaching-content h2 {
+  margin-bottom: 40px;
+}
+
 .image-profile-coaching {
   display: flex;
   width: 543px;
@@ -32,10 +50,10 @@ align-items: center;
 .content-coaching {
   display: flex;
   width: 100%;
-  justify-content: center;
-  background: cadetblue;
-  height: 500px;
+
+  height: 562px;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .coaching-text {
@@ -43,11 +61,27 @@ align-items: center;
   width: 500px;
   margin: 50px;
   align-items: center;
-  color: white;
+  color: black;
   font-size: 16px;
   line-height: 1.8;
   text-align: justify;
   font-weight: 500px;
+}
+
+.coaching-text h2 {
+  margin-bottom: 40px;
+}
+
+.image-profile-coaching2 {
+    display: flex;
+    width: 387px;
+    border-radius: 5px;
+    margin-top: 50px;
+    height: 370px;
+    margin-bottom: 89px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+    align-items: center;
+    margin-top: 122px;
 }
 
 @media (max-width: 600px){
@@ -60,12 +94,12 @@ align-items: center;
     margin-bottom: none;
 }
 .content-coaching {
-    display: block;
-    height: 700Px;
+  display: block;
+  height: 700Px;
 }
 .coaching-text {
-    display: block;
-    width: 3OOpx;
-    margin: 22px;
+  display: block;
+  width: 3OOpx;
+  margin: 22px;
 }
 }

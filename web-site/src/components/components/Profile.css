@@ -12,24 +12,29 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  background-color: #efeae5;
 }
 
+.banner-container2 {
+  height: 60%;
+}
 
 .title-profile {
   margin: 15px;
   font-family: 'Poppins', sans-serif;
-  font-weight: 600;text-align: center;
-  margin-top: 74px;
+  font-weight: 600;
+  text-align: center;
   font-size: 46px;
 }
 
 .profile-content {
-  width: 602px;
+  width: 600px;
   text-align: justify;
   margin-left: 140px;
   margin-top: 45px;
   font-family: 'Poppins', sans-serif;
+  margin-bottom: 40px;
 }
 
 .profile-content h2 {
@@ -43,18 +48,16 @@
   line-height: 1.8;
   margin-bottom: 60px;
   margin: revert;
-
 }
 
 .image-profile {
   width: 438px;
-  height: 600px;
+  height: 423px;
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 0 15px rgb(0 0 0 / 20%);
-  margin-top: 131px;
+  margin-top: 82px;
   margin-bottom: 70px;
-  margin-left: 136px;
 }
 
 @media (max-width: 800px){

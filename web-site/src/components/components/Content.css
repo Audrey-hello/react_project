@@ -21,10 +21,10 @@
 }
 
  .image-blog {
-    height: 434Px;
-    width: 570px;
-    object-fit: cover;
-    margin-bottom: 16px;
+  height: 339Px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 16px;
 }
 
 .image-blog:hover {
@@ -34,21 +34,23 @@
 .title-metta {
   display: flex;
   text-align: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   font-size: 24Px;
   margin: 5px;
   list-style: none;
+  width: 364px;
+  margin-left: 500px;
+  padding: 28px;
 }
-
 
 .card-blog {
   background: transparent;
-  width: 600Px;
+  width: 520Px;
   display: block;
   align-items: center;
   border-radius: 15px;
-  padding: 12px;
-  margin-left: 50px;
+  margin-left: 100px;
+  margin-top: 40px;
 }
 
 .card-blog h1 {
@@ -58,8 +60,9 @@
 .container-cards-blog {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: justify;
+  width: 461px;
 
 }
 blockquote {

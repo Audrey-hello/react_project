@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import './Contact.css';
+import Topbar from './Topbar';
 import { init, sendForm } from 'emailjs-com';
 init("user_Boc5zsTh76kXC3qdiR1Fa");
-
-
 
 
 
@@ -49,6 +48,10 @@ const Contact = () => {
 }
 
   return (
+    <>
+     <div className="entete">
+       <Topbar />
+      </div>
     <div className='contact'>
       <strong><h1 className='title-contact'>Contact</h1></strong>
        <p className='status-message'>{statusMessage}</p>
@@ -100,6 +103,7 @@ const Contact = () => {
         </form>
       </div>
     </div>
+  </>
   );
 }
 export default Contact;

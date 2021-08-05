@@ -1,13 +1,13 @@
+/* eslint-disable no-undef */
 import React, {useState, useEffect} from 'react';
 import './Navbar.css';
 import {Link} from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
-import AnchorLink from 'react-anchor-link-smooth-scroll'
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import { useLocation } from 'react-router-dom';
-import {Dropdown} from 'react-dropdown';
+
 
 
 
@@ -24,6 +24,13 @@ function Topbar() {
     }
   }, [location.pathname]);
 
+  const [show, setShow] = useState(false);
+  const showDropdown = (e) => {
+    setShow(!show);
+  }
+  const hideDropdown = e => {
+    setShow(false);
+  }
 
 return (
   <>
@@ -42,17 +49,21 @@ return (
             </Nav>
             <Nav>
           <div className='list' >
-                      <li className='nav-item-init' >
-                        <Link to="/events" style={{ color: colorChange }} >
-                    Événements
+                <li className='nav-item-init' >
+                  <Link to="/events" style={{ color: colorChange }} >
+                   Programme Metta
                   </Link>
                 </li>
 
                       <div class="nav-item dropdown" >
                         <a aria-haspopup="true" aria-expanded="false" id="nav-dropdown" class="dropdown-toggle nav-link" role="button" style={{ color: colorChange, marginTop: '-2px' }} href="#">
-                        Thèmes</a>
-                        <NavDropdown id="nav-dropdown"
-                          title="">
+                        Ateliers</a>
+                        <NavDropdown
+                         id="nav-dropdown"
+                          title=""
+                          show={show}
+                          onMouseEnter={showDropdown}
+                          onMouseLeave={hideDropdown}>
                         <NavDropdown.Item as={Link} to="/Yoga">Yoga</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="/Voyage">Voyage au tambour</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="/Coaching">Coaching</NavDropdown.Item>
@@ -60,19 +71,19 @@ return (
                       </div>
 
                 <li className='nav-item-init'>
-                        <AnchorLink href='#profile' style={{ color: colorChange }} >
+                  <Link to="/profile2" style={{ color: colorChange }} >
                   Qui suis-je ?
-                  </AnchorLink>
+                  </Link>
                 </li>
                 <li className='nav-item-init'>
-                        <Link to="/content" style={{ color: colorChange }} >
+                  <Link to="/content" style={{ color: colorChange }} >
                     Contenu
                   </Link>
                 </li>
                 <li className='nav-item-init'>
-                        <AnchorLink href='#footer' style={{ color: colorChange }}>
+                  <Link to='/contact' style={{ color: colorChange }}>
                     Contact
-                  </AnchorLink>
+                  </Link>
                 </li>
               </div>
               </Nav>
@@ -81,7 +92,7 @@ return (
           </Container>
          </Navbar>
         </div>
-    </div>
+      </div>
     </div>
   </>
 )

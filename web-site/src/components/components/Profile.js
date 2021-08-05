@@ -1,27 +1,27 @@
-/* eslint-disable jsx-a11y/alt-text */
-
+import { Link } from 'react-router-dom';
 import React from 'react';
 import './Profile.css';
-import profile from './profile.jpg';
+import moi5 from './moi5.JPG';
 
 function Profile() {
   return (
     <div>
-     <h1 className='title-profile' id="profile"> Qui suis-je ? </h1>
       <div className='profile-grid'>
         <div className='profile-content'>
-          <h2> Mon chemin </h2>
+          <h1> Qui suis-je ? </h1>
 
-          <p>Je m’appelle Ana et je suis passionnée par ce qui nous permet de prendre consience du monde qui nous entoure et de ce qui nous aide à nous sentir bien. Après avoir travaillé pendant plusieurs années en finance, j’ai démissionné et décidé de changer de façon radicale ma façon de vivre plus alignée avec qui j'étais. Je me suis formée sur différentes pratiques qui m'ont aidé à trouver ma voie. Engagée, j’ai de même créé une association qui soutient les femmes et minorités de genre.</p>
-
-          <p> J'accompagne désormais des personnes à trouver leur alignement, vivre de façon apaisée, trouver leur puissance et à s'aimer de manière authentique.</p>
-
-          <p>Je suis une adepte du développement personnel, du yoga, des thérapies naturelles, cognitives et psychologiques et tout ce qui m’inspire sur le moment. J’aime allier ces techniques avec la déconstruction des normes dans une vision féministe.</p>
-
-          <p>Exploratrice et inspirée par des univers magiques et passionnants, je vous accompagne dans une aventure alliant le bien-être avec soi et l’ harmonie avec les autres.</p>
+          <p>Je m’appelle Ana et je suis passionnée par ce qui nous permet de prendre consience du monde qui nous entoure et de ce qui nous aide à nous sentir bien. Après avoir travaillé pendant plusieurs années en finance, j’ai démissionné et décidé de changer de façon radicale ma façon de vivre plus alignée avec qui j'étais.</p>
+          <p>Je me définis comme étant féministe, empathique, ambitieuse et entrepreneuse. Et j'aime surtout accompagner les femmes et minorités de genre à révéler leur potentiel ! </p>
+          <div className='cards-btns'>
+            <Link to='/profile2' className='btn-mobile'>
+              <button className="btn btn--outline">
+                Viens voir mon profil !
+              </button>
+            </Link>
+          </div>
         </div>
         <div>
-          <img className='image-profile' src={profile} alt='profile' />
+          <img className='image-profile' src={moi5} alt='profile' />
         </div>
       </div>
     </div>
@@ -29,4 +29,4 @@ function Profile() {
   )
 }
 
-export default Profile
+export default Profile;

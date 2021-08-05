@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Cards.css';
 import tambour from './tambour.jpg';
+import instagram from './instagram.svg';
+import facebook from './facebook.svg';
 
 
 function Cards() {
@@ -15,7 +17,7 @@ function Cards() {
       <p className="themes"> Les différentes thématiques alliant le corps, le mental et la quête de sens. </p>
       <div className="Encart">
         <div className="title-container">
-        <h3 className="rubrique-title">LES ATELIERS </h3>
+        <h3 className="rubrique-title">LES ATELIERS  </h3>
         </div>
       </div><br>
       </br>
@@ -55,17 +57,27 @@ function Cards() {
 
 
         <div className="Retraites">
-          <div className="title-container">
-          <h3 className="rubrique-title"> LES RETRAITES </h3>
+          <div className="title-container2">
+            <h3 className="rubrique-title-retraites"> LES RETRAITES  </h3>
+            <img src="https://images.unsplash.com/reserve/m6rT4MYFQ7CT8j9m2AEC_JakeGivens%20-%20Sunset%20in%20the%20Park.JPG?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80" className="image-retraites" />
           </div>
-          <p className="text-retraite"> Au sein d’un lieu ressourçant dans la nature et non loin de Paris, je propose des week-ends alliant bien-être, coaching et un cadre de réfléxion sur le thème du moment. </p>
-        </div>
+          <div className="text-retraite">
+
+            <p> Au sein d’un lieu ressourçant dans la nature, je propose des week-ends alliant bien-être, coaching et un cadre de réfléxion sur le thème du moment. </p>
+            <p> Entre cours de yoga, cuisine végie, ateliers divers, ces immersions permettent d'aller encore plus loin dans son apprentissage. Mais c'est aussi avec l'aide de tout un groupe de personnes partageant les mêmes valeurs que nous nous réunissons !</p> <br />
+
+            <p> <strong>Contacte-moi si tu souhaites en savoir plus. Et surtout suis-moi sur les réseaux pour être informé.e. des prochaines sessions !</strong> </p>
+
         <div className='cards-btns'>
-           <Link to={'/Events'}>
+           <Link to={'/Contact'}>
             <Button buttonStyle='btn--outline' buttonSize='btn--large'  >
-            Regarde les prochains évènements !
+            Me contacter
            </Button>
           </Link>
+            </div>
+            <a href="#"><i><img src={instagram} className="social-logo-retraite" /></i></a>
+            <a href="#" ><i><img src={facebook} className="social-logo-retraite" /></i></a>
+          </div>
         </div>
       </div>
     </div>

@@ -24,9 +24,7 @@
   margin-top: 40px;
   font-size: 46px
 }
-.cards-btns {
-  margin-bottom: 33px;
-}
+
 
 .card-category {
   width: 600px;
@@ -43,6 +41,10 @@
   padding: 12px;
   color: white;
 }
+.card-ateliers:hover {
+  opacity:0.5;
+}
+
 .card-ateliers-yoga {
   height: 500px;
   background:  #335C67;
@@ -52,7 +54,9 @@
   border-radius: 15px;
   padding: 12px;
   color: white;
-
+}
+.card-ateliers-yoga:hover {
+  opacity:0.5;
 }
 
 .cards a {
@@ -78,6 +82,9 @@
   color: white;
 }
 
+.card-ateliers-chaman:hover {
+  opacity:0.5;
+}
 
 .card-item-pics {
   position: relative;
@@ -96,11 +103,34 @@
 }
 
 
+.title-container {
+  display: inline-block;
+  align-items: center;
+}
 
-.Retraites{
+.title-container2 {
+  margin-left: 152px;
+  margin-top: 20px;
+}
+
+
+.Retraites {
   font-family: 'Poppins', sans-serif;
   margin-top: 45px;
+  background-color: #efeae5;
+  display: flex;
 }
+
+.image-retraites {
+  border-radius: 49%;
+  height: 283px;
+  padding: 9px;
+  width: 361Px;
+  margin-left: 27px;
+  margin-top: 68px;
+  object-fit: cover;
+}
+
 
 .Encart {
   font-family: 'Poppins', sans-serif;
@@ -137,14 +167,28 @@
 }
 
 .rubrique-title {
-  background: linear-gradient(
+    background: linear-gradient(
 180deg
-, transparent 58%, #94b5c0 0);
-  width: fit-content;
-  font-weight: 700;
+, transparent 0%, #94b5c0 0);
+  width: 301px;
+  font-weight: 900;
   letter-spacing: 2px;
   margin-top: 15px;
+  color: white;
+  font-size: 36px;
+}
 
+.rubrique-title-retraites {
+     background: linear-gradient(
+180deg
+ , transparent 0%, #94b5c0 0);
+    width: 294px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    margin-left: 56px;
+    color: white;
+    font-size: 36px;
 }
 
 .rubrique-title p {
@@ -152,15 +196,30 @@
 }
 
 .text-retraite {
-font-size: 20px;
-padding: 37px;
-margin: 32px;
-width: 896px;
-margin-left: 282px;
+  font-size: 16px;
+  padding: 37px;
+  width: 600px;
+  margin-left: 168px;
+  text-align: justify;
+  margin-top: 77px;
 }
 
-.title-container {
-  display: inline-flex;
+.social-logo-retraite {
+    align-items: center;
+    vertical-align: middle;
+    height: 48px;
+    object-fit: none;
+    align-items: center;
+    justify-content: space-around;
+    background: #94b5c0;
+    width: 48px;
+    border-radius: 23px;
+    margin-left: 185px;
+    margin-right: -154px;
+}
+
+a .social-logo-retraite:hover  {
+  background: #335C67;
 }
 
 @media (max-width: 800px){

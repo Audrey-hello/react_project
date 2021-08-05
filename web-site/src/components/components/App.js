@@ -13,6 +13,7 @@ import ArticleYoga from './ArticleYoga';
 import Yoga from './Yoga';
 import Voyage from './Voyage';
 import Coaching from './Coaching';
+import Profile2 from './Profile2';
 import Events from './Events';
 import Footer from './Footer';
 
@@ -45,6 +46,9 @@ function App() {
           </Route>
           <Route path="/content" exact component={Content} >
             <Content />
+          </Route>
+          <Route path="/profile2" exact component={Profile2} >
+            <Profile2 />
           </Route>
           <Route path="/articleSono" exact component={ArticleSono} >
             <ArticleSono />

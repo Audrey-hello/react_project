@@ -1,0 +1,52 @@
+
+
+.image-banner-profile2 {
+  height: 550px;
+}
+
+.banner-container-profile2 {
+  height: 550px;
+}
+
+.banner-container-profile2 img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 550px;
+}
+
+.profile2-name {
+  font-family: 'Lora', serif;
+  font-size: 70px;
+  margin-top: -400px;
+  background: linear-gradient(
+180deg
+, transparent 55%, #335c679e 0);
+  margin-left: 488px;
+  font-weight: bolder;
+}
+
+.header-profile2 {
+  color: #FFF;
+  margin-top: 50px !important;
+  width: fit-content !important;
+  background-size: 10px 40px !important;
+  position: relative;
+}
+
+.image-profile2 {
+  width: 438px;
+  height: 423px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+}
+
+.profile2-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+  justify-content: center;
+  align-items: center;
+  background-color: #efeae5;
+}

@@ -1,28 +1,38 @@
 import React from 'react';
 import { Button } from './Button';
 import './ArticleSono.css';
-import ressources2 from './ressources2.png';
+import Articles from './Articles.png';
 import Topbar from './Topbar';
-import sono from '../images/Sonothérapie.png'
-import yoga_pose from '../images/yoga_pose.jpg'
+import { useEffect } from "react";
 import 'font-awesome/css/font-awesome.min.css';
 
 function ArticleSono() {
 
 
+    function ScrollToTopOnMount() {
+      useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
+      return null;
+    }
+
   return (
     <div className="container-sono">
+      <ScrollToTopOnMount />
       {/* ---Banner--- */}
-      <div className='banner-container3'>
+      <div className='banner-container-article'>
         <div className="image-banner-article" >
           <Topbar />
-          <img src={ressources2} />
+          <img src={Articles} />
+        </div>
+        <div className="header-article">
+          <h1 className="article-name"> Santé mentale et thérapie sonore </h1>
         </div>
       </div>
       {/* ---------------- */}
       <div className="text-blog">
         <div>
-          <h1> Santé mentale et  thérapie sonore </h1>
           <hr></hr>
           <h4>La ronronthérapie </h4>
 
@@ -49,12 +59,21 @@ function ArticleSono() {
       <div className="row-container row-navigation row-navigation-light">
         <div className="row row-parent style-light limit-width">
           <nav className="post-navigation">
-            <ul className="navigation"><li className="page-prev">
-              <span className="btn-container">
-              <a className="btn btn-link text-default-color btn-icon-left" href="" rel="prev"><i className="fa fa-angle-left"></i><span>Précédent</span></a>
-              </span>
+            <ul className="navigation">
+              <li className="page-prev">
+                <span className="btn-container">
+                  <a className="btn-link text-default-color btn-icon-left" href="" rel="prev">
+                    <i className="fa fa-angle-left"></i>
+                    <span>Précédent</span>
+                  </a>
+                </span>
               </li>
-              <li className="page-next"><span className="btn-container"><span className="btn btn-link btn-icon-right ">Suivant<i className="fa fa-angle-right"></i></span></span></li></ul>
+              <li className="page-next">
+                <span className="btn-container">
+                  <a className="btn-link btn-icon-right " href="./ArticleYoga" rel="nex">Suivant<i className="fa fa-angle-right"></i></a>
+                </span>
+              </li>
+            </ul>
           </nav>
         </div>
       </div>

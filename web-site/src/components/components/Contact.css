@@ -132,6 +132,11 @@ textarea:focus {
   margin-bottom: 0.5em;
 }
 
+.entete {
+  height: 100px;
+  background-color: #335C67;
+}
+
 .contact {
   background-color: #efeae5;
   align-items: center;
@@ -176,14 +181,7 @@ div[role='alert'] {
   font-weight: bold;
   margin-right: 138Px;
 }
-/* .footer-input {
-  padding: 8px;
-  border-radius: 5px;
-  margin-right: 10px;
-  outline: none;
+
+#input-message {
   border: none;
-  font-size: 18px;
-  margin-bottom: 16px;
-  border: 1 px solid #FFFF;
-  font-family: 'Poppins', sans-serif;
-} */
+}
