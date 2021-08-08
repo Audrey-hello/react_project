@@ -85,21 +85,38 @@ align-items: center;
 }
 
 @media (max-width: 600px){
-  .image-profile-coaching {
-    display: flex;
-    width: 333px;
-    border-radius: 5px;
-    margin-top: 50px;
-    height: auto;
-    margin-bottom: none;
+
+.image-profile-coaching {
+  display: flex;
+  width: 333px;
+  border-radius: 5px;
+  margin-top: 50px;
+  height: auto;
+  margin-bottom: none;
 }
+.container-coaching {
+ display: block;
+ margin-top: -49px;
+}
+.image-profile-coaching {
+  margin-left: 17px;
+  padding: 20px;
+}
+.coaching-content {
+  margin-left: 31px;
+  width: 300px;
+}
+
 .content-coaching {
   display: block;
-  height: 700Px;
+  height: 100%;
 }
 .coaching-text {
   display: block;
-  width: 3OOpx;
-  margin: 22px;
+  width: 300px;
+  margin: 39px;
+}
+.image-profile-coaching2 {
+  margin-left: 0px;
 }
 }

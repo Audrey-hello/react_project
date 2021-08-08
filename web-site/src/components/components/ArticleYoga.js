@@ -70,7 +70,7 @@ function ArticleYoga() {
               </li>
               <li className="page-next">
                 <span className="btn-container">
-                  <a className="btn-link btn-icon-right " href="" rel="nex">Suivant<i className="fa fa-angle-right"></i></a>
+                  <a className="btn-link btn-icon-right " href="./Article3" rel="nex">Suivant<i className="fa fa-angle-right"></i></a>
                 </span>
               </li>
             </ul>

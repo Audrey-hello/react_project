@@ -68,15 +68,17 @@ function Cards() {
 
             <p> <strong>Contacte-moi si tu souhaites en savoir plus. Et surtout suis-moi sur les réseaux pour être informé.e. des prochaines sessions !</strong> </p>
 
-        <div className='cards-btns'>
-           <Link to={'/Contact'}>
-            <Button buttonStyle='btn--outline' buttonSize='btn--large'  >
-            Me contacter
-           </Button>
-          </Link>
-            </div>
+          <div className='cards-btns'>
+            <Link to={'/Contact'}>
+              <Button buttonStyle='btn--outline' buttonSize='btn--large'  >
+              Me contacter
+            </Button>
+            </Link>
+          </div>
+          <div className="social-media-retraite">
             <a href="#"><i><img src={instagram} className="social-logo-retraite" /></i></a>
             <a href="#" ><i><img src={facebook} className="social-logo-retraite" /></i></a>
+          </div>
           </div>
         </div>
       </div>

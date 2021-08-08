@@ -21,7 +21,7 @@ function Profile() {
           </div>
         </div>
         <div>
-          <img className='image-profile' src={moi5} alt='profile' />
+          <img className='image-profile-home' src={moi5} alt='profile' />
         </div>
       </div>
     </div>

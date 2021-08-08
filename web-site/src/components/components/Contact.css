@@ -8,7 +8,7 @@
 }
 
 @media (max-width: 600px){
-    .container-contact-form {
+  .container-contact-form {
         width: 100%;
         align-items: center;
         display: block;
@@ -16,7 +16,37 @@
         position: left;
         margin-left: 0;
     }
+  form {
+    margin-left: -125px !important;
+    width: 300px;
+    margin-bottom: -24px;
+
+  }
+  .input-prénom {
+    width: 150px !important;
 }
+  .input-nom {
+    width: 150px !important;
+}
+  .input-container input {
+    width: 300px !important;
+  }
+
+  .nom_complet {
+    display: flex;
+    justify-content: space-between;
+    width: 300px !important;
+  }
+
+  textarea {
+    width: 300px !important;
+  }
+}
+
+
+
+
+
 .container-contact-form {
   max-width: 1248px;
   margin-left: 151px;

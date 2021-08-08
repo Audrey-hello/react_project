@@ -4,19 +4,23 @@
     align-items: center;
     height: 100vh;
 }
-.cards-content {
-  margin-top: 40px;
-}
 
 .image-banner-content {
   height: 100vh;
 }
 
-.title3 {
+.content-blog-posts {
+  column-count: 2;
+  text-align: center;
+  justify-content: flex-start;
+  padding: 35px;
+}
+
+.title-Articles > h1 {
   margin: 15px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  margin-top: 40px;
+  margin-top: 40px !important;
   font-size: 46px;
 }
 
@@ -27,9 +31,12 @@
   margin-bottom: 16px;
 }
 
+
+
 .image-blog:hover {
   opacity:0.5;
 }
+
 
 .title-metta {
   display: flex;
@@ -39,7 +46,7 @@
   margin: 5px;
   list-style: none;
   width: 364px;
-  margin-left: 500px;
+  margin-left: 546px;
   padding: 28px;
 }
 
@@ -50,20 +57,22 @@
   align-items: center;
   border-radius: 15px;
   margin-left: 100px;
-  margin-top: 40px;
+}
+
+.posts {
+  display: inline-block;
 }
 
 .card-blog h1 {
   font-size: 37px;
+  margin-bottom: 65px;
 }
 
 .container-cards-blog {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-evenly;
-  text-align: justify;
-  width: 461px;
-
+  width: 642px;
 }
 blockquote {
   border-left: solid;
@@ -88,7 +97,7 @@ blockquote p {
     object-fit: contain;
   }
  .container-cards-blog {
-    display: block;
+    display: inline-block;
  }
  .image-blog {
     height: 424Px;
@@ -102,6 +111,20 @@ blockquote p {
     border-radius: 15px;
     padding: 0px;
     margin-left: 0;
-    margin: 20px;
+}
+.card-blog h1 {
+  margin-right: 211px;
+  font-size: 35px;
+}
+.card-blog hr {
+  margin-right: 211px;
+}
+.article-name {
+  font-family: 'Lora', serif;
+  font-size: 35px !important;
+}
+
+.header-article h1 {
+  font-size: 35px !important;
 }
 }

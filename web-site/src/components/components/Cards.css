@@ -25,6 +25,9 @@
   font-size: 46px
 }
 
+.social-media-retraite {
+    display: flex;
+}
 
 .card-category {
   width: 600px;
@@ -222,62 +225,6 @@ a .social-logo-retraite:hover  {
   background: #335C67;
 }
 
-@media (max-width: 800px){
-    .cards{
-        width: 100%;
-        align-items: center;
-    }
-}
-@media (max-width: 600px){
-    .cards{
-        width: 85%;
-        display: block;
-        margin: 29px;
-        position: left;
-    }
-    .card-ateliers-chaman{
-        width: 100%;
-        margin-bottom: 4%;
-        margin-top: 31px;
-        height: 515px;
-    }
-    .card-ateliers {
-        width: 100%;
-        margin-bottom: 4%;
-        margin-top: 31px;
-    }
-
-    .profile-grid {
-    display: block;
-  }
-    .btn--outline {
-    width: 300px;
-    font-weight: bold;
-    font-size: 18px;
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-}
-  .image-profile {
-    margin-left: 0;
-  }
-    .text-retraite {
-      width: 0;
-      margin-left: 0;
-      display: table-row;
-    }
-
-
-  .cards-container {
-    padding: 15px;
-    text-align: center;
-  }
-
-    .btn-outline:hover {
-      background: #335C67;
-      color: white;
-    }
-  }
-
   .btn-outlines {
     padding: 8px 20px;
     border-radius: 5px;
@@ -297,4 +244,121 @@ a .social-logo-retraite:hover  {
     margin-bottom: 1rem;
     font-weight: bold;
     font-size: 20px;
+  }
+
+
+
+@media (max-width: 800px){
+    .cards{
+        width: 100%;
+        align-items: center;
+    }
+}
+@media (max-width: 600px){
+
+.apropos-title {
+  margin-top: 65px;
+}
+
+.cards{
+    width: 85%;
+    display: block;
+    margin: 29px;
+    position: left;
+}
+.card-ateliers-chaman{
+    width: 100%;
+    margin-bottom: 4%;
+    margin-top: 31px;
+    height: 515px;
+}
+.card-ateliers {
+    width: 100%;
+    margin-bottom: 4%;
+    margin-top: 31px;
+    }
+.image-banner {
+  width: 108%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.image-banner img {
+  width: 100vh;
+  height: 314px !important;
+  object-fit: contain;
+}
+
+.banner-container {
+  height: 183px;
+}
+
+.profile-grid {
+  display: inline-block;
+  margin-top: -378px;
+}
+
+.btn--outline {
+  width: 300px;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.image-profile {
+  margin-left: 0;
+}
+.Retraites {
+  display: inline-block;
+  width: 100vh;
+  margin-left: -20px;
+  margin-bottom:-20px;
+}
+.title-container2{
+  display: block;
+  margin-left: 26px;
+}
+
+.rubrique-title-retraites {
+  margin-left: 19px;
+}
+.image-retraites {
+  margin-left: 0;
+  margin-top: 0px;
+}
+.cards-btns {
+  display: inline-block;
+}
+.text-retraite {
+  display: inline-block;
+  width: 300px;
+  margin-left: -275px;
+  text-align: center;
+  padding: 0px;
+  margin-top: 47px;
+  }
+
+.social-media-retraite {
+  margin-top: 24px;
+  margin-left: -100px;
+  margin-bottom: 24px;
+}
+
+.image-profile-home {
+  margin-left: 0px !important;
+}
+.cards-container {
+  padding: 15px;
+  text-align: center;
+  }
+
+.profile-content {
+    width: 300px;
+    margin-left: 36px !important;
+}
+
+.btn-outline:hover {
+  background: #335C67;
+  color: white;
+    }
   }

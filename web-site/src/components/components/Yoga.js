@@ -3,7 +3,7 @@ import React from 'react';
 import "./Yoga.css"
 // import video from './video.mp4'
 import ReactPlayer from 'react-player';
-import profile from './profile.jpg';
+import moi4 from './moi4.jpg';
 import { useEffect } from "react";
 import Topbar from './Topbar';
 
@@ -32,15 +32,15 @@ export default function Yoga() {
           object-fit="cover"
           muted={true}
           playing={true}
-          loop={false}
+          loop={true}
           controls={false}
           allowfullscreen={true}/>
       </div>
       <div className="content">
         <div className='profile-content-yoga'>
-          <h2>  Se reconnecter </h2>
+          <h2>  Se reconnecter </h2> <br />
 
-          <p>Le vinyasa yoga est une pratique dynamique enchaînant plusieurs asanas. Cela permet de relâcher les tensions, se réancrer et se reconnecter à son corps. Cela contribue ainsi à une meilleure santé mentale, à la gestion de ses émotions, et à apprendre à aimer son corps. C'est donc un véritable outil d'empuissancement aidant la confiance en soi ! </p>
+          <p>Le vinyasa yoga est une pratique dynamique enchaînant les asanas. Cela permet de relâcher les tensions, se réancrer et se reconnecter à son corps. Cela contribue ainsi à une meilleure santé mentale, à la gestion de ses émotions, et à apprendre à aimer son corps. C'est donc un véritable outil d'empuissancement aidant la confiance en soi ! </p>
 
           <p> Je propose des cours collectif de débutant.e à intermédiaire. Rejoignez-moi sur insta pour suivre l'actualité !</p>
 
@@ -52,7 +52,7 @@ export default function Yoga() {
 
         </div>
         <div>
-          <img className='image-profile-yoga' src={profile} alt='profile' />
+          <img className='image-profile-yoga' src={moi4} alt='profile' />
         </div>
       </div>
     </div>

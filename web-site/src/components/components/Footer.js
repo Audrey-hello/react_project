@@ -24,7 +24,7 @@ function Footer() {
         </div>
         <div className="footer-links">
           <h2 className="title-footer"> Me suivre </h2>
-          <div className="social media">
+          <div className="social-media-footer">
             <a href="#"><i><img src={instagram} className="social-logo" /></i></a>
             <a href="#" ><i><img src={facebook} className="social-logo" /></i></a>
             <a href="#" ><i><img src={pinterest} className="social-logo-pint" /></i></a>

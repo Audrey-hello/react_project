@@ -19,9 +19,7 @@
 .nav-item .dropdown {
   margin-top: -20px;
 }
-#nav-dopdown {
-  margin-top: -2px !important;
-}
+
 
 .colorChange .nav-links {
   color: black;
@@ -43,7 +41,8 @@
 
 .colorChange .dropdown-toggle .nav-link {
   color: black !important;
-  margin-top: -2px;
+  margin-top: -3px;
+  font-size: 16px;
 }
 .colorChange .dropdown-toggle {
   color: black !important;
@@ -204,23 +203,27 @@ a.dropdown-toggle .colorChange {
     transition: all .2s;
  }
 
-  .nav-item:hover:after {
+
+.nav-item:hover:after {
      right: 0;
       left: 0;
     }
 
+.dropdown-item:hover {
+  opacity:0.5;
+}
 
-  .dropdown-item:active {
+.dropdown-item:active {
     background-color: white ;
   }
 
- .dropdown-menu .dropdown-item {
+.dropdown-menu .dropdown-item {
     outline: none !important;
     background-color: white !important
   }
 
 
-  @media all and (min-width: 992px) {
+@media all and (min-width: 992px) {
 
   .navbar .nav-item .dropdown-menu{ display: none; }
 	.navbar .nav-item:hover .nav-link{   }

@@ -16,6 +16,9 @@ import Coaching from './Coaching';
 import Profile2 from './Profile2';
 import Events from './Events';
 import Footer from './Footer';
+import Article3 from './Article3';
+import AllPosts from "./AllPosts.js";
+import OnePost from "./OnePost.js";
 
 
 
@@ -56,6 +59,11 @@ function App() {
           <Route path="/articleYoga" exact component={ArticleYoga} >
             <ArticleYoga />
           </Route>
+          <Route path="/Article3" exact component={Article3} >
+            <Article3/>
+          </Route>
+          <Route component={AllPosts} path="/AllPosts" exact  />
+          <Route component={OnePost} path="/:slug" />
         </Switch>
         <Footer />
       </Router>

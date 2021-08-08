@@ -18,13 +18,16 @@
 
 }
 
-
 .footer-email-form h2 {
   margin-bottom: 32px;
 }
 
 .footer-input::placeholder {
 color: white;
+}
+
+.social-media-footer {
+  display: inline-flex;
 }
 
 .social-logo {
@@ -62,20 +65,6 @@ color: white;
   font-size: 12px;
 }
 
-/* .btn-contact {
-    background-color: transparent;
-    border-color: none;
-    color: white;
-    width: 254px;
-    font-weight: bold;
-    font-size: 20px;
-    margin: 56px;
-    font-family: 'Poppins', sans-serif;
-    border-radius: 5px;
-    box-sizing: none;
-    border: transparent;
-    height: 0px;
-} */
 
 .contact-content {
   display: flex;
@@ -99,10 +88,7 @@ color: white;
   font-size: 12px;
 }
 
-.social-media {
-    display: flex;
-    justify-content: space-evenly;
-}
+
 .social-logo-mail {
   align-items: center;
   width: 33px;

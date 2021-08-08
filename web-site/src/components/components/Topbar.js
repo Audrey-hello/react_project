@@ -77,7 +77,7 @@ return (
                 </li>
                 <li className='nav-item-init'>
                   <Link to="/content" style={{ color: colorChange }} >
-                    Contenu
+                    Ressources
                   </Link>
                 </li>
                 <li className='nav-item-init'>

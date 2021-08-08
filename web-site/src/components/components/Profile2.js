@@ -18,7 +18,7 @@ function Profile2() {
       </div>
       {/* <h1 className='title-profile' id="profile"> Qui suis-je ? </h1> */}
       <div className='profile2-grid'>
-        <div className='profile-content'>
+        <div className='profile-content2'>
           <h2> Mon chemin </h2>
 
           <p>Je m’appelle Ana et je suis passionnée par ce qui nous permet de <strong>prendre consience du monde </strong> qui nous entoure et de ce qui nous aide à nous sentir bien. Après avoir travaillé pendant plusieurs années en finance, j’ai démissionné et décidé de changer de façon radicale ma façon de vivre <strong>plus alignée avec qui j'étais</strong>. Je me suis formée sur différentes pratiques qui m'ont aidé à trouver ma voie. Engagée dans l'égalité des genres et les droits humains, <strong>j’ai de même créé une association qui soutient les femmes et minorités de genre.</strong> </p>
@@ -30,7 +30,7 @@ function Profile2() {
           <p>Exploratrice et inspirée par des univers magiques et passionnants, <strong>je vous accompagne dans une aventure alliant le bien-être avec soi et l’ harmonie avec les autres.</strong></p>
         </div>
         <div>
-          <img className='image-profile2' src={profile} alt='profile' />
+          <img className='image-profile-onglet' src={profile} alt='profile' />
         </div>
       </div>
     </div>
