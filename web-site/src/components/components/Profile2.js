@@ -3,10 +3,23 @@ import React from 'react';
 import './Profile2.css';
 import profile from './profile.jpg';
 import fond from './fond.png';
+import { Link } from 'react-router-dom';
+import { Button } from './Button';
+import { useEffect } from "react";
+
+function ScrollToTopOnMount() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return null;
+}
+
 
 function Profile2() {
   return (
     <div className="container-profile2">
+      <ScrollToTopOnMount />
       <Topbar />
       <div className='banner-container-profile2'>
         <div className="image-banner-profile2" >
@@ -28,6 +41,16 @@ function Profile2() {
           <p>Je suis une adepte du développement personnel, du yoga, des thérapies naturelles, cognitives et psychologiques et tout ce qui m’inspire sur le moment. J’aime allier ces techniques avec des prises de consiences sur nos rapports à autrui et notre role dans la société.</p>
 
           <p>Exploratrice et inspirée par des univers magiques et passionnants, <strong>je vous accompagne dans une aventure alliant le bien-être avec soi et l’ harmonie avec les autres.</strong></p>
+
+          <p> <blockquote>N'hésite pas à regarder mon <strong>pack "En puissance"</strong> offert gratuitement qui te donne déjà plein d'outils et un aperçu sur ce que propose Résonance.</blockquote></p>
+
+          <div className='cards-btns'>
+            <Link to={'./Coaching'}>
+              <Button buttonStyle='btn--outline' buttonSize='btn--large'  >
+                Liens vers la page du pack
+              </Button>
+            </Link>
+          </div>
         </div>
         <div>
           <img className='image-profile-onglet' src={profile} alt='profile' />

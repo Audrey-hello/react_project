@@ -20,14 +20,13 @@ function Footer() {
       </div>
         <div className="logo-footer">
         <h1 className="title-logo">Résonance </h1>
-        <p>© 2021 Résonance </p>
         </div>
         <div className="footer-links">
           <h2 className="title-footer"> Me suivre </h2>
           <div className="social-media-footer">
-            <a href="#"><i><img src={instagram} className="social-logo" /></i></a>
-            <a href="#" ><i><img src={facebook} className="social-logo" /></i></a>
-            <a href="#" ><i><img src={pinterest} className="social-logo-pint" /></i></a>
+          <a href="https://www.instagram.com/ana.resonance/"><i><img src={instagram} className="social-logo" /></i></a>
+          <a href="https://www.facebook.com/resonance.anahata" ><i><img src={facebook} className="social-logo" /></i></a>
+          <a href="https://www.pinterest.fr/anahataresonance/_created/" ><i><img src={pinterest} className="social-logo-pint" /></i></a>
           </div>
        </div>
     </div>

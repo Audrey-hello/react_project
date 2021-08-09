@@ -4,8 +4,12 @@ import './Voyage.css';
 import './Coaching.css';
 import moi2 from './moi2.jpg';
 import Pack from './Pack.png';
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import Topbar from './Topbar';
+import { Link } from 'react-router-dom';
+import Popup from "./Popup";
+
+
 
 
 function ScrollToTopOnMount() {
@@ -17,7 +21,14 @@ function ScrollToTopOnMount() {
 }
 
 
+
 export default function Coaching() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const togglePopup = () => {
+    setIsOpen(!isOpen);
+  }
   return (
     <div className='voyage-container'>
       <ScrollToTopOnMount />
@@ -31,13 +42,26 @@ export default function Coaching() {
           object-fit="cover"
           muted={true}
           playing={true}
-          loop={false}
+          loop={true}
           controls={false}
           allowfullscreen={true} />
       </div>
       <div className="container-coaching">
-        <div>
-          <img className='image-profile-coaching' src={Pack} alt='pack-coaching' />
+
+
+        <div className="Pack">
+          <h5> Reçois ton pack "En puissance" gratuitement et bénéficie d'outils concrets pour commencer ! ⬇</h5>
+          <img
+           className='image-profile-coaching'
+            type="button"
+            value="Click to Open Popup"
+            onClick={togglePopup}src={Pack} alt='pack-coaching' />
+          {isOpen && <Popup
+            content={<>
+              <iframe width="540" height="305" src="https://eed82655.sibforms.com/serve/MUIEAEs1laAqRLTV7_ymfpR0_b5vGtymgberPWHy_j0oEKu09HARszAy4l84vOfzaIhV0oZf1eXaTDHkD6pzs-ywwsnuOZF4gaj47W1bBrIMteyTW4iYm-LbgDmxorF0W0ht0ORQFwn1Zs2n7A7p5ifiz2MDeUlSA3KIfNo3RuQBE0VKl820Z3BlxBwHZTul0QLMRxsceclnw46R" frameborder="0" scrolling="auto" allowfullscreen ></iframe>
+            </>}
+            handleClose={togglePopup}
+          />}
         </div>
 
         <div className='coaching-content'>

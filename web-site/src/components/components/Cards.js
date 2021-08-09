@@ -29,7 +29,7 @@ function Cards() {
             <p className="title-cards"><strong> Yoga Vinyasa (tous niveaux) </strong></p>
               <img src="https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" className="image-yoga" />
             <div className="text">
-              <p> Yoga dynamique enchaînant différents flows pour nous aider à gagner en confiance en soi, se relaxer et avoir un meilleur rapport à son corps.</p>
+              <p> Yoga dynamique enchaînant différents flows pour nous aider à gagner en confiance en soi, se relaxer et avoir un meilleur rapport à son corps. Le but est de progresser à ton rythme avec fun et bienveillance. </p>
             </div>
           </div>
            </Link>
@@ -66,18 +66,11 @@ function Cards() {
             <p> Au sein d’un lieu ressourçant dans la nature, je propose des week-ends alliant bien-être, coaching et un cadre de réfléxion sur le thème du moment. </p>
             <p> Entre cours de yoga, cuisine végie, ateliers divers, ces immersions permettent d'aller encore plus loin dans son apprentissage. Mais c'est aussi avec l'aide de tout un groupe de personnes partageant les mêmes valeurs que nous nous réunissons !</p> <br />
 
-            <p> <strong>Contacte-moi si tu souhaites en savoir plus. Et surtout suis-moi sur les réseaux pour être informé.e. des prochaines sessions !</strong> </p>
+            <p> <strong>N'hésite pas à me suibre sur les réseaux pour être informé.e. des prochaines sessions !</strong> </p>
 
-          <div className='cards-btns'>
-            <Link to={'/Contact'}>
-              <Button buttonStyle='btn--outline' buttonSize='btn--large'  >
-              Me contacter
-            </Button>
-            </Link>
-          </div>
           <div className="social-media-retraite">
-            <a href="#"><i><img src={instagram} className="social-logo-retraite" /></i></a>
-            <a href="#" ><i><img src={facebook} className="social-logo-retraite" /></i></a>
+              <a href="https://www.instagram.com/ana.resonance/"><i><img src={instagram} className="social-logo-retraite" /></i></a>
+              <a href="https://www.facebook.com/resonance.anahata" ><i><img src={facebook} className="social-logo-retraite" /></i></a>
           </div>
           </div>
         </div>

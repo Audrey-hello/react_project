@@ -14,7 +14,7 @@ function Profile() {
           <p>Je me définis comme étant féministe, empathique, ambitieuse et entrepreneuse. Et j'aime surtout accompagner les femmes et minorités de genre à révéler leur potentiel ! </p>
           <div className='cards-btns'>
             <Link to='/profile2' className='btn-mobile'>
-              <button className="btn btn--outline">
+              <button className="btn btn--inline">
                 Viens voir mon profil !
               </button>
             </Link>

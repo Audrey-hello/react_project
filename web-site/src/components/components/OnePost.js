@@ -81,15 +81,15 @@ export default function OnePost() {
                   <span className="btn-container">
                       <a className="btn-link text-default-color btn-icon-left" href="./Content" rel="prev">
                       <i className="fa fa-angle-left"></i>
-                      <span>Précédent</span>
+                      <span> Retour à la page d'accueil </span>
                     </a>
                   </span>
                 </li>
-                <li className="page-next">
+                {/* <li className="page-next">
                   <span className="btn-container">
                       <a className="btn-link btn-icon-right " href="./Content" rel="next">Suivant<i className="fa fa-angle-right"></i></a>
                   </span>
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>

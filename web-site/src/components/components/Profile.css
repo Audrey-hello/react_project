@@ -7,6 +7,26 @@
   max-width: 100%;
 }
 
+.btn--inline{
+  background-color: transparent;
+  border-color: black!important;
+  color: black;
+  width: 372px;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 56px;
+  font-family: 'Poppins', sans-serif;
+  height: 45px;
+  font-weight: 600 !important;
+}
+
+.btn--inline:hover {
+  background: #335C67;
+  color: white !important;
+  font-size: bold !important;
+}
+
+
 .profile-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;

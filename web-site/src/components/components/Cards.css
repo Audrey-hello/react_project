@@ -36,7 +36,7 @@
 
 .card-ateliers {
   height: 500px;
-  background: #B07669;
+  background: #335C67;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: block;
   align-items: center;
@@ -50,7 +50,7 @@
 
 .card-ateliers-yoga {
   height: 500px;
-  background:  #335C67;
+  background:#B07669;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: block;
   align-items: center;
@@ -145,18 +145,18 @@
   object-fit: cover;
   border-radius: 50%;
   height: 197px;
-  padding: 9px;
-  width: 285Px;
+  width: 295Px;
   margin-top: 25px;
+  margin-left: 26px;
 }
 
 .image-tambour {
   object-fit: cover;
   border-radius: 50%;
   height: 197px;
-  padding: 9px;
-  width: 285Px;
-  margin-top: 6px
+  width: 295Px;
+  margin-top: 32px;
+  margin-left: 26px;
 }
 
 .title-cards {

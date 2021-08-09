@@ -58,7 +58,7 @@
   position: relative;
   z-index: 10;
   display: block;
-  margin-left: 150px;
+  margin-left: 203px;
 }
 .input-container {
   margin-right: 340px;
@@ -171,8 +171,7 @@ textarea:focus {
   background-color: #efeae5;
   align-items: center;
 }
-/* #DAE0E6 */
- /* Libre Baskerville  */
+
 
 div[role='alert'] {
   color: goldenrod;
