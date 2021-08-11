@@ -17,16 +17,16 @@
 }
 
 .btn--outline {
-background-color: transparent;
-border-color: black!important;
-color: black;
-width: 372px;
-font-weight: bold;
-font-size: 18px;
-margin: 56px;
-font-family: 'Poppins', sans-serif;
-height: 45px;
-font-weight: 600 !important;
+  background-color: transparent;
+  border-color: black!important;
+  color: black;
+  width: 372px;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 56px;
+  font-family: 'Poppins', sans-serif;
+  height: 45px;
+  font-weight: 600 !important;
 }
 
 .btn--outline:hover {

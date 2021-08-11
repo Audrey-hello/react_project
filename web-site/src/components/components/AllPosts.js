@@ -34,7 +34,7 @@ export default function AllPosts() {
           <div className='banner-container3'>
             <div className="image-banner-content" >
               <Topbar />
-              <img src={ressources2} />
+              <img src={ressources2} alt="Image de la bannière avec un café en fond pour la page blog"/>
             </div>
           </div>
         <div className="cards-content">
@@ -59,7 +59,7 @@ export default function AllPosts() {
                   <img
                     className="w-full h-full rounded-r object-cover absolute"
                     src={post.mainImage.asset.url}
-                    alt=""
+                    alt="Image des posts du blog pour mettre en avant les titres"
                   />
                   </Link>
                   <span

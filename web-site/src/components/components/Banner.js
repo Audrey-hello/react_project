@@ -8,7 +8,7 @@ function Banner() {
   return (
     <div className='banner-container'>
       <div className="image-banner" >
-        <img src={cover4} />
+        <img src={cover4} alt="image de couverture d'un champ de blé"/>
       </div>
     </div>
   )

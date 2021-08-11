@@ -93,6 +93,8 @@ align-items: center;
   line-height: 1.5em;
 }
 
+
+
 @media (max-width: 600px){
 
 .image-profile-coaching {
@@ -128,5 +130,43 @@ align-items: center;
 .image-profile-coaching2 {
   margin-left: 0px;
 }
+.Pack h5 {
+  width: 355px;
+  margin-top: 47px;
+}
+#sib-container {
+    background: #fff;
+    margin: 0 auto;
+    padding: 17px;
+    display: inline-block;
+    width: 340px;
+    margin-left: -157px;
 }
 
+}
+
+@media all and (max-width: 1286px) {
+  .content-coaching {
+    display: block;
+    height: auto;
+    margin-left: 350px
+  }
+
+  .image-profile-coaching2 {
+    margin-left: 88px;
+  }
+
+  .Pack {
+    margin-top: 19Px;
+    margin-left: 350px;
+  }
+
+  .container-coaching {
+    display: block;
+  }
+
+  .coaching-content {
+    margin-left: 350px;
+  }
+
+}

@@ -4,9 +4,8 @@ import React, { useEffect, useState } from "react";
 import sanityClient from "./Client.js";
 import './Content.css';
 import ressources2 from './ressources2.png';
-import { useParams } from "react-router-dom";
 import Topbar from './Topbar';
-import BlockContent from "@sanity/block-content-to-react";
+
 
 function Content() {
 
@@ -50,7 +49,7 @@ function Content() {
       <div className='banner-container3'>
         <div className="image-banner-content" >
           <Topbar />
-          <img src={ressources2} />
+          <img src={ressources2} alt="image pour de présentation du blog avec un café posé sur une table titré ressources pour y ajouter tous types de ressources gratuites"/>
         </div>
       </div>
       {/* ---------------- */}

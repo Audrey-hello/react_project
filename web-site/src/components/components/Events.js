@@ -26,36 +26,16 @@ function Events() {
     return null;
   }
 
-//   <!-- MailerLite Universal -->
-// <script>
-// (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
-// var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
-// f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
-// var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
-// _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
 
-// var ml_account = ml('accounts', '3355327', 'v6x2p6b3v7', 'load');
-// </script>
-// <!--End MailerLite Universal-- >< !--MailerLite Universal-- >
-// <script>
-// (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
-// var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
-// f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
-// var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
-// _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
-
-// var ml_account = ml('accounts', '3355327', 'v6x2p6b3v7', 'load');
-// </script>
-// <!--End MailerLite Universal-- >
 
   return (
     <div className="events-container" id="events">
       <ScrollToTopOnMount />
       {/* ---Banner--- */}
       <div className='banner-container3'>
-        <div className="image-banner" >
+        <div className="image-banner-events" >
           <Topbar />
-          <img src={Programme} className="image-events"/>
+          <img src={Programme} className="image-events" alt="image bannière avec de la peinture ocre en arrière plan avec l'intitulé Programme"/>
           <div className="header-prog">
             <h1 className="prog-name"> Programme </h1>
           </div>
@@ -65,8 +45,8 @@ function Events() {
       <h1 className='apropos-title2'> Le programme Metta </h1>
       <div className="cards-content-events">
         <div className="photo-metta">
-          <img src={Metta} className="image-metta" />
-          <img src={moi} className="image-metta2" />
+          <img src={Metta} className="image-metta" alt=" image du logo du proframme metta"/>
+          <img src={moi} className="image-metta2" alt="image de moi en noir et blanc" />
         </div>
           <div className="content-metta">
             <h3> Quel est l'objectif ?</h3>

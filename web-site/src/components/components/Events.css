@@ -49,7 +49,9 @@ cursor: pointer;
   color: white !important;
 }
 
-
+.banner-container3 {
+  height: 100vh;
+}
 
 .header-prog {
     color: #FFF;
@@ -95,6 +97,15 @@ cursor: pointer;
     margin-bottom: 72px;
 }
 
+@media (max-width: 1286px) {
+  .cards-content-events {
+    display: block
+  }
+  .photo-metta {
+    margin-left: 350px;
+  }
+}
+
 @media (max-width: 600px){
 
 .image-events {
@@ -103,12 +114,12 @@ cursor: pointer;
     object-fit: contain;
   }
 
-.image-banner img {
+.image-banner-events img {
     width: 100vh;
     height: 183px !important;
 }
 
-  .banner-container3 {
+.banner-container3 {
     height: 183px;
   }
 .image-banner {

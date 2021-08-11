@@ -223,12 +223,24 @@ a.dropdown-toggle .colorChange {
   }
 
 
-@media all and (min-width: 992px) {
+@media all and (max-width: 992px) {
 
   .navbar .nav-item .dropdown-menu{ display: none; }
 	.navbar .nav-item:hover .nav-link{   }
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+
+  .navbar-light .navbar-toggler {
+    margin-top: 30px;
+  }
+  .nav-links{
+     position: absolute;
+    }
+
+  .navbar {
+    position: relative;
+    margin-top: 16px;
+  }
 }
 
 
@@ -257,6 +269,20 @@ a.dropdown-toggle .colorChange {
   .banner-container img {
     height: 100vh;
 }
+  .navbar-container {
+      display: block;
+      text-align: none;
+      align-items: none;
+    }
+  .nav-menu {
+    display: block;
+    }
+
+  .image-banner img {
+    width: 100vh;
+    height: 200px !important;
+}
+
 
   .navbar-light .navbar-toggler {
    display: flex;
@@ -265,9 +291,7 @@ a.dropdown-toggle .colorChange {
    margin-left: 59px;
   }
 
-  .nav-links {
-    margin-top: 14px;
-  }
+
   .nav-menu > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
     background-color: rgba(0, 0, 0, 0.3);
   }
@@ -300,15 +324,3 @@ a.dropdown-toggle .colorChange {
     overflow-y: auto;
   }
 }
-
-@media (max-width: 600px){
-    .navbar-container {
-      display: block;
-      text-align: none;
-      align-items: none;
-    }
-    .nav-menu {
-    display: block;
-    }
-
- }

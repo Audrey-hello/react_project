@@ -21,9 +21,22 @@ height: 100vh;
 }
 
 
-@media (max-width: 600px){
-    .banner-container img {
-    height: 400px;
 
-    }
- }
+@media (max-width: 600px){
+
+.image-banner {
+  width: 108%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.image-banner img {
+  width: 100vh;
+  height: 100vh;
+  object-fit: contain;
+}
+
+}
+
+
+

@@ -26,10 +26,11 @@ scroll-behavior: smooth;
   box-shadow: 0 0 15px rgb(0 0 0 / 20%);
 }
 
-.content {
+.content-yoga {
   justify-content: space-evenly;
   display: flex;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .profile-content-yoga {
@@ -54,4 +55,11 @@ scroll-behavior: smooth;
     display: flex;
     width: 333px;
 }
+}
+
+@media all and (max-width: 992px) {
+  .content-yoga {
+    display: block;
+    margin-left: 150px;
+  }
 }

@@ -2,7 +2,6 @@
 
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { Link } from 'react-router-dom';
 import sanityClient from "./Client.js";
 import './ArticleSono.css';
 import BlockContent from "@sanity/block-content-to-react";
@@ -61,7 +60,7 @@ export default function OnePost() {
             <img
               className="w-full object-cover rounded-t"
               src={urlFor(postData.mainImage).url()}
-              alt=""
+              alt="image des posts du blog"
               style={{ height: "400px" }}
             />
           </div>
