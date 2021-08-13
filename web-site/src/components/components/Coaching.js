@@ -98,7 +98,7 @@ export default function Coaching() {
           <p> J’ai organisé des retraites, des ateliers et j'ai créé une association qui fait de la pédagogie sur les violences systémiques. Je souhaite t'accompagner sur cette voie par le coaching car je trouve encore plus puissant de pouvoir transmettre ces outils. À toi de jouer ! </p>
         </div>
         <div>
-          <img className='image-profile-coaching2' src={moi2} alt='profile-image' alt="image de moi assise devant un bol tibétain"/>
+          <img className='image-profile-coaching2' src={moi2}  alt="image de moi assise devant un bol tibétain"/>
         </div>
       </div>
     </div>

@@ -38,7 +38,6 @@ scroll-behavior: smooth;
   text-align: justify;
   margin-top: 45px;
   font-family: 'Poppins', sans-serif;
-
 }
 
 @media (max-width: 600px){
@@ -54,7 +53,7 @@ scroll-behavior: smooth;
   .image-profile-yoga {
     display: flex;
     width: 333px;
-}
+ }
 }
 
 @media all and (max-width: 992px) {
