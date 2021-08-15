@@ -4,7 +4,7 @@ import { Button } from './Button';
 import './Events.css';
 import Programme from './Programme.png';
 import Metta from './Metta.png'
-import moi from './moi.jpg';
+import picture7 from './picture7.JPG';
 import Topbar from './Topbar';
 // import { Widget } from '@typeform/embed-react';
 // import { Sidetab } from '@typeform/embed-react';
@@ -46,7 +46,7 @@ function Events() {
       <div className="cards-content-events">
         <div className="photo-metta">
           <img src={Metta} className="image-metta" alt=" image du logo du proframme metta"/>
-          <img src={moi} className="image-metta2" alt="image de moi en noir et blanc" />
+          <img src={picture7} className="image-metta2" alt="image de moi en noir et blanc" />
         </div>
           <div className="content-metta">
             <h3> Quel est l'objectif ?</h3>

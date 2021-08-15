@@ -63,9 +63,9 @@ cursor: pointer;
 }
 
 .cards-content-events {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   }
 
 .photo-metta{
@@ -89,12 +89,12 @@ cursor: pointer;
 }
 
 .apropos-title2 {
-    margin: 15px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    margin-top: 40px;
-    font-size: 46px;
-    margin-bottom: 72px;
+  margin: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-top: 40px;
+  font-size: 46px;
+  margin-bottom: 72px;
 }
 
 @media (max-width: 1286px) {

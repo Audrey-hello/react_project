@@ -45,11 +45,12 @@
 
 .image-profile-onglet {
   width: 438px;
-  height: 626px;
+  height: 465px;
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 0 15px rgb(0 0 0 / 20%);
   margin-left: 100px;
+  margin-top: -172px
 }
 
 .profile2-grid {

@@ -26,6 +26,16 @@ scroll-behavior: smooth;
   box-shadow: 0 0 15px rgb(0 0 0 / 20%);
 }
 
+.image-profile-yoga2 {
+  display: flex;
+  width: 402px;
+  border-radius: 15px;
+  margin-top: 2px;
+  height: 630px;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+}
+
+
 .content-yoga {
   justify-content: space-evenly;
   display: flex;

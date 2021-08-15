@@ -14,8 +14,6 @@
  .footer-links {
  display: flex;
  align-items: center;
- padding: 29px;
-
 }
 
 .footer-email-form h2 {
@@ -80,6 +78,7 @@ color: white;
 .title-logo {
   font-size: 28px;
   font-weight: bold;
+  margin-left: 20px;
 }
 
 .title-logo p {
@@ -92,9 +91,53 @@ color: white;
   width: 33px;
   height: 38px;
   object-fit: none;
+}
+
+a .social-logo:hover  {
+  opacity: 0.5;
+}
+a .social-logo-pint:hover  {
+  opacity: 0.5;
+}
+
+.social-logo-mail:hover {
+  opacity: 0.5;
+}
+
+.contacter {
+  display: contents;
+}
+
+.mentions-légales {
+  display: grid;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.title-mention {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.lien-mention {
+  font-size: 12px;
+  margin: 5px;
+  text-decoration: none !important;
+  color: white !important;
 
 }
 
+.block-lien-mention {
+  margin-bottom: 15px;
+}
+
+a .mentions-légales {
+  text-decoration: none !important;
+  color: white !important;
+}
 
 @media (max-width: 600px){
     .footer-container {

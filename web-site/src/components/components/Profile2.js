@@ -2,6 +2,7 @@ import Topbar from './Topbar';
 import React from 'react';
 import './Profile2.css';
 import profile from './profile.jpg';
+import picture3 from './picture3.JPG';
 import fond from './fond.png';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
@@ -53,7 +54,7 @@ function Profile2() {
           </div>
         </div>
         <div>
-          <img className='image-profile-onglet' src={profile} alt='image de profile je souris et je suis assise' />
+          <img className='image-profile-onglet' src={picture3} alt='image de profile je souris et je suis assise' />
         </div>
       </div>
     </div>
