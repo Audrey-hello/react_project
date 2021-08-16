@@ -1,8 +1,7 @@
 
 import './App.css';
 import React from 'react';
-import Topbar from './Topbar';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as  Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 // import Services from './Services';
 // import Products from './Products';
@@ -30,7 +29,7 @@ function App() {
           <Route path="/" exact component={Home} >
           <Home />
           </Route>
-          <Route path="*" component={PageNotFound} >
+          <Route path="/404_page" component={PageNotFound} >
             <PageNotFound />
           </Route>
             <Route path="/contact" exact component={Contact} >
