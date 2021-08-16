@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect } from "react";
 import { Button } from './Button';
 import './Events.css';
-import Programme from './Programme.png';
+import Prog from './Prog.png';
 import Metta from './Metta.png'
 import picture7 from './picture7.JPG';
 import Topbar from './Topbar';
@@ -35,10 +35,10 @@ function Events() {
       <div className='banner-container3'>
         <div className="image-banner-events" >
           <Topbar />
-          <img src={Programme} className="image-events" alt="image bannière avec de la peinture ocre en arrière plan avec l'intitulé Programme"/>
-          <div className="header-prog">
+          <img src={Prog} className="image-events" alt="image bannière avec de la peinture ocre en arrière plan avec l'intitulé Programme"/>
+          {/* <div className="header-prog">
             <h1 className="prog-name"> Programme </h1>
-          </div>
+          </div> */}
         </div>
       </div>
       {/* ---------------- */}

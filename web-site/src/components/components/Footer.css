@@ -115,9 +115,8 @@ a .social-logo-pint:hover  {
 }
 
 .title-mention {
-  font-size: 20px;
-  margin-left: 20px;
-  margin-top: 30px;
+  font-size: 19px;
+  margin-top: 31px;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
 }
@@ -141,16 +140,32 @@ a .mentions-légales {
 
 @media (max-width: 600px){
     .footer-container {
-      display: block;
-      height: auto;
+      display: inline-block;
+      height: 100%;
+      text-align: -webkit-auto;
     }
     .contact-content {
-    display: inline-flex;
-    margin: 22px;
+      display: inline-flex;
     }
 
+    .logo-footer {
+       margin-left: 65px;
+    }
+
+    .title-logo {
+      margin: 20px;
+    }
+
+    .mentions-légales {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-left: 20px
+    }
+    .title-mention {
+      margin-top: 20px;
+  }
     .footer-links {
-      display: block;
+      display: inline-flex;
     }
  }
 @media (max-width: 1095px) {}

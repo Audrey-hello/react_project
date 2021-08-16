@@ -32,7 +32,7 @@ function Footer() {
         </div>
       </div>
       <div className="mentions-légales">
-        <h2 className="title-mention" > Conditions générales </h2>
+        <h2 className="title-mention" > Conditions générales du site </h2>
         <div className="block-lien-mention">
           <a href="https://docs.google.com/document/d/1d9N3qxisZQ_xxm1bSfb7_k7EeZe5O4-B4vTLXVc2oCk/edit?usp=sharing"
             target="_blank"

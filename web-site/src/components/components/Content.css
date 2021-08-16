@@ -110,11 +110,11 @@ blockquote p {
 
 
 .title-outils > h1 {
-    margin: 15px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 46px;
-    padding: 27px;
+  margin: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 46px;
+  padding: 27px;
 }
 
 .content-ressources h5 {
@@ -138,10 +138,16 @@ blockquote p {
   .cards-content {
     margin-top: 40px;
 }
+  .content-blog-posts {
+    display: inline-flex;
+  }
+  .title-metta {
+    margin-left: 20px;
+  }
 
   .image-banner-content img {
     width: 100%;
-    height: 183px;
+    height: 200px;
     object-fit: contain;
   }
  .container-cards-blog {
@@ -151,33 +157,33 @@ blockquote p {
     height: 424Px;
     width: 305px;
 }
-.card-blog {
+  .card-blog {
     background: transparent;
     width: none;
     display: block;
     align-items: center;
     border-radius: 15px;
     padding: 0px;
-    margin-left: 0;
-}
-.card-blog h1 {
-  margin-right: 211px;
-  font-size: 35px;
-}
-.card-blog hr {
-  margin-right: 211px;
-}
-.article-name {
-  font-family: 'Lora', serif;
-  font-size: 35px !important;
-}
+    margin-left: 15px;
+  }
+  .card-blog h1 {
+    margin-right: 211px;
+    font-size: 35px;
+  }
+  .card-blog hr {
+    margin-right: 211px;
+  }
+  .article-name {
+    font-family: 'Lora', serif;
+    font-size: 35px !important;
+  }
 
-.header-article h1 {
-  font-size: 35px !important;
-}
-}
+  .header-article h1 {
+    font-size: 35px !important;
+  }
+  }
 
-@media (max-width: 1095px) {
+@media (min-width: 600px) and (max-width: 1095px) {
   .content-blog-posts {
     display: inline-flex;
   }

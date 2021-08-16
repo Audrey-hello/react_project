@@ -3,7 +3,7 @@ import React from 'react';
 import './Profile2.css';
 import profile from './profile.jpg';
 import picture3 from './picture3.JPG';
-import fond from './fond.png';
+import cover_profile2 from './cover_profile2.png';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import { useEffect } from "react";
@@ -24,11 +24,11 @@ function Profile2() {
       <Topbar />
       <div className='banner-container-profile2'>
         <div className="image-banner-profile2" >
-          <img src={fond} alt="image créé par moi-même avec des plantes sur un fond ocre" />
+          <img src={cover_profile2} alt="image créé par moi-même avec des plantes sur un fond ocre" />
         </div>
-        <div className="header-profile2">
+        {/* <div className="header-profile2">
           <h1 className="profile2-name"> Qui suis-je ?</h1>
-        </div>
+        </div> */}
       </div>
       {/* <h1 className='title-profile' id="profile"> Qui suis-je ? </h1> */}
       <div className='profile2-grid'>

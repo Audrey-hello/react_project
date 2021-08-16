@@ -105,16 +105,14 @@ align-items: center;
   margin-bottom: none;
 }
 .container-coaching {
- display: block;
- margin-top: -49px;
+ display: inline-block;
 }
 .image-profile-coaching {
-  margin-left: 17px;
-  padding: 20px;
+  margin-left: 35px;
 }
 .coaching-content {
-  margin-left: 31px;
-  width: 300px;
+  margin-left: 25px;
+  width: 360px;
 }
 
 .content-coaching {
@@ -122,16 +120,18 @@ align-items: center;
   height: 100%;
 }
 .coaching-text {
-  display: block;
-  width: 300px;
-  margin: 39px;
+  display: inline-block;
+  width: 360px;
+  margin-left: 25px;
 }
 .image-profile-coaching2 {
-  margin-left: 0px;
+  margin-left: 15px;
+  margin-top: 0px;
 }
 .Pack h5 {
   width: 355px;
   margin-top: 47px;
+  margin-left: 15px;
 }
 #sib-container {
     background: #fff;
@@ -144,7 +144,7 @@ align-items: center;
 
 }
 
-@media all and (max-width: 1286px) {
+@media (min-width: 600px) and (max-width: 1286px) {
   .content-coaching {
     display: block;
     height: auto;

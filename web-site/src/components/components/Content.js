@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import React, { useEffect, useState } from "react";
 import sanityClient from "./Client.js";
 import './Content.css';
-import Contenu2 from './Contenu2.png';
+import contenu3 from './contenu3.png';
 import Pack from './Pack.png';
 import Topbar from './Topbar';
 
@@ -50,7 +50,7 @@ function Content() {
       <div className='banner-container3'>
         <div className="image-banner-content" >
           <Topbar />
-          <img src={Contenu2} alt="image pour de présentation du blog avec un café posé sur une table titré ressources pour y ajouter tous types de ressources gratuites"/>
+          <img src={contenu3} alt="image pour de présentation du blog avec un café posé sur une table titré ressources pour y ajouter tous types de ressources gratuites"/>
         </div>
       </div>
       {/* ---------------- */}
@@ -90,7 +90,7 @@ function Content() {
         </div>
       </div>
 
-      <div className="content-ressources-free">
+      {/* <div className="content-ressources-free">
         <div className="title-outils">
         <h1> Les outils et ressources </h1>
         </div>
@@ -102,7 +102,7 @@ function Content() {
           </Link>
         </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

@@ -49,22 +49,24 @@
 }
 
 @media (max-width: 600px){
-.image-profile-voyage {
+  .image-profile-voyage {
     display: flex;
     width: 331px;
-}
-.profile-content {
-    width: 300px;
     margin-left: 20px;
-}
-.voyage-content {
-  width: 300px;
-  text-align: justify;
-  margin-left: 10px;
-}
-}
+  }
+  .content-tambour {
+   display: inline-block;
+   margin-left: 0px;
+  }
 
-@media all and (max-width: 992px) {
+  .voyage-content {
+    width: 360px;
+    text-align: justify;
+    margin-left: 5px;
+  }
+  }
+
+@media (min-width: 600px) and (max-width: 992px) {
   .content-tambour {
    display: block;
    margin-left: 150px;

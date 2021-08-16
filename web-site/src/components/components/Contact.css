@@ -1,5 +1,5 @@
 
-@media (max-width: 1148px) {
+@media (min-width: 600px) and (max-width: 1148px) {
 .container-contact-form {
   width: 100% !important;
   display: block;
@@ -50,29 +50,29 @@ form {
         margin-left: 0;
     }
   form {
-    margin-left: -160px !important;
-    width: 300px;
+    margin-left: -175px !important;
+    width: 360px;
     margin-bottom: -24px;
-
   }
+
   .input-prénom {
-    width: 150px !important;
+    width: 170px !important;
 }
   .input-nom {
-    width: 150px !important;
+    width: 170px !important;
 }
   .input-container input {
-    width: 300px !important;
+    width: 360px !important;
   }
 
   .nom_complet {
     display: flex;
     justify-content: space-between;
-    width: 300px !important;
+    width: 360px !important;
   }
 
   textarea {
-    width: 300px !important;
+    width: 360px !important;
   }
 }
 

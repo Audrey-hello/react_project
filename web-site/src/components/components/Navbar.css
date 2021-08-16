@@ -261,9 +261,7 @@ a.dropdown-toggle .colorChange {
     padding: 13px;
   }
 
-  .list {
-    display: block
-  }
+
 
   .navbar-toggler {
     display: flex;
@@ -284,22 +282,29 @@ a.dropdown-toggle .colorChange {
     display: block;
     }
 
-  .image-banner img {
-    width: 100vh;
-    height: 200px !important;
-  }
-
-
   .navbar-light .navbar-toggler {
    display: flex;
    position: relative;
-   margin-top: -40px;
+   margin-top: 0px;
    margin-left: 59px;
+   color: white !important;
+   border-color: none !important;
+   font-size: medium;
   }
 
+  .list {
+    background-color:#94b5c0d6;
+    padding: 8px;
+    border-radius: 5px;
+    display: block;
+  }
 
   .nav-menu > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
     background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .navbar-collapse {
+    margin-top: -9px;
   }
 
   .nav-menu > .nav-btn > label > span {
@@ -325,6 +330,10 @@ a.dropdown-toggle .colorChange {
     display: block;
     width: 100%;
   }
+
+  .nav-item-init a {
+    top: 0px;
+   }
 
   .nav-menu > #nav-check:not(:checked) ~ .nav-item {
     height: 0px;

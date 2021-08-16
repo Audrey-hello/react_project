@@ -256,25 +256,33 @@ a .social-logo-retraite:hover  {
 
 @media (max-width: 1286px){
   .cards{
-      width: 100%;
-      align-items: center;
-      display: inline-block;
-      margin: 45px;
-      margin-left: 390px;
+    width: 100%;
+    align-items: center;
+    display: inline-block;
+    margin: 45px;
+    margin-left: 390px;
     }
 
   .card-ateliers-chaman {
-      margin-top: 20px;
+    margin-top: 20px;
     }
 
   .card-ateliers {
     margin-top: 20px;
 }
 
-.Retraites {
-  display: block;
-}
+  .Retraites {
+      display: inline-block;
+      width: 100%;
+    }
 
+    .title-container2 {
+      margin-left: 350px;
+    }
+
+    .text-retraite {
+      margin-left: 267px;
+    }
 }
 
 
@@ -282,7 +290,7 @@ a .social-logo-retraite:hover  {
 @media (max-width: 600px){
 
 .apropos-title {
-  margin-top: 65px;
+  margin-top: 0px;
 }
 
 .cards{
@@ -310,8 +318,6 @@ a .social-logo-retraite:hover  {
   margin-left: 0;
 }
 
-
-
 .btn--outline {
   width: 200px;
   font-weight: bold;
@@ -337,7 +343,7 @@ a .social-logo-retraite:hover  {
   margin-left: 19px;
 }
 .image-retraites {
-  margin-left: -11px;
+  margin-left: 2px;
   margin-top: 0px;
 }
 .cards-btns {
@@ -347,7 +353,7 @@ a .social-logo-retraite:hover  {
 .text-retraite {
   display: inline-block;
   width: 300px;
-  margin-left: -275px;
+  margin-left: -327px;
   text-align: center;
   padding: 0px;
   margin-top: 47px;
@@ -359,18 +365,12 @@ a .social-logo-retraite:hover  {
   margin-bottom: 24px;
 }
 
-.image-profile-home {
-  margin-left: 0px !important;
-}
+
 .cards-container {
   padding: 15px;
   text-align: center;
   }
 
-.profile-content {
-    width: 300px;
-    margin-left: 36px !important;
-}
 
 .btn-outline:hover {
   background: #335C67;

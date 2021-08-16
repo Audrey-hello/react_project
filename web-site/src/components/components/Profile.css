@@ -81,25 +81,36 @@
   margin-left: 100px;
 }
 
-@media (max-width: 800px){
-    .profile-grid {
-        width: 100%;
-        align-items: center;
-    }
+@media (max-width: 1286px){
+  .profile-grid {
+    margin-top: -45px;
+    display: inline-block;
+    margin-bottom: -71px;
+  }
+
+  .image-profile-home {
+    margin-left: 150px;
+  }
 }
+
 @media (max-width: 600px){
-    .profile-grid {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: none;
-    grid-gap: 5px;
+  .profile-grid {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: none;
+  grid-gap: 5px;
+  margin-top: 0px;
+
+  }
+  .profile-content {
+    width:331px;
+    margin-left: 50px;
+}
+
+  .image-profile-home {
+    margin-bottom: 136px;
     margin-top: 0px;
-
-    }
-    .profile-content {
-      width:331px;
-      margin-left: 23px;
-
- }
+    margin-left: 0px;
+  }
 }

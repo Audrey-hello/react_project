@@ -51,14 +51,14 @@ scroll-behavior: smooth;
 }
 
 @media (max-width: 600px){
-  .content {
-    display: block;
-    margin: 24px;
+  .content-yoga {
+    display: inline-block;
   }
 
   .profile-content-yoga {
     display: block;
-    width: 329px;
+    width: 360px;
+    margin-left: 20px;
   }
   .image-profile-yoga {
     display: flex;
@@ -66,7 +66,7 @@ scroll-behavior: smooth;
  }
 }
 
-@media all and (max-width: 992px) {
+@media (min-width: 600px) and (max-width: 992px) {
   .content-yoga {
     display: block;
     margin-left: 150px;

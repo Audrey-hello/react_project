@@ -16,6 +16,7 @@ import Events from './Events';
 import Footer from './Footer';
 import AllPosts from "./AllPosts.js";
 import OnePost from "./OnePost.js";
+import PageNotFound from './404_page';
 
 
 
@@ -28,6 +29,9 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} >
           <Home />
+          </Route>
+          <Route path="*" component={PageNotFound} >
+            <PageNotFound />
           </Route>
             <Route path="/contact" exact component={Contact} >
             <Contact />
