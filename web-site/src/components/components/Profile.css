@@ -1,3 +1,6 @@
+h1 {
+    font-size: 2.5rem;
+}
 
 .cards-item-pics {
   position: absolute;
@@ -81,7 +84,7 @@
   margin-left: 100px;
 }
 
-@media (max-width: 1286px){
+@media (min-width: 600px) and (max-width: 1286px){
   .profile-grid {
     margin-top: -45px;
     display: inline-block;
@@ -104,10 +107,14 @@
 
   }
   .profile-content {
-    width:331px;
-    margin-left: 50px;
+    width: 300px;
+    margin-left: 11px;
 }
-
+.cards-btns {
+  display: inline-block;
+  margin-left: -61px;
+  width: 300px;
+}
   .image-profile-home {
     margin-bottom: 136px;
     margin-top: 0px;

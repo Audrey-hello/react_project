@@ -52,7 +52,7 @@
   .image-profile-voyage {
     display: flex;
     width: 331px;
-    margin-left: 20px;
+    margin-left: 1px;
   }
   .content-tambour {
    display: inline-block;
@@ -60,9 +60,9 @@
   }
 
   .voyage-content {
-    width: 360px;
+    width: 300px;
     text-align: justify;
-    margin-left: 5px;
+    margin-left: 10px;
   }
   }
 

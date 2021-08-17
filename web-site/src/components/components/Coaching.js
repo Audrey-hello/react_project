@@ -30,7 +30,7 @@ export default function Coaching() {
     setIsOpen(!isOpen);
   }
   return (
-    <div className='voyage-container'>
+    <div className="coach-container">
       <ScrollToTopOnMount />
       <div className="voyage-banner" >
         <Topbar />

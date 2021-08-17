@@ -229,7 +229,7 @@ a.dropdown-toggle .colorChange {
 .nav-item:hover .dropdown-menu{
   display: block; }
 
-@media all and (max-width: 992px) {
+@media (min-width: 600px) and (max-width: 992px) {
 
   .navbar .nav-item .dropdown-menu{ display: none; }
 	.navbar .nav-item:hover .nav-link{   }
@@ -264,15 +264,19 @@ a.dropdown-toggle .colorChange {
     padding: 13px;
   }
 
+  .container {
+    margin-top: -33px;
+  }
 
+  .nav-links h1 {
+      font-size: 21px;
+      position: relative;
+      margin-top: 20px;
+  }
 
   .navbar-toggler {
     display: flex;
     margin-top: -33px;
-  }
-
-  .banner-container img {
-    height: 100vh;
   }
 
   .navbar-container {

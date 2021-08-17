@@ -42,37 +42,37 @@ form {
 
 @media (max-width: 600px){
   .container-contact-form {
-        width: 100%;
-        align-items: center;
-        display: block;
-        margin: 24px;
-        position: left;
-        margin-left: 0;
+    width: 100%;
+    align-items: center;
+    display: block;
+    margin: 24px;
+    position: left;
+    margin-left: 0;
     }
   form {
-    margin-left: -175px !important;
-    width: 360px;
+    margin-left: -191px !important;
+    width: 300px;
     margin-bottom: -24px;
   }
 
   .input-prénom {
-    width: 170px !important;
+    width: 140px !important;
 }
   .input-nom {
-    width: 170px !important;
+    width: 140px !important;
 }
   .input-container input {
-    width: 360px !important;
+    width: 300px !important;
   }
 
   .nom_complet {
     display: flex;
     justify-content: space-between;
-    width: 360px !important;
+    width: 300px !important;
   }
 
   textarea {
-    width: 360px !important;
+    width: 300px !important;
   }
 }
 

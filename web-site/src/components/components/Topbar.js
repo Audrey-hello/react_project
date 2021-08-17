@@ -38,7 +38,7 @@ return (
       <div className="navbar-container" >
         <div >
           <Navbar collapseOnSelect expand="lg" >
-            <Link to="/" className='nav-links' style={{ color: colorChange }}  >
+          <Link to="/" className='nav-links' style={{ color: colorChange }}  >
             <h1>Résonance</h1>
           </Link>
           <Container>

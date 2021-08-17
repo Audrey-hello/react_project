@@ -8,6 +8,27 @@
   justify-content: space-evenly;
 }
 
+.coach-container {
+  display: block;
+  scroll-behavior: smooth;
+}
+
+.video {
+  z-index: 1;
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
+  height: 100Vh;
+}
+
+.style  video {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+
+
 .event-container {
 font-family: Poppins;
 width: 100%;
@@ -98,21 +119,20 @@ align-items: center;
 
 .image-profile-coaching {
   display: flex;
-  width: 333px;
+  width: 300px;
   border-radius: 5px;
   margin-top: 50px;
   height: auto;
   margin-bottom: none;
+  margin-left: 11px;
 }
 .container-coaching {
  display: inline-block;
 }
-.image-profile-coaching {
-  margin-left: 35px;
-}
+
 .coaching-content {
-  margin-left: 25px;
-  width: 360px;
+  margin-left: 11px;
+  width: 300px;
 }
 
 .content-coaching {
@@ -121,25 +141,25 @@ align-items: center;
 }
 .coaching-text {
   display: inline-block;
-  width: 360px;
-  margin-left: 25px;
+  width: 300px;
+  margin-left: 11px;
 }
 .image-profile-coaching2 {
-  margin-left: 15px;
+  margin-left: 2px;
   margin-top: 0px;
 }
 .Pack h5 {
-  width: 355px;
+  width: 300px;
   margin-top: 47px;
-  margin-left: 15px;
+  margin-left: 9px;
 }
 #sib-container {
     background: #fff;
     margin: 0 auto;
     padding: 17px;
     display: inline-block;
-    width: 340px;
-    margin-left: -157px;
+    width: 300px;
+    margin-left: -223Px;
 }
 
 }

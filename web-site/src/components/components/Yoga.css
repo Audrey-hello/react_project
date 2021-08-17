@@ -57,12 +57,14 @@ scroll-behavior: smooth;
 
   .profile-content-yoga {
     display: block;
-    width: 360px;
-    margin-left: 20px;
-  }
+    width: 300px;
+    margin-left: 10px;
+}
+
   .image-profile-yoga {
     display: flex;
-    width: 333px;
+    width: 335px;
+    margin-left: 2px;
  }
 }
 

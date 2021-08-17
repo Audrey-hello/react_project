@@ -110,33 +110,40 @@ cursor: pointer;
 
   .image-events {
       width: 100%;
-      height: 200px;
+      height: 157px;
       object-fit: contain;
     }
 
   .image-banner-events img {
       width: 100vh;
-      height: 200px;
+      height: 157px;
   }
 
   .banner-container3 {
-      height: 200px;
+      height: 157px;
     }
 
+
+
+  .image-metta2 {
+  margin-left: -14px;
+  }
+
   .content-metta {
-    width: 360px;
+    width: 300px;
     text-align: justify;
-    margin-left: -11px;
+    margin-left: -47px;
   }
 
   .cards-content-events {
     width: 360px;
     display: block;
-    margin:35px;
+    margin:5px;
   }
 
   .btn--events {
     margin: 37px;
+    margin-left: 17px;
   }
 
   .prog-name {
@@ -153,8 +160,10 @@ cursor: pointer;
     margin-left: 20px;
   }
 
+
   .btn .btn--outline {
     margin-bottom: 20px;
+
   }
 }
 
