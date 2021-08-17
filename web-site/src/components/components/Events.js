@@ -1,15 +1,10 @@
 import React from 'react';
 import { useEffect } from "react";
-import { Button } from './Button';
 import './Events.css';
 import Prog from './Prog.png';
 import Metta from './Metta.png'
 import picture7 from './picture7.JPG';
 import Topbar from './Topbar';
-// import { Widget } from '@typeform/embed-react';
-// import { Sidetab } from '@typeform/embed-react';
-// import { PopupButton } from '@typeform/embed-react';
-import { InlineWidget } from "react-calendly";
 import { PopupButton} from "react-calendly";
 
 
@@ -35,7 +30,7 @@ function Events() {
       <div className='banner-container3'>
         <div className="image-banner-events" >
           <Topbar />
-          <img src={Prog} className="image-events" alt="image bannière avec de la peinture ocre en arrière plan avec l'intitulé Programme"/>
+          <img src={Prog} className="image-events" alt="bannière avec de la peinture ocre en arrière plan avec l'intitulé Programme"/>
           {/* <div className="header-prog">
             <h1 className="prog-name"> Programme </h1>
           </div> */}
@@ -45,8 +40,8 @@ function Events() {
       <h1 className='apropos-title2'> Le programme Metta </h1>
       <div className="cards-content-events">
         <div className="photo-metta">
-          <img src={Metta} className="image-metta" alt=" image du logo du proframme metta"/>
-          <img src={picture7} className="image-metta2" alt="image de moi en noir et blanc" />
+          <img src={Metta} className="image-metta" alt=" logo du programme metta"/>
+          <img src={picture7} className="image-metta2" alt="moi les bras croisés" />
         </div>
           <div className="content-metta">
             <h3> Quel est l'objectif ?</h3>

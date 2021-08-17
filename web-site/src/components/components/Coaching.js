@@ -6,7 +6,6 @@ import picture10 from './picture10.JPG';
 import Pack from './Pack.png';
 import { useState, useEffect } from "react";
 import Topbar from './Topbar';
-import { Link } from 'react-router-dom';
 import Popup from "./Popup";
 
 
@@ -32,7 +31,7 @@ export default function Coaching() {
   return (
     <div className="coach-container">
       <ScrollToTopOnMount />
-      <div className="voyage-banner" >
+      <div className="coaching-banner" >
         <Topbar />
         <ReactPlayer
           url='coaching.mp4'
@@ -48,7 +47,6 @@ export default function Coaching() {
       </div>
       <div className="container-coaching">
 
-
         <div className="Pack">
           <h5> Reçois ton pack "En puissance" gratuitement et bénéficie d'outils concrets pour commencer ! ⬇</h5>
           <img
@@ -58,7 +56,15 @@ export default function Coaching() {
             onClick={togglePopup}src={Pack} alt='pack-coaching gratuit en puissance' />
           {isOpen && <Popup
             content={<>
-              <iframe width="540" height="305" src="https://eed82655.sibforms.com/serve/MUIEAEs1laAqRLTV7_ymfpR0_b5vGtymgberPWHy_j0oEKu09HARszAy4l84vOfzaIhV0oZf1eXaTDHkD6pzs-ywwsnuOZF4gaj47W1bBrIMteyTW4iYm-LbgDmxorF0W0ht0ORQFwn1Zs2n7A7p5ifiz2MDeUlSA3KIfNo3RuQBE0VKl820Z3BlxBwHZTul0QLMRxsceclnw46R" frameborder="0" scrolling="auto" allowfullscreen ></iframe>
+              <iframe
+              width="540"
+              height="305"
+              src="https://eed82655.sibforms.com/serve/MUIEAEs1laAqRLTV7_ymfpR0_b5vGtymgberPWHy_j0oEKu09HARszAy4l84vOfzaIhV0oZf1eXaTDHkD6pzs-ywwsnuOZF4gaj47W1bBrIMteyTW4iYm-LbgDmxorF0W0ht0ORQFwn1Zs2n7A7p5ifiz2MDeUlSA3KIfNo3RuQBE0VKl820Z3BlxBwHZTul0QLMRxsceclnw46R"
+              frameborder="0"
+              scrolling="auto"
+              className="formulaire-pack"
+              allowfullscreen >
+              </iframe>
             </>}
             handleClose={togglePopup}
           />}
@@ -98,7 +104,7 @@ export default function Coaching() {
           <p> J’ai organisé des retraites, des ateliers et j'ai créé une association qui fait de la pédagogie sur les violences systémiques. Je souhaite t'accompagner sur cette voie par le coaching car je trouve encore plus puissant de pouvoir transmettre ces outils. À toi de jouer ! </p>
         </div>
         <div>
-          <img className='image-profile-coaching2' src={picture10}  alt="image de moi assise devant un bol tibétain"/>
+          <img className='image-profile-coaching2' src={picture10}  alt="moi de profil"/>
         </div>
       </div>
     </div>

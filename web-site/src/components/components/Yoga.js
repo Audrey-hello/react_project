@@ -2,7 +2,6 @@
 import React from 'react';
 import "./Yoga.css";
 import ReactPlayer from 'react-player';
-import picture3 from './picture3.JPG';
 import picture6 from './picture6.JPG';
 import { useEffect } from "react";
 import Topbar from './Topbar';
@@ -61,7 +60,7 @@ export default function Yoga() {
         </div>
         <div>
           {/* <img className='image-profile-yoga' src={picture3} alt='image de profile' /> */}
-          <img className='image-profile-yoga2' src={picture6} alt='image de profile' />
+          <img className='image-profile-yoga2' src={picture6} alt='Mon profile' />
         </div>
       </div>
     </div>

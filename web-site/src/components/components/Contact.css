@@ -50,29 +50,33 @@ form {
     margin-left: 0;
     }
   form {
-    margin-left: -191px !important;
-    width: 300px;
+    margin-left: -185px !important;
+    width: 340px;
     margin-bottom: -24px;
   }
 
+  .title-contact {
+    margin-right: 28Px;
+  }
+
   .input-prénom {
-    width: 140px !important;
+    width: 160px !important;
 }
   .input-nom {
-    width: 140px !important;
+    width: 160px !important;
 }
   .input-container input {
-    width: 300px !important;
+    width: 340px !important;
   }
 
   .nom_complet {
     display: flex;
     justify-content: space-between;
-    width: 300px !important;
+    width: 340px !important;
   }
 
   textarea {
-    width: 300px !important;
+    width: 340px !important;
   }
 }
 

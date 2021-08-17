@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 import React, { useEffect, useState } from "react";
 import sanityClient from "./Client.js";
 import './Content.css';
-import contenu3 from './contenu3.png';
-import Pack from './Pack.png';
+import contenu from './contenu.png';
 import Topbar from './Topbar';
 
 
@@ -42,7 +41,6 @@ function Content() {
 
 
 
-
   return (
     <div className="events-container" id="events">
       <ScrollToTopOnMount />
@@ -50,7 +48,7 @@ function Content() {
       <div className='banner-container3'>
         <div className="image-banner-content" >
           <Topbar />
-          <img src={contenu3} alt="image pour de présentation du blog avec un café posé sur une table titré ressources pour y ajouter tous types de ressources gratuites"/>
+          <img src={contenu} alt="fon de présentation du blog avec un café posé sur une table titré ressources pour y ajouter tous types de ressources gratuites"/>
         </div>
       </div>
       {/* ---------------- */}
@@ -89,20 +87,6 @@ function Content() {
           </div>
         </div>
       </div>
-
-      {/* <div className="content-ressources-free">
-        <div className="title-outils">
-        <h1> Les outils et ressources </h1>
-        </div>
-        <div className="content-ressources">
-          <h5> Bénéficie du pack "En puissance" gratuitement donnant des outils concrets pour commencer ! Tu y trouveras aussi les thèmes que je propose avec Résonance et mon histoire ✨ </h5>
-        <div>
-          <Link to="./Coaching">
-            <img className='image-profile-coaching' src={Pack} alt='pack en puissance donnant des outils de coaching'/>
-          </Link>
-        </div>
-        </div>
-      </div> */}
     </div>
   )
 }

@@ -37,7 +37,7 @@ export default function Voyage() {
       </div>
       <div className="content-tambour">
         <div>
-          <img className='image-profile-voyage' src={voyage} alt='profile' />
+          <img className='image-profile-voyage' src={voyage} alt='moi avec un tambour' />
         </div>
 
         <div className='voyage-content'>
