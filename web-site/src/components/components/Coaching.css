@@ -28,7 +28,6 @@
 }
 
 
-
 .event-container {
 font-family: Poppins;
 width: 100%;
@@ -47,7 +46,7 @@ align-items: center;
 }
 
 .coaching-content {
-  width: 602px;
+  width: 600px;
   text-align: justify;
   margin-top: 45px;
   font-family: 'Poppins', sans-serif;
@@ -70,14 +69,14 @@ align-items: center;
 .content-coaching {
   display: flex;
   width: 100%;
-  height: 562px;
+  height: auto;
   align-items: center;
   justify-content: space-evenly;
 }
 
 .coaching-text {
   display: block;
-  width: 500px;
+  width: 560px;
   margin: 50px;
   align-items: center;
   color: black;

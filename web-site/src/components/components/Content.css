@@ -51,7 +51,7 @@
   margin: 5px;
   list-style: none;
   width: 364px;
-  margin-left: 546px;
+  margin-left: 508px;
   padding: 28px;
 }
 
@@ -151,12 +151,12 @@ blockquote p {
     height: 184px;
     object-fit: contain;
   }
- .container-cards-blog {
-    display: inline-block;
- }
- .image-blog {
-  height: 424Px;
-  width: 305px;
+  .container-cards-blog {
+      display: inline-block;
+  }
+  .image-blog {
+    height: 424Px;
+    width: 305px;
 }
   .card-blog {
     background: transparent;
@@ -165,7 +165,7 @@ blockquote p {
     align-items: center;
     border-radius: 15px;
     padding: 0px;
-    margin-left: -27px;
+    margin-left: -6px;
   }
   .card-blog h1 {
     margin-right: 211px;
