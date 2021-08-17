@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react';
 import ReactPlayer from 'react-player';
 import './Voyage.css';
@@ -34,7 +35,7 @@ export default function Coaching() {
       <div className="coaching-banner" >
         <Topbar />
         <ReactPlayer
-          url='coaching.mp4'
+          url={[{ src: 'coaching2.mp4' }]}
           className="video"
           width="100%"
           height="100%"
