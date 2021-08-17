@@ -36,9 +36,11 @@ function Footer() {
         <div className="block-lien-mention">
           <a href="https://docs.google.com/document/d/1d9N3qxisZQ_xxm1bSfb7_k7EeZe5O4-B4vTLXVc2oCk/edit?usp=sharing"
             target="_blank"
+            rel="noreferrer"
             className="lien-mention"> Mentions légales</a>
           <a href="https://drive.google.com/file/d/148ZLMYZs71JNm87HV19-L-t_PTVNaJMc/view?usp=sharing"
             target="_blank"
+            rel="noreferrer"
             className="lien-mention"> Politique de confidentialité
           </a>
         </div>
