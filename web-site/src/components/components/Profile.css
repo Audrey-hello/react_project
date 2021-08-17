@@ -108,14 +108,14 @@ h1 {
   }
   .profile-content {
    width: 320px;
-    margin-left: 30px;
+   margin-left: 30px;
 }
   .cards-btns {
     display: inline-block;
     margin-left: -70px;
 }
 
-.cards-btns .btn--inline {
+  .cards-btns .btn--inline {
     width: 347px;
 }
   .image-profile-home {
