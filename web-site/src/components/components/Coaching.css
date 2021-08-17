@@ -158,7 +158,31 @@ align-items: center;
 }
 }
 
-@media (min-width: 600px) and (max-width: 1286px) {
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .Pack {
+    margin-top: 21Px;
+    margin-left: 108px;
+}
+
+  .coaching-content {
+    margin-left: 91px;
+}
+  .container-coaching{
+    padding: 12px;
+    display: block;
+  }
+  .content-coaching {
+    display: block;
+    height: auto;
+    margin-left: 55px;
+}
+.image-profile-coaching2 {
+    margin-left: 120px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1286px) {
   .content-coaching {
     display: block;
     height: auto;

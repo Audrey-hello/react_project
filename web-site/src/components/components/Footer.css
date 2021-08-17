@@ -168,4 +168,34 @@ a .mentions-légales {
       display: inline-flex;
     }
  }
-@media (max-width: 1095px) {}
+@media (min-width: 600px) and (max-width: 1024px) {
+    .footer-container {
+      display: inline-block;
+      height: 100%;
+      text-align: center;
+    }
+    .contact-content {
+      display: inline-flex;
+    }
+
+    .logo-footer {
+      margin-left: -47px;
+    }
+
+    .title-logo {
+      margin: 20px;
+    }
+
+    .mentions-légales {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-left: -28px;
+    }
+    .title-mention {
+      margin-top: 20px;
+  }
+    .footer-links {
+      display: inline-flex;
+    }
+ }
+

@@ -66,7 +66,17 @@
   }
   }
 
-@media (min-width: 600px) and (max-width: 992px) {
+@media (min-width: 600px) and (max-width: 1024px) {
+  .content-tambour {
+    display: inline-block;
+    margin-left: 74px;
+}
+  .voyage-content {
+    margin-left: -54px;
+  }
+}
+
+/* @media (min-width: 600px) and (max-width: 992px) {
   .content-tambour {
    display: block;
    margin-left: 150px;
@@ -74,4 +84,4 @@
   .image-profile-voyage {
     margin-left: 50px;
   }
-}
+} */

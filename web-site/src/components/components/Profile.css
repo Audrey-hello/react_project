@@ -84,7 +84,7 @@ h1 {
   margin-left: 100px;
 }
 
-@media (min-width: 600px) and (max-width: 1286px){
+@media (min-width: 1024px) and (max-width: 1286px){
   .profile-grid {
     margin-top: -45px;
     display: inline-block;
@@ -94,6 +94,23 @@ h1 {
   .image-profile-home {
     margin-left: 150px;
   }
+}
+@media (min-width: 600px) and (max-width: 1024px){
+
+.profile-grid {
+    display: inline-block;
+    margin-bottom: -71px;
+    width: 100%;
+    padding: 40px;
+  }
+
+  .profile-content {
+    margin-left: 57px;
+}
+
+.image-profile-home {
+  margin-left: 136px;
+}
 }
 
 @media (max-width: 600px){

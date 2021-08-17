@@ -152,7 +152,7 @@
   border-radius: 50%;
   height: 197px;
   width: 295Px;
-  margin-top: 40px;
+  margin-top: 28px;
   margin-left: 13px;
   position: relative;
 }
@@ -254,9 +254,48 @@ a .social-logo-retraite:hover  {
     font-size: 20px;
   }
 
+@media (min-width: 600px) and (max-width: 1024px){
+  .banner-container img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 39%;
+}
+  .image-banner {
+    vertical-align: middle;
+    width: 100%;
+    height: 39%;
+    object-fit: cover;
+  }
 
+  .cards {
+    width: 100%;
+    align-items: center;
+    display: inline-block;
+    margin: 45px;
+    margin-left: 215px;
+}
 
-@media (min-width: 600px) and (max-width: 1286px){
+  .text-retraite {
+    margin-left: 18px;
+}
+  .title-container2 {
+    margin-left: 0px;
+}
+  .social-media-retraite {
+    margin-left: -127px;
+  }
+  .card-ateliers-chaman {
+    margin-top: 20px;
+    }
+
+  .card-ateliers {
+    margin-top: 20px;
+}
+
+}
+
+@media (min-width: 1024px) and (max-width: 1286px){
   .cards{
     width: 100%;
     align-items: center;
@@ -352,11 +391,11 @@ a .social-logo-retraite:hover  {
 }
 
 .text-retraite {
-  display: inline-block;
+  display: block;
   width: 300px;
-  margin-left: -296px;
-  text-align: center;
-  padding: 0px;
+  margin-left: 0px;
+  text-align: justify;
+  padding: 0;
   margin-top: 47px;
   }
 

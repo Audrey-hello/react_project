@@ -43,11 +43,11 @@ export default function Voyage() {
         <div className='voyage-content'>
           <h2>  La magie du son du tambour </h2> <br />
 
-         <p> Partir rencontrer son animal totem, échanger avec les esprits, trouver des messages, les vibrations du tambour nous emporte dans un univers magique. Issu des traditions chamaniques, le voyage au tambour nous permet de cheminer dans ce qui est appelé le "monde invisible". Les chamanes sont considéré.e.s comme étant des guériss.eurs.euses pouvant communiquer avec les esprits. On retrouve encore ces traditions chez certaines populations autochtones.</p>
+         <p> Partir rencontrer son animal totem, échanger avec les esprits, trouver des messages, les vibrations du tambour t'emportera dans un univers magique. Issu des traditions chamaniques, le voyage au tambour nous permet de cheminer dans ce qui est appelé le "monde invisible". Les chamanes sont considéré.e.s comme étant des guériss.eurs.euses pouvant communiquer avec les esprits. On retrouve encore ces traditions chez certaines populations autochtones.</p>
 
-          <p> Depuis les recherches ont avancé apportant des explications sur ce qui se passe au niveau cérébral lorsqu'on effectue un voyage. Les vibrations émises par le tambour nous mènent à ce qu'on appelle un état modifié de conscience nous plongeant ainsi dans une sorte de rêve, voir de transe.</p>
+          <p> Depuis les recherches ont avancé, apportant plus d'explications sur ce qui se passe au niveau cérébral lorsqu'on effectue un voyage. Les vibrations émises par le tambour nous mènent à ce qu'on appelle un état modifié de conscience nous plongeant ainsi dans une sorte de rêve, voir de transe.</p>
 
-          <p> C'est une expérience qui reste unique pour chacun.e et les ressentis sont différents. On peut y trouver <strong>un état de relaxation, un travail sur le lâcher prise, un arrêt le brouhaha mental, des réponses à nos questions, une meilleure compréhension de nos états émotionnels</strong>...vous venez y chercher ce que vous souhaitez ! </p>
+          <p> C'est une expérience qui reste unique pour chacun.e et les ressentis sont différents. On peut y trouver <strong>un état de relaxation, un travail sur le lâcher prise, un arrêt du brouhaha mental, des réponses à nos questions, une meilleure compréhension de nos états émotionnels</strong>...Vous venez y chercher ce que vous souhaitez ! </p>
         </div>
       </div>
     </div>

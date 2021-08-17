@@ -39,7 +39,7 @@ export default function Yoga() {
         <div className='profile-content-yoga'>
           <h2>  Connexion au corps et à l'esprit  </h2> <br />
 
-          <p>Le Vinyasa yoga est une pratique dynamique issue de l'Ashtanga enchaînant les asanas avec créativité et fluidité. Cela permet de relâcher les tensions, se réancrer et se reconnecter à son corps. Cela contribue ainsi à une meilleure santé mentale, à la gestion de ses émotions, et à apprendre à aimer son corps. <strong>C'est donc un véritable outil d'empuissancement aidant la confiance en soi ! </strong></p><br />
+          <p>Le Vinyasa yoga est une pratique dynamique issue de l'Ashtanga enchaînant les asanas avec créativité et fluidité. Cela permet de relâcher les tensions, se réancrer et se reconnecter à son corps. Cela contribue ainsi à une meilleure santé mentale, à la gestion de ses émotions, et à apprendre à aimer son corps. <strong>C'est donc un véritable outil aidant la confiance en soi ! </strong></p><br />
 
           <h3> Les valeurs que je divulgue par le yoga </h3><br />
 

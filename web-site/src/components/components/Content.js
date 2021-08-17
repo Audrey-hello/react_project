@@ -56,8 +56,8 @@ function Content() {
         <div className="title-Articles">
         <h1> Articles Blog </h1>
         </div>
-        <div className="text-metta">
-          <div className="title-metta">
+        <div className="text-allposts">
+          <div className="title-allposts">
             <li> Bien-être </li><span> // </span><li> Empowerment </li>
           </div>
            <div className="content-blog-posts">

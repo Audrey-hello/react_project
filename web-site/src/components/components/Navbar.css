@@ -304,6 +304,7 @@ a.dropdown-toggle .colorChange {
     padding: 8px;
     border-radius: 5px;
     display: block;
+    line-height: 26px;
   }
 
   .nav-menu > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
@@ -341,6 +342,10 @@ a.dropdown-toggle .colorChange {
   .nav-item-init a {
     top: 0px;
    }
+
+  /* .nav-item-init li {
+    margin-top: 5px;
+  } */
 
   .nav-menu > #nav-check:not(:checked) ~ .nav-item {
     height: 0px;

@@ -73,12 +73,12 @@ export default function Coaching() {
 
         <div className='coaching-content'>
           <h2>  Coaching empowerment pour être bien avec soi et avec les autres </h2>
-          <p>Ces sessions sont destinées à donner des clés de compréhension sur ce qu’on vit, que ce soit en tant que femme, personne queer, personne en minorité etc.</p><br>
+          <p>Ces sessions sont destinées à donner des clés de compréhension sur ce qu’on vit, que ce soit en tant que femme, personne queer, personne en minorité.</p><br>
 
-          </br><p> Cela peut-être <strong>analyser une situation, comprendre les mécanismes et les concepts derrière, obtenir des outils d'émancipation et de déblocage, apprendre à libérer la parole et prendre sa place </strong>... Voici quelques exemples :</p>
+          </br><p> Cela peut être <strong>analyser une situation, comprendre les mécanismes et les concepts derrière, obtenir des outils d'émancipation et de déblocage, apprendre à libérer la parole et prendre sa place...</strong> Voici quelques exemples :</p>
 
             <p>
-            <li>Tu ressens un blocage pour entreprendre ou prendre la parole car tu ne te sens pas légitime ou moins forte que les autres.</li>
+            <li>Tu ressens un blocage pour entreprendre ou prendre la parole car tu ne te sens pas légitime ou moins fort.e que les autres.</li>
             <li>Tu souhaites te libérer des injonctions qui pèsent sur toi.</li>
             <li>Tu souhaites partager la charge mentale.</li>
             <li>Tu ne veux plus te sacrifier pour les autres et arrêter de culpabiliser.</li>
@@ -88,7 +88,7 @@ export default function Coaching() {
             <li>Tu as envie de déconstruire tes croyances limitantes.</li>
             <li>Tu souhaites mieux gérer ta colère et ton sentiment d'injustice.</li></p> <br />
 
-          <p> Vouloir se faire accompagner sur ce chemin, c’est avoir l’envie de débloquer des limites que l’on se met, <strong>se sentir plus puissant.e</strong>, oser réaliser des choses qu’on ne se permettaient pas avant...
+          <p> Vouloir se faire accompagner sur ce chemin, c’est avoir l’envie de débloquer des limites que l’on se met, <strong>se sentir plus puissant.e</strong>, oser réaliser des choses qu’on ne se permettaient pas avant.
 
           Ce que j’ai envie d’apporter avec les séances de coaching c’est aussi une plus grande compréhension de toi-même et de ce que tu ressens.
           Et ainsi acquérir des outils pour te sentir plus aligné.e.</p>
@@ -100,7 +100,7 @@ export default function Coaching() {
 
           <h2> Pourquoi ce type de coaching ?</h2>
 
-          <p> Passionnée par le développement personnel et le féminisme, j'ai créé un coaching basé sur l'empowerment et la recherche d'alignement. Ayant étudié différents outils de coaching qui m'ont beaucoup aidé, j'ai eu envie d'y associer toutes mes connaissances sur la déconstruction du genre et des oppressions systémiques. Le féminisme m’a ainsi permis de mettre des mots sur ma colère, comprendre pourquoi je ressentais de la frustration, des incompréhensions sur le système tel qu’il est fait. J'ai réussi à dépasser des barrières et de nombreuses injonctioncs pour me sentir plus puissante, plus en conscience et alignée.</p>
+          <p> Passionnée par le développement personnel et le féminisme, j'ai créé un coaching basé sur l'empowerment et la recherche d'alignement. Ayant étudié différents outils de coaching qui m'ont beaucoup aidé, j'ai eu envie d'y associer toutes mes connaissances sur la déconstruction du genre et des oppressions systémiques. Le féminisme m’a ainsi permis de mettre des mots sur ma colère, comprendre pourquoi je ressentais de la frustration, des incompréhensions sur le système tel qu’il est fait. J'ai réussi à dépasser des barrières et de nombreuses injonctions pour me sentir plus puissante, plus en conscience et alignée.</p>
 
           <p> J’ai organisé des retraites, des ateliers et j'ai créé une association qui fait de la pédagogie sur les violences systémiques. Je souhaite t'accompagner sur cette voie par le coaching car je trouve encore plus puissant de pouvoir transmettre ces outils. À toi de jouer ! </p>
         </div>

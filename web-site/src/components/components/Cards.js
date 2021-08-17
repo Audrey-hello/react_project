@@ -45,10 +45,10 @@ function Cards() {
 
           <Link to={'/Coaching'}>
           <div className="card-ateliers">
-            <p className="title-cards"><strong> Coaching de vie </strong></p>
+            <p className="title-cards"><strong> Coaching de vie & empowerment </strong></p>
             <img src="https://images.unsplash.com/photo-1573164574230-db1d5e960238?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" className="image-yoga" alt="ambiance de travail pour les ateliers coaching" />
             <div>
-                <p className="text"> Se libérer des injonctions, des croyances limitantes, de tout ce qui nous empêche d'être pleinement libres et nous-mêmes… pour s’affirmer et prendre sa place. Ces ateliers te donneront des outils pour te sentir en puissance et avancer dans tes projets.</p>
+                <p className="text"> Se libérer des injonctions, des croyances limitantes, de tout ce qui nous empêche d'être libres et nous-mêmes…et prendre sa place. Ces ateliers te donneront des outils pour te sentir en puissance et avancer dans tes projets.</p>
             </div>
           </div>
           </Link>
