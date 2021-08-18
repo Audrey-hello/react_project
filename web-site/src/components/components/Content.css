@@ -119,14 +119,13 @@ blockquote p {
   .content-blog-posts {
     display: inline-flex;
   }
-  .title-metta {
-    margin-left: 1px;
-    width: 380px;
+  .title-allposts {
+    width: 400px;
+    margin-left: -29px;
   }
-
   .image-banner-content img {
     width: 100%;
-    height: 184px;
+    height: 183px;
     object-fit: contain;
   }
   .container-cards-blog {
@@ -138,19 +137,24 @@ blockquote p {
 }
   .card-blog {
     background: transparent;
-    width: none;
+    width: 400px;
     display: block;
     align-items: center;
     border-radius: 15px;
     padding: 0px;
-    margin-left: -6px;
+    margin-left: -20px;
+  }
+
+  .posts {
+    display: inline-block;
+    width: 400px;
   }
   .card-blog h1 {
-    margin-right: 211px;
-    font-size: 35px;
+    margin-right: 115px;
+    font-size: 30px;
   }
   .card-blog hr {
-    margin-right: 211px;
+    margin-right: 97px;
   }
   .article-name {
     font-family: 'Lora', serif;
@@ -176,11 +180,11 @@ blockquote p {
     align-items: center;
     height: 80%;
 }
-  .title-metta {
+  .title-allposts {
     margin-left: 150px;
   }
   .card-blog {
-    margin-left: 80px;
+    margin-left: -10px;
   }
 }
 
