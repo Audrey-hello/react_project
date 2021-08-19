@@ -1,0 +1,148 @@
+
+.container-projets {
+  background-color: #efeae5;
+  padding: 20px;
+}
+
+.projets-title {
+  margin-top: 60px;
+}
+
+.projets-text{
+  width: 600px;
+  text-align: justify;
+  margin-left: 30px;
+  margin-top: 45px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 40px;
+}
+
+.content-projets {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+
+.image-projet {
+  display: flex;
+  width: 235px;
+  border-radius: 5px;
+  margin-top: 50px;
+  height: auto;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+}
+
+.image-projet:hover {
+  opacity: 0.3;
+}
+
+.btn--inline{
+  background-color: transparent;
+  border-color: black!important;
+  color: black;
+  width: 372px;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 56px;
+  font-family: 'Poppins', sans-serif;
+  height: 45px;
+  font-weight: 600 !important;
+}
+
+.btn--inline:hover {
+  background: #c58b32;
+  color: white !important;
+  font-size: bold !important;
+}
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1286px) {
+  .profile2-grid {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .image-profile-onglet {
+      margin-top: 0px;
+      margin-bottom: 40px;
+      margin-left: 268px;
+    }
+
+  .profile-content2 {
+      margin-left: 250px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .banner-container-profile2 {
+    height: 80%;
+}
+  .image-banner-profile2 {
+    height: 80%;
+}
+  .banner-container-profile2 img {
+    height: 80%;
+}
+  .profile-content2 {
+    margin-left: 50px;
+    margin-top: 0px;
+}
+  .profile2-grid {
+    display: inline-block;
+    width: 100%;
+    padding: 40px;
+  }
+
+  .image-profile-onglet {
+    margin-top: 0px;
+  }
+
+  .btn-mobile {
+    margin-left: 50px;
+  }
+
+
+}
+
+
+
+@media (max-width: 600px){
+.banner-container-profile2 img {
+    height: 183px;
+}
+.banner-container-profile2 {
+    height: 183px;
+}
+.profile2-grid {
+    display: inline-block;
+    padding: 15px;
+}
+
+.profile2-name {
+    font-family: 'Lora', serif;
+    font-size: 35px;
+    margin-top: -534px;
+    background: linear-gradient(
+180deg
+ , transparent 55%, #335c679e 0);
+    margin-left: 78px;
+}
+.profile-content2 {
+  width: 320px;
+  margin-left: 11px;
+}
+
+.btn-mobile .btn--outline {
+  margin-left: 73px;
+  width: 318px;
+}
+
+.image-profile-onglet {
+  margin-left: -3px;
+  margin-top: 0px;
+}
+}

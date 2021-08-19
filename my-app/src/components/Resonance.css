@@ -1,0 +1,148 @@
+
+.container-resonance {
+  background-color: #ffff;
+  padding: 20px;
+  animation-duration: 2s;
+
+}
+
+.resonance-text{
+  width: 700px;
+  padding: 40px;
+  background-color: #efeae5;
+  text-align: justify;
+  margin-left: 30px;
+  margin-top: 45px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 40px;
+
+}
+
+
+.widgets-outils-reso {
+  display: inline-flex;
+}
+.widgets-outils-reso p {
+  border: solid;
+  width: 150px;
+  text-align: center;
+  background-color: #335C67;
+  border-width: thin;
+  color: white;
+  border-color: black;
+  font-weight: 600;
+  height: 27Px;
+  margin-right: 8px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+
+.content-resonance {
+  display: flex;
+  margin-top: 91px;
+  justify-content: space-evenly;
+
+}
+
+.image-resonance img {
+  display: flex;
+  width: 600px;
+  border-radius: 5px;
+  margin-top: 105px;
+  height: auto;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+}
+
+
+.image-resonance:hover .text {
+ opacity: 1;
+}
+.image-resonance .text {
+ color: black;
+ font-size: 25px;
+ line-height: 1.5em;
+ text-align: center;
+ top: 50%;
+ left: 50%;
+}
+
+.resonance-title  h1 {
+  font-weight: 300;
+    color: black;
+    font-size: 50px;
+    background: linear-gradient(
+180deg
+, transparent 50%, #ecca97 0);
+    width: max-content;
+    display: initial;
+}
+
+.resonance-title{
+  margin-top: 91px;
+}
+
+
+.btn--inline-reso{
+  background-color: transparent;
+  border-color: black!important;
+  color: black;
+  width: 372px;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 56px;
+  font-family: 'Poppins', sans-serif;
+  height: 45px;
+  font-weight: 600 !important;
+  margin-left: 122px;
+}
+
+.btn--inline-reso:hover {
+  background: #335C67;
+  color: white !important;
+  font-size: bold !important;
+}
+
+
+
+
+
+.scrolled.slide-left {
+  animation: slide-in-left 1s ease-in-out both;
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.js-scroll {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.js-scroll.scrolled {
+  opacity: 1;
+}
+
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.scrolled.slide-right {
+  animation: slide-in-right 1s ease-in-out both;
+}

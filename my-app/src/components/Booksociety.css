@@ -1,0 +1,156 @@
+.video_bs{
+  width: 583px;
+  height: 100%;
+  filter: brightness(1.6);
+  border-radius: 15px;
+}
+
+.video_bs video {
+  margin-top: 100px;
+}
+
+.BS-gif {
+  width: 750px;
+  height: auto;
+  margin-top: 150px;
+  margin-right: 150px;
+  filter: brightness(1.05);
+}
+
+.container-bs {
+  background-color: #ffff;
+  padding: 20px;
+}
+
+.scrolled.slide-right {
+  width:750px;
+}
+
+.bs-text{
+  width: 700Px;
+  padding: 40px;
+  text-align: justify;
+  background-color: #c58b32;
+  margin-top: 45px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 23px;
+  color: white;
+  margin-right: 92px;
+}
+
+.widgets-outils-bs {
+  display: inline-flex;
+}
+.widgets-outils-bs p {
+  border: solid;
+  width: 150px;
+  text-align: center;
+  background-color: whitesmoke;
+  border-width: thin;
+  color: black;
+  border-color: black;
+  font-weight: 600;
+  height: 27Px;
+  margin-right: 8px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+.content-bs {
+  display: flex;
+  margin-top: 91px;
+  justify-content: space-evenly;
+}
+
+.image-bs {
+  display: flex;
+  width: 235px;
+  border-radius: 5px;
+  margin-top: 50px;
+  height: auto;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+}
+
+.bs-title  h1 {
+  font-weight: 300;
+    color: black;
+    font-size: 50px;
+    background: linear-gradient(
+180deg
+, transparent 50%, #ecca97 0);
+    width: max-content;
+    display: initial;
+
+}
+
+.bs-title{
+  margin-top: 91px;
+
+}
+
+.btn--inline-bs{
+  background-color: transparent;
+  border-color: black!important;
+  color: black;
+  width: 372px;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 56px;
+  font-family: 'Poppins', sans-serif;
+  height: 45px;
+  font-weight: 600 !important;
+  margin-left: 122px;
+}
+
+.btn--inline-bs:hover {
+  background: whitesmoke;
+  color: black !important;
+  font-size: bold !important;
+}
+
+
+
+
+
+
+
+
+.scrolled.slide-left {
+  animation: slide-in-left 1s ease-in-out both;
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.js-scroll {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.js-scroll.scrolled {
+  opacity: 1;
+}
+
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.scrolled.slide-right {
+  animation: slide-in-right 1s ease-in-out both;
+}
