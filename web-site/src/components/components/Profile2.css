@@ -110,24 +110,7 @@
 
 }
 
-/* @media (min-width: 600px) and (max-width: 992px) {
-  .profile2-name {
-    position: sticky;
-  }
 
-  .profile2-grid {
-    display: inline-block;
-    width: 100%;
-  }
-
-  .profile-content2 {
-    margin-left: 246px;
-  }
-
-  .image-profile-onglet {
-    margin-left: 250px;
-  }
-} */
 
 @media (max-width: 600px){
 .banner-container-profile2 img {
