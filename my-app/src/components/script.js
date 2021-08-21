@@ -1,5 +1,5 @@
 
-function Scripts() {
+function Script() {
 
 const scrollElements = document.querySelectorAll(".js-scroll");
 
@@ -42,4 +42,4 @@ window.addEventListener("scroll", () => {
 });
 }
 
-export default Scripts;
+export default Script;

@@ -1,19 +1,9 @@
-.video_bs{
-  width: 583px;
-  height: 100%;
-  filter: brightness(1.6);
-  border-radius: 15px;
-}
 
-.video_bs video {
-  margin-top: 100px;
-}
 
 .BS-gif {
   width: 750px;
-  height: auto;
+  height: 356px;
   margin-top: 150px;
-  margin-right: 150px;
   filter: brightness(1.05);
 }
 
@@ -22,9 +12,6 @@
   padding: 20px;
 }
 
-.scrolled.slide-right {
-  width:750px;
-}
 
 .bs-text{
   width: 700Px;
@@ -35,7 +22,7 @@
   font-family: 'Poppins', sans-serif;
   margin-bottom: 23px;
   color: white;
-  margin-right: 92px;
+  display: inline-block;
 }
 
 .widgets-outils-bs {
@@ -58,7 +45,8 @@
 .content-bs {
   display: flex;
   margin-top: 91px;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin-right: 10px;
 }
 
 .image-bs {
@@ -107,50 +95,55 @@
   font-size: bold !important;
 }
 
+@media (max-device-width: 480px){
 
-
-
-
-
-
-
-.scrolled.slide-left {
-  animation: slide-in-left 1s ease-in-out both;
+.content-bs {
+  display: block;
 }
-@keyframes slide-in-left {
-  0% {
-    -webkit-transform: translateX(-100px);
-    transform: translateX(-100px);
-    opacity: 0;
+.BS-gif {
+  display: block;
+  width: 700px;
+  height: 379px;
+  margin-left: -72px
+}
+.bs-text {
+    width:550px;
+    display: block;
+    margin-left: 20px;
+}
+.widgets-outils-bs {
+    display: block;
+    margin-left: 150px;
+}
+.btn--inline-bs {
+   width: 300px;
+   margin-left: 80px;
+}
+}
+
+@media (min-device-width: 480px) and (max-width: 1024px) {
+
+
+  .content-bs {
+    display: block;
   }
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    opacity: 1;
-  }
+
+  .BS-gif {
+    width: 703px;
+    height: 355px;
+    margin-top: 0px;
 }
 
-.js-scroll {
-  opacity: 0;
-  transition: opacity 500ms;
-}
-
-.js-scroll.scrolled {
-  opacity: 1;
-}
-
-@keyframes slide-in-right {
-  0% {
-    -webkit-transform: translateX(50px);
-    transform: translateX(50px);
-    opacity: 0;
+  .bs-text {
+    width: 600px;
+    margin-left: 0px;
   }
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    opacity: 1;
-  }
+  .widgets-outils-bs {
+    display: block;
+    margin-left: 180px;
 }
-.scrolled.slide-right {
-  animation: slide-in-right 1s ease-in-out both;
+  .btn--inline-bs {
+    width: 300px;
+    margin-left: 90px;
+  }
 }

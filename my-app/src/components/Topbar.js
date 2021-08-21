@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './Topbar.css';
-// import { Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
@@ -40,7 +39,7 @@ function Topbar() {
           <div >
             <Navbar collapseOnSelect expand="lg" >
               <Link to="/" className='nav-links' style={{ color: colorChange }}  >
-                <h1>Portfolio</h1>
+                <h1>Audrey</h1>
               </Link>
               <Container>
                 <ul>
@@ -71,9 +70,9 @@ function Topbar() {
                           </NavDropdown>
                         </div>
                         <li className='nav-item-init'>
-                          <Link to='mailto:audreylm33@gmail.com' style={{ color: colorChange }}>
+                          <a href="https://www.linkedin.com/in/audreylm/" style={{ color: colorChange }}>
                             Contact
-                          </Link>
+                          </a>
                         </li>
                       </div>
                     </Nav>

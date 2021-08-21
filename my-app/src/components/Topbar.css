@@ -255,9 +255,44 @@ a.dropdown-toggle .colorChange {
     margin-top: 16px;
   }
 }
+@media (min-device-width: 480px) and (max-width: 1024px) {
+  .navbar {
+    width: 700px;
+    margin-left: 22px;
+    height: 70px;
+  }
 
+  .nav-item-init > li {
+    margin: 14px;
+    margin-top: -5px;
+  }
 
-@media (max-width:600px) {
+  .nav-item-init a {
+    top: 0px;
+   }
+
+  .list {
+    background-color:#94b5c0d6;
+    padding: 8px;
+    border-radius: 5px;
+    display: block;
+    line-height: 26px;
+  }
+
+  .navbar-light .navbar-toggler {
+   display: flex;
+   position: relative;
+   margin-top: 0px;
+  }
+
+  .nav-links h1 {
+    font-size: 21px;
+    position: relative;
+    margin-top: -4px;
+  }
+}
+
+@media (max-device-width:480px) {
   .nav-menu > .nav-btn {
     display: inline-block;
     position: absolute;
@@ -269,6 +304,11 @@ a.dropdown-toggle .colorChange {
     width: 50px;
     height: 50px;
     padding: 13px;
+  }
+
+  .navbar {
+    width: 350px;
+    margin-left: 80px;
   }
 
   .container {
@@ -346,13 +386,15 @@ a.dropdown-toggle .colorChange {
     width: 100%;
   }
 
+   .nav-item-init > li {
+    margin: 14px;
+    margin-top: -5px;
+  }
+
   .nav-item-init a {
     top: 0px;
    }
 
-  /* .nav-item-init li {
-    margin-top: 5px;
-  } */
 
   .nav-menu > #nav-check:not(:checked) ~ .nav-item {
     height: 0px;
