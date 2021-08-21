@@ -4,7 +4,7 @@ import Cards from '../Cards';
 import Profile from '../Profile';
 import Banner from '../Banner';
 import Topbar from '../Topbar';
-import Footer from '../Footer';
+
 
 
 function Home () {
@@ -15,7 +15,6 @@ function Home () {
   <Cards />
   <Banner2 />
   <Profile />
-  <Footer />
    </>
   );
 }

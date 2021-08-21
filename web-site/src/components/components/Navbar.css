@@ -250,6 +250,43 @@ a.dropdown-toggle .colorChange {
   }
 }
 
+@media (min-device-width: 660px) and (max-width: 1024px) {
+  .navbar {
+    width: 700px;
+    margin-left: 22px;
+    height: 70px;
+  }
+
+  .nav-item-init > li {
+    margin: 14px;
+    margin-top: -5px;
+  }
+
+  .nav-item-init a {
+    top: 0px;
+   }
+
+  .list {
+    background-color:#94b5c0d6;
+    padding: 8px;
+    border-radius: 5px;
+    display: block;
+    line-height: 26px;
+  }
+
+  .navbar-light .navbar-toggler {
+   display: flex;
+   position: relative;
+   margin-top: 0px;
+  }
+
+  .nav-links h1 {
+    font-size: 21px;
+    position: relative;
+    margin-top: -4px;
+  }
+}
+
 
 @media (max-width:600px) {
   .nav-menu > .nav-btn {
