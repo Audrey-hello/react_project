@@ -4,7 +4,7 @@ import sanityClient from "./Client.js";
 import './Content.css';
 import contenu from './contenu.png';
 import Topbar from './Topbar';
-import PreLoader from './PreLoader';
+
 
 
 function Content() {
@@ -40,16 +40,10 @@ function Content() {
   }, []);
 
 
-  const [loading, setLoading] = useState(true)
-
-  useEffect(() => {
-    setTimeout(() => setLoading(false), 6000)
-  }, [])
 
 
   return (
-    <>
-      {loading === false ? (
+
     <div className="events-container" id="events">
 
       <ScrollToTopOnMount />
@@ -96,10 +90,6 @@ function Content() {
         </div>
       </div>
     </div>
-      ) : (
-        <PreLoader />
-      )}
-      </>
   )
 }
 export default Content;

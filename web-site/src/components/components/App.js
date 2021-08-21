@@ -21,8 +21,6 @@ import PageNotFound from './404_page';
 function App() {
 
 
-
-
   return (
     <div className="App">
 
