@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 import './404_page.css';
 import Topbar from './Topbar';

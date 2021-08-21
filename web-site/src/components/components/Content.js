@@ -4,6 +4,7 @@ import sanityClient from "./Client.js";
 import './Content.css';
 import contenu from './contenu.png';
 import Topbar from './Topbar';
+import PreLoader from './PreLoader';
 
 
 function Content() {
@@ -39,18 +40,26 @@ function Content() {
   }, []);
 
 
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 6000)
+  }, [])
+
 
   return (
+    <>
+      {loading === false ? (
     <div className="events-container" id="events">
+
       <ScrollToTopOnMount />
-      {/* ---Banner--- */}
       <div className='banner-container3'>
         <div className="image-banner-content" >
           <Topbar />
           <img src={contenu} alt="fon de présentation du blog avec un café posé sur une table titré ressources pour y ajouter tous types de ressources gratuites"/>
         </div>
       </div>
-      {/* ---------------- */}
+
 
       <div className="blog-cards-content">
         <div className="title-Articles">
@@ -87,6 +96,10 @@ function Content() {
         </div>
       </div>
     </div>
+      ) : (
+        <PreLoader />
+      )}
+      </>
   )
 }
 export default Content;

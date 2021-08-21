@@ -1,6 +1,6 @@
 
 import './App.css';
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import { BrowserRouter as  Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Contact from './Contact';
@@ -14,7 +14,7 @@ import Footer from './Footer';
 import AllPosts from "./AllPosts.js";
 import OnePost from "./OnePost.js";
 import PageNotFound from './404_page';
-import PreLoader from './PreLoader';
+
 
 
 
@@ -22,16 +22,10 @@ function App() {
 
 
 
-  const [loading, setLoading] = useState(true)
-
-  useEffect(() => {
-    setTimeout(() => setLoading(false), 6000)
-  }, [])
-
 
   return (
     <div className="App">
-      {loading === false ? (
+
       <Router >
         <Switch>
           <Route path="/" exact component={Home} >
@@ -61,15 +55,11 @@ function App() {
           <Route path="/profile2" exact component={Profile2} >
             <Profile2 />
           </Route>
-          <Route component={PreLoader} path="/PreLoader" />
           <Route component={AllPosts} path="/AllPosts" exact  />
           <Route component={OnePost} path="/:slug" />
         </Switch>
         <Footer />
       </Router>
-      ) : (
-        <PreLoader/>
-      )}
     </div>
   );
 }
