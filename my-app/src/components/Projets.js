@@ -29,7 +29,7 @@ function Projets() {
         <div className='projets-text'>
           <h2>  Résonance </h2> <br />
 
-          <p> Site réalisé entièrement avec React JS avec intégration d'API. Résonance est un site web axé sur le bien-être</p>
+          <p> Site réalisé entièrement avec React JS avec intégration d'APIs. Résonance est un site web axé sur le coaching bien-être</p>
         <hr />
         </div>
         <div>

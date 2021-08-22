@@ -25,7 +25,7 @@ function Booksociety() {
         <img src={BS_video} className="BS-gif" data-aos="fade-left" alt="gif book society" />
       <div className='bs-text' data-aos="fade-right">
           <h2>  MVP développé en équipe - Ruby on rails </h2> <br />
-          <p>Application mobile web pour se consituer une bibliothèque de livres et trouver l'inspiration par les recommandation qui nous sont proposées, les notes et les commentaires.</p><br />
+          <p>Application mobile web pour se constituer une bibliothèque de livres et trouver l'inspiration par les recommandations qui nous sont proposées, les notes et les commentaires.</p><br />
 
           <div className="widgets-outils-bs">
             <p>Ruby</p>
@@ -40,7 +40,7 @@ function Booksociety() {
             <li>Intégration HTML - CSS (Bootstrap).</li>
             <li>Développement sous Ruby on Rails.</li>
             <li>Features Javascript.</li>
-            <li> Hebergé sur Heroku.</li>
+            <li>Hébergé sur Heroku.</li>
           </p>
           <p> Le site utilise des codes d'authentification pour avoir accès à la base de données.</p>
           <a href='https://www.booksociety.me/' target="_blank" rel="noopener noreferrer" className='btn-mobile'>

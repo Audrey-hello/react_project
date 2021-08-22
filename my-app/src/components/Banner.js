@@ -1,14 +1,14 @@
 
 import './Banner.css';
 import React from 'react';
-import cover2 from './cover2.png';
+import cover from './cover.png';
 
 
 function Banner() {
   return (
     <div className='banner-container'>
       <div className="image-banner" >
-            <img src={cover2} />
+            <img src={cover} />
           </div>
       </div>
   )

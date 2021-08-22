@@ -33,7 +33,7 @@ function Resonance() {
         <div >
           <div className='resonance-text' data-aos="fade-right">
             <h2>  Développement complet du site </h2> <br />
-            <p>Développement du site permettant de donner des informations sur les activités proposés et délivrer du contenu avec un blog.</p><br />
+            <p>Site web permettant de donner des informations sur les activités proposées et délivrer du contenu avec un blog.</p><br />
 
             <div className="widgets-outils-reso">
               <p>Ruby</p>
@@ -49,9 +49,9 @@ function Resonance() {
               <li>Intégration HTML - CSS (Bootstrap).</li>
               <li>Développement sous Node & React JS.</li>
               <li>Intégration d'APIs gérant les bases de données.</li>
-              <li> Hbergé sur Vercel.</li>
+              <li> Hébergé sur Vercel.</li>
             </p>
-            <p>Les fonctionnalités proposées permettent de créer du contenu dans une stratégie de référencement naturel et de suivi client. Il y a notamment une application newsletter, une application de gestion de blog et un formulaire de scontact mail. </p><br />
+            <p>Les fonctionnalités proposées permettent de créer du contenu dans une stratégie de référencement naturel et webmarketing Il y a notamment une application newsletter, une application de gestion de blog et un formulaire de contact mail. </p><br />
             <a  href='https://xn--rsonance-b1a.co/' target="_blank" rel="noopener noreferrer" className='btn-mobile'>
               <button className="btn btn--inline-reso">
                 Lien vers le site !
