@@ -87,7 +87,7 @@ h1 {
 @media (min-width: 1024px) and (max-width: 1286px){
   .profile-grid {
     margin-top: -45px;
-    display: inline-block;
+    display: block;
     margin-bottom: -71px;
   }
 

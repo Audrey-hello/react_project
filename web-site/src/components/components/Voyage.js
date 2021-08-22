@@ -4,23 +4,15 @@ import ReactPlayer from 'react-player';
 import './Voyage.css';
 import voyage from './voyage.jpg';
 import Topbar from './Topbar';
-import { useEffect } from "react";
-
-
-function ScrollToTopOnMount() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
-  return null;
-}
+import Footer from './Footer';
+import GoToTop from './GoToTop';
 
 
 
 export default function Voyage() {
   return (
     <div className='voyage-container'>
-      <ScrollToTopOnMount />
+      <GoToTop />
       <div className="voyage-banner" >
        <Topbar />
         <ReactPlayer
@@ -50,6 +42,7 @@ export default function Voyage() {
           <p> C'est une expérience qui reste unique pour chacun.e et les ressentis sont différents. On peut y trouver <strong>un état de relaxation, un travail sur le lâcher prise, un arrêt du brouhaha mental, des réponses à nos questions, une meilleure compréhension de nos états émotionnels</strong>...Vous venez y chercher ce que vous souhaitez ! </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 // src/components/AllPosts.js
 
 import React, { useEffect, useState } from "react";
@@ -6,6 +7,7 @@ import sanityClient from "./Client.js";
 import Topbar from './Topbar';
 import './Content.css';
 import ressources2 from './ressources2.png';
+import Footer from './Footer';
 
 export default function AllPosts() {
   const [allPostsData, setAllPosts] = useState(null);
@@ -75,6 +77,7 @@ export default function AllPosts() {
         </div>
         </div>
         </div>
+        <Footer />
       </div>
     </>
   );

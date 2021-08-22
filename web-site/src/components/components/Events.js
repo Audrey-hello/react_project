@@ -6,6 +6,7 @@ import Metta from './Metta.png'
 import picture7 from './picture7.JPG';
 import Topbar from './Topbar';
 import { PopupButton} from "react-calendly";
+import Footer from './Footer';
 
 
 
@@ -115,7 +116,7 @@ function Events() {
         }}
       />
       </div>
-
+    <Footer />
     </div>
   )
 }

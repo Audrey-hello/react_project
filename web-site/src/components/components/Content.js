@@ -4,7 +4,7 @@ import sanityClient from "./Client.js";
 import './Content.css';
 import contenu from './contenu.png';
 import Topbar from './Topbar';
-
+import Footer from './Footer';
 
 
 function Content() {
@@ -40,12 +40,9 @@ function Content() {
   }, []);
 
 
-
-
   return (
 
     <div className="events-container" id="events">
-
       <ScrollToTopOnMount />
       <div className='banner-container3'>
         <div className="image-banner-content" >
@@ -89,6 +86,7 @@ function Content() {
           </div>
         </div>
       </div>
+    < Footer />
     </div>
   )
 }

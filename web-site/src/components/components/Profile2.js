@@ -6,6 +6,8 @@ import cover_profile2 from './cover_profile2.png';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import { useEffect } from "react";
+import Footer from './Footer';
+
 
 function ScrollToTopOnMount() {
   useEffect(() => {
@@ -52,6 +54,7 @@ function Profile2() {
           <img className='image-profile-onglet' src={picture3} alt='Moi qui sourit et je suis assise' />
         </div>
       </div>
+      <Footer />
     </div>
 
   )

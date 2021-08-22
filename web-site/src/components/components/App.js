@@ -14,6 +14,7 @@ import Footer from './Footer';
 import AllPosts from "./AllPosts.js";
 import OnePost from "./OnePost.js";
 import PageNotFound from './404_page';
+import GoToTop from './GoToTop';
 
 
 
@@ -56,7 +57,8 @@ function App() {
           <Route component={AllPosts} path="/AllPosts" exact  />
           <Route component={OnePost} path="/:slug" />
         </Switch>
-        <Footer />
+        {/* <GoToTop /> */}
+        {/* <Footer /> */}
       </Router>
     </div>
   );

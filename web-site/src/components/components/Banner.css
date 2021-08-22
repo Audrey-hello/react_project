@@ -26,18 +26,18 @@ height: 100vh;
 
 .image-banner img {
     width: 100%;
-    height: 184px;
+    height: auto;
     object-fit: contain;
 }
 
 .image-banner {
   width: 100%;
-  height: 184px;
+  height: auto;
   object-fit: cover;
 }
 
 .banner-container {
-  height: 184px;
+  height: auto;
 }
 
 }

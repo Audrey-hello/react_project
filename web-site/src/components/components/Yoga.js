@@ -3,24 +3,18 @@ import React from 'react';
 import "./Yoga.css";
 import ReactPlayer from 'react-player';
 import picture6 from './picture6.JPG';
-import { useEffect } from "react";
 import Topbar from './Topbar';
+import Footer from './Footer';
+import GoToTop from './GoToTop';
 
 
-function ScrollToTopOnMount() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
-  return null;
-}
 
 
 
 export default function Yoga() {
   return (
     <div className='yoga-container' >
-      <ScrollToTopOnMount />
+      <GoToTop />
       <div className="yoga-banner" id='yoga'>
          <Topbar />
         <ReactPlayer
@@ -63,6 +57,7 @@ export default function Yoga() {
           <img className='image-profile-yoga2' src={picture6} alt='Mon profile' />
         </div>
       </div>
+      <Footer />
     </div>
   );
   }

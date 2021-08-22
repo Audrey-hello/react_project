@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import './Contact.css';
 import Topbar from './Topbar';
+import Footer from './Footer';
 import { init, sendForm } from 'emailjs-com';
 init("user_Boc5zsTh76kXC3qdiR1Fa");
 
@@ -102,6 +103,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
+      <Footer />
     </div>
   </>
   );

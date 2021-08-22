@@ -7,6 +7,7 @@ import instagram from './instagram.svg';
 import facebook from './facebook.svg';
 
 
+
 function Cards() {
 
 
@@ -14,12 +15,9 @@ function Cards() {
     <div className="cards-container">
      <h1 className='apropos-title' id='cards'> Programme </h1>
       <p className="themes"> Les différentes thématiques alliant le corps, le mental et la quête de sens. </p>
-      <div className="Encart">
         <div className="title-container">
-        <h3 className="rubrique-title">LES ATELIERS  </h3>
+          <h3 className="rubrique-title">LES ATELIERS  </h3>
         </div>
-      </div><br>
-      </br>
       <div className="cards-content">
         <div className='cards'>
 

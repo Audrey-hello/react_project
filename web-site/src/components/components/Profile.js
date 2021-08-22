@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import React from 'react';
 import './Profile.css';
 import picture11 from './picture11.JPG';
+import Footer from './Footer';
 
 function Profile() {
   return (

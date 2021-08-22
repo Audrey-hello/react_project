@@ -71,6 +71,8 @@ a:hover {
   color: black !important;
 }
 
+
+
 .nav-item-init a {
   position: relative;
   text-align: center;
@@ -271,7 +273,7 @@ a.dropdown-toggle .colorChange {
     padding: 8px;
     border-radius: 5px;
     display: block;
-    line-height: 26px;
+    line-height: 32px;
   }
 
   .navbar-light .navbar-toggler {
@@ -279,6 +281,20 @@ a.dropdown-toggle .colorChange {
    position: relative;
    margin-top: 0px;
   }
+
+  .navbar-light .navbar-toggler {
+   border-color: none;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem;
+}
+
+button:focus {
+    outline: none;
+    outline: none;
+}
 
   .nav-links h1 {
     font-size: 21px;

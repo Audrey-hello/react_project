@@ -5,20 +5,14 @@ import './Voyage.css';
 import './Coaching.css';
 import picture10 from './picture10.JPG';
 import Pack from './Pack.png';
-import { useState, useEffect } from "react";
+import { useState} from "react";
 import Topbar from './Topbar';
 import Popup from "./Popup";
+import Footer from './Footer';
+import GoToTop from './GoToTop';
 
 
 
-
-function ScrollToTopOnMount() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
-  return null;
-}
 
 
 
@@ -31,7 +25,7 @@ export default function Coaching() {
   }
   return (
     <div className="coach-container">
-      <ScrollToTopOnMount />
+      <GoToTop />
       <div className="coaching-banner" >
         <Topbar />
         <ReactPlayer
@@ -108,6 +102,7 @@ export default function Coaching() {
           <img className='image-profile-coaching2' src={picture10}  alt="moi de profil"/>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
