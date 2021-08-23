@@ -33,7 +33,7 @@ function Content() {
           url
         }
       }
-    }| order(_createdAt asc),
+    },
     `
       )
       .then((data) => setAllPosts(data))
