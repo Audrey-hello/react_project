@@ -49,15 +49,15 @@ export default function AllPosts() {
             <div className="container-cards-blog">
 
           <div className="card-blog">
-        {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"> */}
+
           {allPostsData &&
             allPostsData.map((post, index) => (
-
                 <span
                   className="block h-64 relative rounded shadow leading-snug bg-white"
                   key={index}
                 >
-                <Link to={"/" + post.slug.current} key={post.slug.current}>
+
+                <Link to={"/" + post.slug.current } key={post.slug.current}>
                   <img
                     className="w-full h-full rounded-r object-cover absolute"
                     src={post.mainImage.asset.url}
@@ -72,7 +72,7 @@ export default function AllPosts() {
                   {post.title}
                 </h1>
                </span>
-            ))}
+            )) }
          </div>
         </div>
         </div>

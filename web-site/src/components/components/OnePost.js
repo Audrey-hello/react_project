@@ -7,9 +7,8 @@ import './ArticleSono.css';
 import BlockContent from "@sanity/block-content-to-react";
 import imageUrlBuilder from "@sanity/image-url";
 import Topbar from './Topbar';
-import GoToTop from './GoToTop.js';
 import "./PreLoader.css";
-import loading from './loading.gif'
+
 
 const builder = imageUrlBuilder(sanityClient);
 function urlFor(source) {
@@ -34,7 +33,7 @@ export default function OnePost() {
            },
          body,
         "name": author->name,
-        "authorImage": author->image
+        "authorImage": author->image,
        }`,
         { slug }
       )
@@ -42,8 +41,9 @@ export default function OnePost() {
       .catch(console.error);
   }, [slug]);
 
-  if (!postData) return <div> hello
-
+  if (!postData) return
+    <div>
+    loading
     </div> ;
 
 
