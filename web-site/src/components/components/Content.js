@@ -24,7 +24,7 @@ function Content() {
   useEffect(() => {
     sanityClient
       .fetch(
-        `*[_type == "post"]| order(_createdAt asc){
+        `*[_type == "post"]{
         title,
         slug,
         mainImage{
@@ -33,7 +33,7 @@ function Content() {
           url
         }
       }
-    },
+    }| order(_createdAt asc),
     `
       )
       .then((data) => setAllPosts(data))
