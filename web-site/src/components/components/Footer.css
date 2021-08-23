@@ -141,7 +141,7 @@ a .mentions-légales {
 @media (max-width: 600px){
     .footer-container {
       display: inline-block;
-      height: 100%;
+      height: auto;
       text-align: -webkit-auto;
     }
     .contact-content {
@@ -171,7 +171,7 @@ a .mentions-légales {
 @media (min-width: 600px) and (max-width: 1024px) {
     .footer-container {
       display: inline-block;
-      height: 100%;
+      height: auto;
       text-align: center;
     }
     .contact-content {

@@ -1,8 +1,7 @@
 .loading {
   background-color: #efeae5;
-  align-items: center;
-  height: 100vh;
 }
+
 .logo-loading {
   height: 200px;
   width: 200px;

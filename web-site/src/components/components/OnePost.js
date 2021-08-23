@@ -8,7 +8,7 @@ import BlockContent from "@sanity/block-content-to-react";
 import imageUrlBuilder from "@sanity/image-url";
 import Topbar from './Topbar';
 import "./PreLoader.css";
-
+import PageNotFound from "./404_page.js";
 
 const builder = imageUrlBuilder(sanityClient);
 function urlFor(source) {
@@ -33,7 +33,7 @@ export default function OnePost() {
            },
          body,
         "name": author->name,
-        "authorImage": author->image,
+        "authorImage": author->image
        }`,
         { slug }
       )
@@ -41,10 +41,7 @@ export default function OnePost() {
       .catch(console.error);
   }, [slug]);
 
-  if (!postData) return
-    <div>
-    loading
-    </div> ;
+  if (!postData) return <PageNotFound />;
 
 
 
