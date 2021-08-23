@@ -83,6 +83,10 @@
   clear: both;
   border: 0;
 }
+.px-16 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 
 .page-prev {
   text-align: center;
@@ -94,7 +98,7 @@
 
 .navigation {
   outline-width: 1px;
-  padding: 27px 36px 27px 36px;
+  padding: 5px;
 }
 
 .btn-link {
@@ -125,7 +129,9 @@
 .container .row {
     width: 100%;
     table-layout: fixed;
+    display: inline-block;
 }
+
 .style-light {
     color: #1b1d1f;
 }
@@ -138,12 +144,20 @@
     padding-left: 0;
     margin: 0;
     border-radius: 2px;
-    height: 79px;
+    height: 60px;
 }
 
+.prose {
+    font-size: 16px;
+}
 
 .navigation > li {
     display: table-cell;
+}
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1200px !important;
+  }
 }
 
 .fa {

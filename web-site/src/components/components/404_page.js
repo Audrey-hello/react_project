@@ -1,10 +1,14 @@
 /* eslint-disable jsx-a11y/alt-text */
-import React  from 'react';
+import React, {useState} from 'react';
 import './404_page.css';
 import Topbar from './Topbar';
 import Footer from './Footer';
 
+
+
 const PageNotFound = () => {
+
+
 
   return (
     <div className="wrapper">
