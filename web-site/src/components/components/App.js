@@ -48,8 +48,9 @@ function App() {
           </Route>
           <Route path="/profile2" exact component={Profile2} >
             <Profile2 />
-            <Route path="" exact={true} component={PageNotFound} />
-            <Route component={PageNotFound} />
+          </Route>
+          <Route path="/404_page" exact={true} component={PageNotFound} >
+            <PageNotFound />
           </Route>
           <Route component={AllPosts} path="/AllPosts" exact  />
           <Route component={OnePost} path="/:slug" />

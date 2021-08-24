@@ -53,7 +53,7 @@ function Events() {
               <li> Il y aura 12 ateliers répartis sur les 4 mois. </li>
               <li> Un point individuel toutes les 2 semaines. </li>
               <li> Un appel de groupe une fois par mois.</li>
-              <li> L'accès à une commaunauté pour vous apporter du soutien.</li>
+              <li> L'accès à une communauté pour vous apporter du soutien.</li>
               <li>Un bilan à la fin du programme.</li> <br />
 
 

@@ -54,12 +54,10 @@ function Content() {
 
       <div className="blog-cards-content">
         <div className="title-Articles">
-        <h1> Articles Blog </h1>
+          <h1> Articles Blog </h1>
+          <h3> Bien-être & Empowerment </h3>
         </div>
         <div className="text-allposts">
-          <div className="title-allposts">
-            <li> Bien-être </li><span> // </span><li> Empowerment </li>
-          </div>
            <div className="content-blog-posts">
             <div className="container-cards-blog">
               <div className="card-blog">

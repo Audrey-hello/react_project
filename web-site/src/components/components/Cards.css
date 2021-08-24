@@ -113,8 +113,8 @@
 .title-container {
   display: inline-block;
   align-items: center;
-  margin-bottom: 30px;
-  margin-top: 60px;
+  margin-bottom: 5px;
+  margin-top: 30px;
 }
 
 .title-container2 {
@@ -133,11 +133,11 @@
 
 .image-retraites {
   border-radius: 49%;
-  height: 283px;
+  height: 297px;
   padding: 9px;
   width: 361Px;
   margin-left: 27px;
-  margin-top: 68px;
+  margin-top: 60px;
   object-fit: cover;
 
 }
@@ -164,8 +164,9 @@
 }
 
 .title-cards {
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Poppins', sans-serif;
+  font-weight: 800;
 }
 
 .text {

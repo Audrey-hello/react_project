@@ -24,21 +24,7 @@ height: 100vh;
 
 @media (max-width: 600px){
 
-.image-banner img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-}
 
-.image-banner {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-.banner-container {
-  height: auto;
-}
 
 }
 

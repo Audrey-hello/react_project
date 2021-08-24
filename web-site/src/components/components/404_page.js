@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import React, {useState} from 'react';
+import React from 'react';
 import './404_page.css';
 import Topbar from './Topbar';
 import Footer from './Footer';
