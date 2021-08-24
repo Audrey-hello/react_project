@@ -45,11 +45,11 @@ function Resonance() {
             <h2>  Les outils </h2> <br />
 
             <p>
-              <li>Conception graphique & Webdesign (Canva).</li>
-              <li>Intégration HTML - CSS (Bootstrap).</li>
-              <li>Développement sous Node & React JS.</li>
-              <li>Intégration d'APIs gérant les bases de données.</li>
-              <li> Hébergé sur Vercel.</li>
+              <li>Conception graphique & Webdesign (Canva)</li>
+              <li>Intégration HTML - CSS (Bootstrap)</li>
+              <li>Développement sous Node & React JS</li>
+              <li>Intégration d'APIs gérant les bases de données</li>
+              <li> Hébergé sur Vercel</li>
             </p>
             <p>Les fonctionnalités proposées permettent de créer du contenu dans une stratégie de référencement naturel et webmarketing Il y a notamment une application newsletter, une application de gestion de blog et un formulaire de contact mail. </p><br />
             <a href='https://www.anaresonance.com/' target="_blank" rel="noopener noreferrer" className='btn-mobile'>

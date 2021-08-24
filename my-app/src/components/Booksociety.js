@@ -36,11 +36,11 @@ function Booksociety() {
 
           <h2> Les outils </h2> <br />
           <p>
-            <li>Conception graphique & Webdesign.</li>
-            <li>Intégration HTML - CSS (Bootstrap).</li>
-            <li>Développement sous Ruby on Rails.</li>
-            <li>Features Javascript.</li>
-            <li>Hébergé sur Heroku.</li>
+            <li>Conception graphique & Webdesign</li>
+            <li>Intégration HTML - CSS (Bootstrap)</li>
+            <li>Développement sous Ruby on Rails</li>
+            <li>Features Javascript</li>
+            <li>Hébergé sur Heroku</li>
           </p>
           <p> Le site utilise des codes d'authentification pour avoir accès à la base de données.</p>
           <a href='https://www.booksociety.me/' target="_blank" rel="noopener noreferrer" className='btn-mobile'>

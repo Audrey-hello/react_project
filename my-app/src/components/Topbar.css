@@ -9,7 +9,7 @@
 .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 15px;
     height: 85px;
 }

@@ -21,7 +21,7 @@ function Profile() {
         <div className='profile-content'>
           <h2> Mon parcours </h2>
 
-          <p> Je m’appelle Audrey, je suis devenue web développeuse full-stack après une formation intensive en bootcamp. J'ai auparavant travaillé en finance d'entreprise dans de grandes institutions pendant plusieurs années. Puis l'envie d'entreprendre de nouveaux challenges m' a orienté  vers le monde de la tech en décidant d'apprendre à coder. Je suis donc très enthousiaste de m'être lancée dans cette nouvelle aventure qui m'apporte de nouvelles compétences. Ce que j'aime dans mon travail c'est aussi collaborer en équipe, se soutenir et apporter nos différentes visions. Je souhaite aussi continuer à apprendre et à m'amuser en codant ! </p>
+          <p> Je m’appelle Audrey, je suis devenue web développeuse full-stack après une formation intensive en bootcamp. J'ai auparavant travaillé en finance d'entreprise dans de grandes institutions pendant plusieurs années. Puis l'envie d'entreprendre de nouveaux challenges m' a orienté  vers le monde de la tech en décidant d'apprendre à coder. Je suis donc très enthousiaste de m'être lancée dans cette nouvelle aventure qui m'apporte de nouvelles compétences. Ce que j'aime dans mon travail c'est aussi collaborer en équipe, se soutenir et apporter nos différentes visions. Je souhaite aussi continuer à apprendre et à m'amuser en codant ! </p><br />
 
 
           <h2> Mes compétences web </h2>

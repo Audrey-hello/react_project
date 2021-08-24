@@ -51,11 +51,11 @@ function Apolo() {
               <h2>  Les outils  </h2> <br />
 
               <p>
-                <li> Conception graphique & Webdesign.</li>
-                <li> Intégration HTML - CSS (Bootstrap).</li>
-                <li> Développement sous Ruby on Rails.</li>
-                <li> Intégration d'Apis avec Javascript et animations.</li>
-                <li> Hébergé sur Heroku.</li><br />
+                <li> Conception graphique & Webdesign</li>
+                <li> Intégration HTML - CSS (Bootstrap)</li>
+                <li> Développement sous Ruby on Rails</li>
+                <li> Intégration d'Apis avec Javascript et animations</li>
+                <li> Hébergé sur Heroku</li><br />
 
                 <p> Le site utilise des codes d'authentification pour avoir accès à la base de données.</p>
 
