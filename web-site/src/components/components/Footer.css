@@ -12,8 +12,8 @@
 }
 
  .footer-links {
- display: flex;
- align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .footer-email-form h2 {

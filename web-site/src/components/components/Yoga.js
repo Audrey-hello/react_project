@@ -51,9 +51,12 @@ export default function Yoga() {
           <p> - Le compte yogaisdeadpodcast. </p>
           <p> - Henikapetal avec School of Sensual Arts.</p>
 
+          <a href="https://www.instagram.com/ana.resonance/" target="_blank" rel="noopener"><button  className="btn btn--inline">
+            ▻▻ Suis les prochaines sessions sur insta !
+          </button></a>
+
         </div>
         <div>
-          {/* <img className='image-profile-yoga' src={picture3} alt='image de profile' /> */}
           <img className='image-profile-yoga2' src={picture6} alt='Mon profile' />
         </div>
       </div>

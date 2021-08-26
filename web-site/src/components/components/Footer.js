@@ -5,6 +5,7 @@ import instagram from './instagram.svg';
 import facebook from './facebook.svg';
 import mail from './mail.svg';
 import pinterest from './pinterest.svg';
+import tiktok from './tiktok.svg';
 
 
 function Footer() {
@@ -17,6 +18,7 @@ function Footer() {
         <h2 className="title-footer"> Me suivre </h2>
         <div className="social-media-footer">
           <a href="https://www.instagram.com/ana.resonance/"><i><img src={instagram} className="social-logo" alt="image du logo insta" /></i></a>
+          <a href="https://vm.tiktok.com/ZMRMAQFm9/" ><i><img src={tiktok} className="social-logo" alt="image du logo tiktok" /></i></a>
           <a href="https://www.facebook.com/resonance.anahata" ><i><img src={facebook} className="social-logo" alt="image du logo facebook" /></i></a>
           <a href="https://www.pinterest.fr/anahataresonance/_created/" ><i><img src={pinterest} className="social-logo-pint" alt="image du logo facebook" /></i></a>
         </div>
