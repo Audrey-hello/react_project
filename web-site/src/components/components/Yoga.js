@@ -52,7 +52,7 @@ export default function Yoga() {
           <p> - Henikapetal avec School of Sensual Arts.</p>
 
           <a href="https://www.instagram.com/ana.resonance/" target="_blank" rel="noopener"><button  className="btn btn--follow">
-            ▻▻ Prochaines sessions sur insta
+            ▻▻ Suivre les prochaines sessions
           </button></a>
 
         </div>
