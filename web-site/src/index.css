@@ -53,3 +53,12 @@ h1 {
 .h3, h3 {
     font-size: 1.75rem;
 }
+
+a {
+  color: none !important;
+  text-decoration: none !important;
+}
+button:focus{
+box-shadow: none !important;
+outline: 0 !important;
+}
