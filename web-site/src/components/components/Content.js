@@ -10,6 +10,7 @@ import Footer from './Footer';
 function Content() {
 
 
+
   function ScrollToTopOnMount() {
     useEffect(() => {
       window.scrollTo(0, 0);

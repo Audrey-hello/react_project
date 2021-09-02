@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './Banner.css';
-import cover from './cover.png'
+import cover from './cover_reso.png'
 
 function Banner() {
   return (

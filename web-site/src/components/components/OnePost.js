@@ -9,6 +9,14 @@ import imageUrlBuilder from "@sanity/image-url";
 import Topbar from './Topbar';
 import "./PreLoader.css";
 import PageNotFound from "./404_page.js";
+import {
+  FacebookShareButton,
+  FacebookIcon,
+  FacebookMessengerShareButton,
+  FacebookMessengerIcon,
+  EmailIcon,
+  EmailShareButton
+} from "react-share";
 
 const builder = imageUrlBuilder(sanityClient);
 function urlFor(source) {
@@ -77,6 +85,36 @@ export default function OnePost() {
               <div className="row-container row-navigation row-navigation-light">
                 <div className="row row-parent style-light limit-width">
                   <nav className="post-navigation">
+                  <div className="share_media">
+                    <p> Partager l'article:</p>
+                    <div className="share_button">
+                      <FacebookShareButton
+                        url={"https://www.anaresonance.com/" + postData.slug.current}
+                        quote={"Résonance blog"}
+                        hashtag="#anaresonance">
+                        <FacebookIcon size={30} round />
+                      </FacebookShareButton>
+                    </div>
+                    <div className="share_button">
+                      <FacebookMessengerShareButton
+                        url={"https://www.anaresonance.com/" + postData.slug.current}
+                        appId="169776711944105"
+                        className="share-button__share-button"
+                      >
+                        <FacebookMessengerIcon size={30} round fill={"#335C67"}/>
+                      </FacebookMessengerShareButton>
+                    </div>
+                    <div className="share_button">
+                      <EmailShareButton
+                        subject="Article super chouette"
+                        separator=""
+                        body="Je t'invite à lire cet article publié par @ana.resonance"
+                        url={"https://www.anaresonance.com/" + postData.slug.current}>
+                        <EmailIcon size={30} round />
+                      </EmailShareButton>
+                    </div>
+                  </div>
+
                     <ul className="navigation">
                       <li className="page-prev">
                         <span className="btn-container">

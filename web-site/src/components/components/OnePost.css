@@ -109,7 +109,8 @@
 
 .btn-link {
   display: inline-block;
-  font-size: 15px;
+  font-family: 'Poppins';
+  font-size: 16px;
   padding: 13px 31px 13px 31px !important;
   font-style: normal !important;
   text-align: center;
@@ -127,24 +128,24 @@
   }
 
 .container .row {
-    width: 100%;
-    table-layout: fixed;
-    display: inline-block;
+  width: 100%;
+  table-layout: fixed;
+  display: inline-block;
 }
 
 .style-light {
-    color: #1b1d1f;
+  color: #1b1d1f;
 }
 
 .pagination, .navigation {
-    display: table;
-    table-layout: fixed;
-    text-align: center;
-    width: 100%;
-    padding-left: 0;
-    margin: 0;
-    border-radius: 2px;
-    height: 60px;
+  display: table;
+  table-layout: fixed;
+  text-align: center;
+  width: 100%;
+  padding-left: 0;
+  margin: 0;
+  border-radius: 2px;
+  height: 60px;
 }
 
 .prose {
@@ -152,8 +153,32 @@
 }
 
 .navigation > li {
-    display: table-cell;
+  display: table-cell;
 }
+
+.share_media {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.share_button > button:hover {
+ opacity: 0.5;
+}
+
+.share_media p {
+  margin-right: 6px;
+  margin-top: 6px;
+  font-family: 'Poppins';
+  font-size: 16px;
+}
+.share_button {
+  margin-left: 5px;
+}
+circle {
+  fill:#335C67
+}
+
 @media (min-width: 1400px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     max-width: 1200px !important;
