@@ -12,8 +12,10 @@ import PageNotFound from "./404_page.js";
 import {
   FacebookShareButton,
   FacebookIcon,
-  FacebookMessengerShareButton,
-  FacebookMessengerIcon,
+  WhatsappShareButton,
+  WhatsappIcon,
+  PinterestShareButton,
+  PinterestIcon,
   EmailIcon,
   EmailShareButton
 } from "react-share";
@@ -96,13 +98,25 @@ export default function OnePost() {
                       </FacebookShareButton>
                     </div>
                     <div className="share_button">
-                      <FacebookMessengerShareButton
+                      <WhatsappShareButton
                         url={"https://www.anaresonance.com/" + postData.slug.current}
-                        appId="169776711944105"
-                        className="share-button__share-button"
+                        title={postData.slug.current}
+                        separator=":: "
+                        className="Demo__some-network__share-button"
                       >
-                        <FacebookMessengerIcon size={30} round fill={"#335C67"}/>
-                      </FacebookMessengerShareButton>
+                        <WhatsappIcon size={30} round />
+                      </WhatsappShareButton>
+                    </div>
+                    <div className="share_button">
+                      <PinterestShareButton
+                        url={"https://www.anaresonance.com/" + postData.slug.current}
+                        description="Article of the blog anaresonance"
+                        title={postData.title}
+                        media={urlFor(postData.mainImage).url()}
+                        className="Demo__some-network__share-button"
+                      >
+                        <PinterestIcon size={30} round />
+                      </PinterestShareButton>
                     </div>
                     <div className="share_button">
                       <EmailShareButton
