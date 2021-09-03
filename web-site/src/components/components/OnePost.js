@@ -1,5 +1,3 @@
-// src/components/OnePost.js
-
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import sanityClient from "./Client.js";

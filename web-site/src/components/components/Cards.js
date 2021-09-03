@@ -13,11 +13,11 @@ function Cards() {
 
   return (
     <div className="cards-container">
-     <h1 className='apropos-title' id='cards'> Programme </h1>
+      <h1 className='apropos-title' id='cards'> Programme </h1>
       <p className="themes"> Les différentes thématiques alliant le corps, le mental et la quête de sens. </p>
-        <div className="title-container">
-          <h3 className="rubrique-title">LES ATELIERS  </h3>
-        </div>
+      <div className="title-container">
+        <h3 className="rubrique-title">LES ATELIERS  </h3>
+      </div>
       <div className="cards-content">
         <div className='cards'>
 
@@ -65,10 +65,10 @@ function Cards() {
 
             <p> <strong>N'hésite pas à me suivre sur les réseaux pour être informé.e. des prochaines sessions !</strong> </p>
 
-          <div className="social-media-retraite">
-              <a href="https://www.instagram.com/ana.resonance/"><i><img src={instagram} className="social-logo-retraite" alt="logo instagram"/></i></a>
-              <a href="https://www.facebook.com/resonance.anahata" ><i><img src={facebook} className="social-logo-retraite" alt="logo facebook"/></i></a>
-          </div>
+            <div className="social-media-retraite">
+                <a href="https://www.instagram.com/ana.resonance/"><i><img src={instagram} className="social-logo-retraite" alt="logo instagram"/></i></a>
+                <a href="https://www.facebook.com/resonance.anahata" ><i><img src={facebook} className="social-logo-retraite" alt="logo facebook"/></i></a>
+            </div>
           </div>
         </div>
       </div>

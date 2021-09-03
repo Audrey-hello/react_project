@@ -323,9 +323,9 @@ button:focus {
   }
 
   .nav-links h1 {
-      font-size: 21px;
-      position: relative;
-      margin-top: 20px;
+    font-size: 21px;
+    position: relative;
+    margin-top: 13px;
   }
 
   .navbar-toggler {
@@ -358,7 +358,7 @@ button:focus {
     padding: 8px;
     border-radius: 5px;
     display: block;
-    line-height: 26px;
+    line-height: 30px;
   }
 
   .nav-menu > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
@@ -397,9 +397,6 @@ button:focus {
     top: 0px;
    }
 
-  /* .nav-item-init li {
-    margin-top: 5px;
-  } */
 
   .nav-menu > #nav-check:not(:checked) ~ .nav-item {
     height: 0px;

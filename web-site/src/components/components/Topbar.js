@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable no-undef */
 import React, {useState, useEffect} from 'react';
 import './Navbar.css';
 import {Link} from 'react-router-dom';
@@ -39,28 +38,28 @@ return (
       <div className="navbar-container" >
         <div >
           <Navbar collapseOnSelect expand="lg" >
-          <Link to="/" className='nav-links' style={{ color: colorChange }}  >
-            <h1>Résonance</h1>
-          </Link>
-          <Container>
-            <ul>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
-            </Nav>
-            <Nav>
-          <div className='list' >
-                <li className='nav-item-init' >
-                  <Link to="/events" style={{ color: colorChange }} >
-                   Programme Metta
-                  </Link>
-                </li>
+            <Link to="/" className='nav-links' style={{ color: colorChange }}  >
+              <h1>Résonance</h1>
+            </Link>
+            <Container>
+              <ul>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                  <Nav className="me-auto">
+                  </Nav>
+                  <Nav>
+                    <div className='list' >
+                      <li className='nav-item-init' >
+                        <Link to="/events" style={{ color: colorChange }} >
+                          Programme Metta
+                        </Link>
+                      </li>
 
                       <div class="nav-item dropdown" >
                         <a aria-haspopup="true" aria-expanded="false" id="nav-dropdown" class="dropdown-toggle nav-link" role="button" style={{ color: colorChange, marginTop: '-2px' }} href="#">
                         Ateliers</a>
                         <NavDropdown
-                         id="nav-dropdown"
+                          id="nav-dropdown"
                           title=""
                           show={show}
                           onMouseEnter={showDropdown}
@@ -71,26 +70,26 @@ return (
                         </NavDropdown>
                       </div>
 
-                <li className='nav-item-init'>
-                  <Link to="/profile2" style={{ color: colorChange }} >
-                  Qui suis-je ?
-                  </Link>
-                </li>
-                <li className='nav-item-init'>
-                  <Link to="/content" style={{ color: colorChange }} >
-                    Contenu
-                  </Link>
-                </li>
-                <li className='nav-item-init'>
-                  <Link to='/contact' style={{ color: colorChange }}>
-                    Contact
-                  </Link>
-                </li>
-              </div>
-              </Nav>
-            </Navbar.Collapse>
-            </ul>
-          </Container>
+                      <li className='nav-item-init'>
+                        <Link to="/profile2" style={{ color: colorChange }} >
+                        Qui suis-je ?
+                        </Link>
+                      </li>
+                      <li className='nav-item-init'>
+                        <Link to="/content" style={{ color: colorChange }} >
+                          Contenu
+                        </Link>
+                      </li>
+                      <li className='nav-item-init'>
+                        <Link to='/contact' style={{ color: colorChange }}>
+                          Contact
+                        </Link>
+                      </li>
+                    </div>
+                  </Nav>
+                </Navbar.Collapse>
+              </ul>
+            </Container>
          </Navbar>
         </div>
       </div>
