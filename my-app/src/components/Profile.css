@@ -116,7 +116,7 @@ h1 {
 @media (max-device-width: 480px){
   .profile-content {
     margin: 20px;
-    width: 600px;
+    width: 560px;
   }
 
   .profile-grid {
