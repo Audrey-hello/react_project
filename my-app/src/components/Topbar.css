@@ -339,7 +339,7 @@ a.dropdown-toggle .colorChange {
   .navbar-light .navbar-toggler {
    display: flex;
    position: relative;
-   margin-top: 10px;
+   margin-top: 20px;
    margin-left: 59px;
    color: white !important;
    border-color: none !important;
