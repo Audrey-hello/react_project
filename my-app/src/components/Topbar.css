@@ -307,8 +307,8 @@ a.dropdown-toggle .colorChange {
   }
 
   .navbar {
-    width: 350px;
-    margin-left: 80px;
+    width: 585px;
+    margin-left: 20px;
   }
 
   .container {
@@ -351,7 +351,7 @@ a.dropdown-toggle .colorChange {
     padding: 8px;
     border-radius: 5px;
     display: block;
-    line-height: 26px;
+    line-height: 30px;
   }
 
   .nav-menu > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
