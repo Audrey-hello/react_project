@@ -236,7 +236,7 @@ a.dropdown-toggle .colorChange {
 .nav-item:hover .dropdown-menu{
   display: block; }
 
-@media (min-width: 600px) and (max-width: 992px) {
+@media (min-device-width: 992px) and (max-width: 1024px) {
 
   .navbar .nav-item .dropdown-menu{ display: none; }
 	.navbar .nav-item:hover .nav-link{   }
@@ -250,12 +250,15 @@ a.dropdown-toggle .colorChange {
      position: absolute;
     }
 
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+  }
   .navbar {
     position: relative;
     margin-top: 16px;
   }
 }
-@media (min-device-width: 480px) and (max-width: 1024px) {
+@media (min-device-width: 480px) and (max-width: 992px) {
   .navbar {
     width: 700px;
     margin-left: 22px;
@@ -339,7 +342,7 @@ a.dropdown-toggle .colorChange {
   .navbar-light .navbar-toggler {
    display: flex;
    position: relative;
-   margin-top: 20px;
+   margin-top: 0px;
    margin-left: 59px;
    color: white !important;
    border-color: none !important;
