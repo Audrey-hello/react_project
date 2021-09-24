@@ -9,9 +9,6 @@ import Nav from 'react-bootstrap/Nav';
 import { useLocation } from 'react-router-dom';
 
 
-
-
-
 function Topbar() {
 
   const location = useLocation('/');

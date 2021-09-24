@@ -36,11 +36,17 @@ code {
     margin-bottom: .5rem;
     font-weight: 500;
     line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
 }
 
 p {
     margin-top: 0;
     margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+  font-family: 'Poppins', sans-serif;
 }
 
 h1 {

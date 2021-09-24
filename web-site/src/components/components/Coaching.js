@@ -10,10 +10,7 @@ import Topbar from './Topbar';
 import Popup from "./Popup";
 import Footer from './Footer';
 import GoToTop from './GoToTop';
-
-
-
-
+import { PopupButton } from "react-calendly";
 
 
 export default function Coaching() {
@@ -101,6 +98,55 @@ export default function Coaching() {
         <div>
           <img className='image-profile-coaching2' src={picture10}  alt="moi de profil"/>
         </div>
+      </div>
+      < div className="Appel">
+        <div className='appel-text'>
+          <h5> <strong> Appelle-moi si une session de coaching avec moi t'intéresse ! Nous discuterons ensemble de tes objectifs et de ce que je propose. Nous déciderons à la fin de l'appel si on organise une première session ensemble ✨ </strong></h5>
+        </div>
+        <PopupButton
+          className="btn--events"
+          pageSettings={{
+            backgroundColor: 'ffffff',
+            hideEventTypeDetails: false,
+            hideGdprBanner: true,
+            hideLandingPageDetails: false,
+            primaryColor: '00a2ff',
+            textColor: '4d5055'
+          }}
+          prefill={{
+            customAnswers: {
+              a1: 'a1',
+              a10: 'a10',
+              a2: 'a2',
+              a3: 'a3',
+              a4: 'a4',
+              a5: 'a5',
+              a6: 'a6',
+              a7: 'a7',
+              a8: 'a8',
+              a9: 'a9'
+            },
+            date: new Date('2021-08-08T10:02:30.649Z'),
+            email: 'test@test.com',
+            firstName: 'Jon',
+            guests: [
+              'janedoe@example.com',
+              'johndoe@example.com'
+            ],
+            lastName: 'Snow',
+            name: 'Jon Snow'
+          }}
+          styles={{}}
+          text="Réserve ton premier rdv !"
+          url="https://calendly.com/resonance-anahata/30min?back=1&month=2021-08"
+          utm={{
+            utmCampaign: 'Spring Sale 2019',
+            utmContent: 'Shoe and Shirts',
+            utmMedium: 'Ad',
+            utmSource: 'Facebook',
+            utmTerm: 'Spring'
+          }}
+        />
       </div>
       <Footer />
     </div>

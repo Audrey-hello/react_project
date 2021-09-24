@@ -11,7 +11,7 @@ init("user_Boc5zsTh76kXC3qdiR1Fa");
 const Contact = () => {
 
 
-  const { register, handleSubmit, watch, formState: { errors } } = useForm("");
+  const { register, handleSubmit, formState: { errors } } = useForm("");
   const onSubmit = data => {
   console.log(data);
 
@@ -39,8 +39,8 @@ const Contact = () => {
 
   const validator = require("email-validator");
   ;
-  const message = watch('message') || "";
-  const messageCharsLeft = 1500 - message.length;
+  // const message = watch('message') || "";
+  // const messageCharsLeft = 1500 - message.length;
   const [contactNumber, setContactNumber] = useState("000000");
   const [statusMessage, setStatusMessage] = useState("Message");
   const generateContactNumber = () => {
