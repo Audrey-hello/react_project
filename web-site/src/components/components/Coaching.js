@@ -101,8 +101,9 @@ export default function Coaching() {
       </div>
       < div className="Appel">
         <div className='appel-text'>
-          <h5 style={{ lineHeight: 1.5 }}> <strong> Appelle-moi si une session de coaching avec moi t'intéresse ! </strong><br/>
-          Nous discuterons ensemble de tes objectifs et de ce que je propose. Nous déciderons à la fin de l'appel si on organise une première session ensemble ✨ </h5>
+          <h2> ▸▸ Prendre rendez-vous </h2><br/>
+          <p style={{ lineHeight: 1.5 }}> <strong> Appelle-moi si une session de coaching avec moi t'intéresse !  </strong><br/>
+            Nous discuterons ensemble de tes objectifs et de ce que je propose. Nous déciderons à la fin de l'appel si on organise une première session ensemble et des tarifs ✨ <strong> En plus cet appel de 30 mn est gratuit !</strong> </p>
         </div>
         <PopupButton
           className="btn--events"
@@ -138,7 +139,7 @@ export default function Coaching() {
             name: 'Jon Snow'
           }}
           styles={{}}
-          text="Réserve ton premier rdv !"
+          text="Réserve ton premier appel !"
           url="https://calendly.com/resonance-anahata/30min?back=1&month=2021-08"
           utm={{
             utmCampaign: 'Spring Sale 2019',
