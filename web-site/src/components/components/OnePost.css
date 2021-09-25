@@ -17,8 +17,13 @@
 
 .article-name {
   font-family: 'Lora', serif;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: bolder;
+  background: #335c679e;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  width: 600px;
 }
 
 .article-name2 {
