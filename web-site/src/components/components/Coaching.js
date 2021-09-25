@@ -103,7 +103,7 @@ export default function Coaching() {
         <div className='appel-text'>
           <h2> ▸▸ Prendre rendez-vous </h2><br/>
           <p style={{ lineHeight: 1.5 }}> <strong> Appelle-moi si une session de coaching avec moi t'intéresse !  </strong><br/>
-            Nous discuterons ensemble de tes objectifs et de ce que je propose. Nous déciderons à la fin de l'appel si on organise une première session ensemble et des tarifs ✨ <strong> En plus cet appel de 30 mn est gratuit !</strong> </p>
+            Nous discuterons ensemble de tes objectifs et de ce que je propose. Nous déciderons à la fin de l'appel si on organise une première session ensemble et des tarifs ✨ <strong> En plus cet appel de 30 mn est gratuit.</strong> </p>
         </div>
         <PopupButton
           className="btn--events"
