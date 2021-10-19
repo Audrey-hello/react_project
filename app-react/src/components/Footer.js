@@ -1,46 +1,37 @@
-import React from 'react'
-import {Button} from './components/Button'
-import { Link } from './components/Link'
+import { Link } from 'react-router-dom';
+import './Footer.css';
+import facebook from './facebook.svg';
+import insta from './instagram.svg';
+import mail from './mail.svg';
+
+
 
 function Footer() {
+
   return (
     <div className='footer-container'>
-      <section className="footer-tab">
-        <p className="footer-heading">
-          Write me
-        </p>
-        <div className="input">
-          <form>
-            <input types="email" name="email" placeholder="your Email" className="footer-input" />
-           <Button buttonStyle='btn-outline'> Post </Button>
-          </form>
-        </div>
-      </section>
+      <div className="logo-footer">
+        <h1 className="title-logo"> Matriarchy </h1>
+      </div>
       <div className="footer-links">
-        <div className="footer-link-wrapper">
-          <div className="footer-link-items">
-            <h2> About me </h2>
-            <Link to='/home'> How it works </Link>
-          </div>
-          <div className="footer-link-items">
-            <h2> Follow me </h2>
-            <Link to='/'> Instagram </Link>
+        {/* <h2 className="title-footer"> En savoir plus </h2> */}
+        <div className="social-media-footer">
+          <a href="https://www.instagram.com/matriarchy_co/"><i><img src={insta} className="social-logo" alt="image du logo insta" /></i></a>
+          <a href="https://www.facebook.com/matriarchy.co" ><i><img src={facebook} className="social-logo" alt="image du logo facebook" /></i></a>
+        </div>
+      </div>
+      <div className="mail-content">
+        <div className="contacter">
+          <h2 className="title-footer" id='footer'>Nous contacter</h2>
+          <div className="social-logo-mail" >
+            <a href="mailto:matriarchy.co@gmail.com?subject=Votre question✨:" >
+              <img src={mail} className="social-logo-mail" alt="image du logo mail" />
+            </a>
           </div>
         </div>
       </div>
-      <section className="social-media">
-        <div className="social-media-wrap">
-          <Link to="/" className="social-logo">
-            <i className="fab fa-typo3"></i>
-          </Link>
-        </div>
-        <div className="social-icons">
-          <Link className="social-icon-link instagram" to="/" aria-label='Instagram'>
-           <i className="fab fa-instagram" />
-          </Link>
-        </div>
-      </section>
     </div>
-  )
+  );
 }
+
 export default Footer;
