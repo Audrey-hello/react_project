@@ -315,6 +315,7 @@ a.dropdown-toggle .colorChange {
   .navbar {
     width: 585px;
     margin-left: 20px;
+    margin-top: 32px;
   }
 
   .container {
@@ -333,9 +334,9 @@ a.dropdown-toggle .colorChange {
   }
 
   .navbar-container {
-      display: block;
-      text-align: none;
-      align-items: none;
+    display: block;
+    text-align: none;
+    align-items: none;
     }
 
   .nav-menu {
@@ -353,11 +354,11 @@ a.dropdown-toggle .colorChange {
   }
 
   .list {
-    background-color:#94b5c0d6;
+    background-color:#e9e5c7d6;
     padding: 8px;
     border-radius: 5px;
     display: block;
-    line-height: 30px;
+    line-height: 42px;
   }
 
   .nav-menu > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {

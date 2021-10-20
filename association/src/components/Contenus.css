@@ -40,6 +40,7 @@
   margin-top: 45px;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .contenus-content h2 {
@@ -53,6 +54,7 @@
   line-height: 1.8;
   margin-bottom: 60px;
   margin: revert;
+  text-align: justify;
 }
 
 .profile-content-don {
@@ -62,6 +64,18 @@
   font-family: 'Poppins', sans-serif;
   margin-bottom: 40px;
   margin-left: 100px;
+  text-align: center;
+}
+
+.profile-content-don p {
+  font-weight: 400;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 60px;
+  margin: revert;
+  text-align: justify;
 }
 
 .image-profile-consent {
@@ -107,7 +121,14 @@
 @media (min-device-width: 480px) and (max-width: 1024px){
 
 
-  .profile-content {
+  .contenus-content {
+    width: 620px;
+    text-align: justify;
+    margin-left: 0px;
+    margin-right: 70px;
+    margin-left: 20px;
+}
+ .profile-content-don {
     width: 620px;
     text-align: justify;
     margin-left: 0px;
@@ -116,7 +137,7 @@
 }
 
 
-  .profile-title >h1 {
+  .contenus-title >h1 {
 
       margin-right: 40px;
   }
@@ -148,12 +169,16 @@
 }
 
 @media (max-device-width: 480px){
-  .profile-content {
+  .contenus-content {
+    margin: 20px;
+    width: 560px;
+  }
+  .profile-content-don {
     margin: 20px;
     width: 560px;
   }
 
-  .profile-grid {
+  .contenus-grid {
     display: block;
   }
 

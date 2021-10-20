@@ -26,3 +26,54 @@
   border-top-style: groove;
   position: fixed;
 }
+
+
+
+@media (max-device-width: 480px){
+
+.image-banner3 > img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+ .image-banner3 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.banner-container3 {
+  height:auto;
+}
+
+.banner-container3  img {
+  position: unset;
+}
+
+.banner-title3 {
+  position: unset;
+}
+
+}
+
+@media (min-device-width: 480px) and (max-width: 1024px) {
+
+.banner-container3 img {
+  position: unset;
+}
+
+.image-banner3 {
+  height: auto;
+
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1286px) {
+
+}
+
+
+

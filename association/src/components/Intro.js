@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import './Intro.css';
 import Banner2 from './Banner2';
 import Button from './Button';
-import { Link } from 'react-router-dom';
+
 
 
 

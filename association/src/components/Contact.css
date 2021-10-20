@@ -82,3 +82,29 @@ a .social-logo-contact:hover  {
 
 
 
+@media (min-device-width: 480px) and (max-width: 1024px){
+
+
+  .contact-content {
+    width: 620px;
+    text-align: justify;
+    margin-left: 0px;
+    margin-right: 70px;
+    margin-left: 20px;
+}
+
+}
+
+
+@media (max-device-width: 480px){
+  .contact-content {
+    margin: 20px;
+    width: 560px;
+  }
+
+  .contact-grid {
+    display: block;
+  }
+
+}
+

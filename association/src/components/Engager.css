@@ -103,7 +103,7 @@
 @media (min-device-width: 480px) and (max-width: 1024px){
 
 
-  .profile-content {
+  .engager-content {
     width: 620px;
     text-align: justify;
     margin-left: 0px;
@@ -137,12 +137,12 @@
 }
 
 @media (max-device-width: 480px){
-  .profile-content {
+  .engager-content {
     margin: 20px;
     width: 560px;
   }
 
-  .profile-grid {
+  .engager-grid {
     display: block;
   }
 
