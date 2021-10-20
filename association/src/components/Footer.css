@@ -9,6 +9,7 @@
   width: 100%;
   font-size: 20px;
   font-weight: bold;
+  position: sticky;
 }
 
  .footer-links {

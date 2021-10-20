@@ -4,7 +4,7 @@
   align-items: center;
   height: 500px;
   object-fit: cover;
-  position: absolute;
+  position: fixed;
 
 }
 
@@ -16,4 +16,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.banner_title3 {
+  position: absolute;
+  border-bottom-style: groove;
+  padding: 25px;
+  border-block-color: black;
+  border-top-style: groove;
+  position: fixed;
 }

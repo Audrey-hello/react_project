@@ -16,6 +16,8 @@ h1 {
   display: block;
   align-items: center;
   justify-content: center;
+  position: sticky;
+  scroll-behavior: smooth;
 }
 
 .profile-grid {

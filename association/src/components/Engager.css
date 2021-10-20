@@ -13,6 +13,7 @@
   display: block;
   align-items: center;
   justify-content: center;
+  position: sticky;
 }
 
 .engager-grid {

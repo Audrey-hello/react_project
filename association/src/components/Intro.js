@@ -11,6 +11,7 @@ function Intro() {
 
 
   return (
+    <>
     <div className="container-profile">
       <div className="profile-title">
         <h1> Nos actions </h1>
@@ -28,12 +29,13 @@ function Intro() {
           <p><strong>Pour cela, nous militons pour l’inclusivité et la lutte contre les oppressions systémiques.</strong> </p><br />
         </div>
       </div>
+    </div>
 
 
           <Banner2/>
 
 
-
+    <div className="container-profile">
       <div className='profile-grid' >
         <div className='profile-content'>
           <h1> Un aperçu de ce que Matriarchy propose</h1><br /><br />
@@ -63,7 +65,7 @@ function Intro() {
         </div>
       </div>
     </div>
-
+  </>
   )
 }
 

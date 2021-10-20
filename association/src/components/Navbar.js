@@ -50,7 +50,7 @@ function Topbar() {
                     <Nav>
                       <div className='list' >
                         <div class="nav-item dropdown" >
-                          <a aria-haspopup="true" aria-expanded="false" id="nav-dropdown" class="dropdown-toggle nav-link" role="button" style={{ color: colorChange, marginTop: '-2px' }} href="#">
+                          <a aria-haspopup="true" aria-expanded="false" id="nav-dropdown" class="dropdown-toggle nav-link" role="button" style={{ color: colorChange, marginTop: '-3px' }} href="#">
                             Qui sommes-nous ? </a>
                           <NavDropdown
                             id="nav-dropdown"
