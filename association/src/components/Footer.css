@@ -64,6 +64,10 @@
   font-size: 12px;
 }
 
+.logo-footer {
+  margin-left: 15px;
+  margin-top: 15px;
+}
 
 .mail-content {
   display: flex;
@@ -80,7 +84,6 @@
 .title-logo {
   font-size: 28px;
   font-weight: bold;
-  margin-left: 20px;
 }
 
 .title-logo p {
@@ -140,6 +143,8 @@ a .mentions-légales {
   text-decoration: none !important;
   color: white !important;
 }
+
+
 
 @media (max-device-width: 480px){
     .footer-container {
