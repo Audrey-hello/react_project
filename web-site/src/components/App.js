@@ -9,7 +9,7 @@ import Yoga from './Yoga';
 import Voyage from './Voyage';
 import Coaching from './Coaching';
 import Profile2 from './Profile2';
-import Events from './Events';
+import Programme from './Programme';
 import AllPosts from "./AllPosts.js";
 import OnePost from "./OnePost.js";
 import PageNotFound from './404_page';
@@ -40,8 +40,8 @@ function App() {
             <Route path="/coaching" exact component={Coaching} >
             <Coaching />
           </Route>
-          <Route path="/events" exact component={Events} >
-            <Events />
+          <Route path="/programme" exact component={Programme} >
+            <Programme />
           </Route>
           <Route path="/content" exact component={Content} >
             <Content />

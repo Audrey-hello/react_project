@@ -47,14 +47,14 @@ return (
                   <Nav>
                     <div className='list' >
                       <li className='nav-item-init' >
-                        <Link to="/events" style={{ color: colorChange }} >
-                          Programme Metta
+                        <Link to="/Programme" style={{ color: colorChange }} >
+                          Programme Boost & Care
                         </Link>
                       </li>
 
                       <div class="nav-item dropdown" >
                         <a aria-haspopup="true" aria-expanded="false" id="nav-dropdown" class="dropdown-toggle nav-link" role="button" style={{ color: colorChange, marginTop: '-2px' }} href="#">
-                        Ateliers</a>
+                        Coaching </a>
                         <NavDropdown
                           id="nav-dropdown"
                           title=""
@@ -63,7 +63,7 @@ return (
                           onMouseLeave={hideDropdown}>
                         <NavDropdown.Item as={Link} to="/Yoga">Yoga</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="/Voyage">Voyage au tambour</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="/Coaching">Coaching</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/Coaching"> Séances 1:1 Coaching</NavDropdown.Item>
                         </NavDropdown>
                       </div>
 
@@ -74,7 +74,7 @@ return (
                       </li>
                       <li className='nav-item-init'>
                         <Link to="/content" style={{ color: colorChange }} >
-                          Contenu
+                          Blog
                         </Link>
                       </li>
                       <li className='nav-item-init'>
