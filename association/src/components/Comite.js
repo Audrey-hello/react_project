@@ -6,7 +6,7 @@ import Navbar from './Navbar';
 import Nawa from './1.png';
 import Anahata from './hibou.png';
 import Leonor from './pieuvre.png';
-import Mey from './chatbleu.png';
+import Mey from './licorne.png';
 import Victoire from './chauvesouris.png';
 import Footer from './Footer';
 
