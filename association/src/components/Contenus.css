@@ -100,17 +100,17 @@
   margin-bottom: 70px;
 }
 
-.image-transition {
-  height: 600px;
-  width: 1174px;
-  margin-top: 90px;
+.image-profile-regle {
+  width: 438px;
+  height: 619px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+  margin-top: 58px;
+  margin-bottom: 70px;
 }
 
-.transition-profile {
-  background: #efeae5;
-  margin-bottom: 200px;
-  margin-top: 100px;
-}
+
 .social-media-insta {
     display: flex;
     margin-top: 35px;
@@ -171,6 +171,9 @@
     display: block;
   }
 
+  .image-profile-regle {
+    width: 326px;
+  }
 
   .image-profile-glossaire{
     width: 300px;

@@ -4,6 +4,7 @@ import Banner3 from './Banner3';
 import books from './books.gif';
 import Navbar from './Navbar';
 import glossaire from './16.png';
+import regle from './regle.jpg';
 import consent from './consent.png';
 import Footer from './Footer';
 import Button from './Button';
@@ -53,12 +54,9 @@ function Contenus() {
             </a>
           </div>
         </div>
-        {/* <div className="profile-title">
-        <h4> Notre compte insta dans lequel on fourni régulièrement du contenu !</h4>
+        <div>
+          <img className='image-profile-regle' src={regle} alt='profile' />
         </div>
-        <div className="social-media-insta">
-          <a href="https://www.instagram.com/ana.resonance/"><i><img src={insta} className="social-logo-retraite" alt="logo instagram" /></i></a>
-        </div> */}
       </div>
       <Footer />
     </>
