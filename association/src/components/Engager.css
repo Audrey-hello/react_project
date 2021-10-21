@@ -123,23 +123,13 @@
       margin-right: 0px;
       margin-left: 0px;
   }
-  .transition-profile {
-    margin-bottom: 0px;
-  }
 
-  .image-transition {
-    height: 226px;
-    width: 346px;
-    margin-top: 40px;
-    object-fit: fill;
-    margin-bottom: 100px;
-}
 }
 
 @media (max-device-width: 480px){
   .engager-content {
     margin: 20px;
-    width: 560px;
+    width: auto;
   }
 
   .engager-grid {
@@ -149,17 +139,15 @@
 
   .image-profile-home {
     display: flex;
-    margin-left: 80px;
+    width: 300px;
+    margin-left: 22px;
   }
-  .transition-profile {
-    margin-top: 0px;
-    margin-bottom: 0px;
+
+  .image-profile-don {
+    display: flex;
+    width: 300px;
+    margin-left: 22px;
   }
-  .image-transition {
-    height: 485px;
-    width: 600px;
-    margin-top: 90px;
-    margin-bottom: 90px;
-}
+
 
 }

@@ -18,7 +18,7 @@ function Charte() {
       <Banner3 name={valeurs} title="Nos valeurs" />
       <div className="container-profile">
         <div className="profile-title">
-          <h1> Notre manifeste et mode de gouvernance</h1>
+          <h1> Notre manifeste et mode de gouvernance</h1><br /><br />
         </div>
         <div className='profile-grid' id="profile">
           <div className='charte-content'>
@@ -53,15 +53,15 @@ function Charte() {
         </div>
         <div className='profile-grid' id="profile">
           <div className='charte-content'>
-            <h2>Comment on fonctionne </h2>
+            <h2>Comment on fonctionne ?</h2>
 
             <p>
 
               <p> Notre gouvernance ✨</p>
               <p>
                 Notre collectif fonctionne en gouvernance partagée, vous pouvez avoir un ou plusieurs rôles et changer, ralentir, dynamiser selon vos envies. Nous valorisons l'intelligence collective et déconstruisons l'autorité hiérarchique pour plus de coopération et d'échanges.</p>
-                <p> Notre équipe est composée d'un comité membres qui constitue le bureau de l'association.Cette équipe est la plus impliquée dans l'organisation et gère les problématiques d'urgence. </p>
-                <p> Les autres membres de l'association peuvent nous soutiennet à leur rythme et peuvent prendre part temps à l'organisation d'évènements que de déicsions auprès du comité membres.</p>
+                <p> Notre équipe est composée d'un comité membres qui constitue le bureau de l'association. Cette équipe est la plus impliquée dans l'organisation et gère les problématiques d'urgence. </p>
+                <p> Les autres membres de l'association peuvent nous soutenir à leur rythme et peuvent prendre part, tant à l'organisation d'évènements qu'à la prise de décisions auprès du comité membres.</p>
             </p><br />
           </div>
           <div>

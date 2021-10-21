@@ -15,17 +15,17 @@ import Footer from './Footer';
     <Banner3 name={sparkles} title="Notre équipe" />
     <div className="container-profile">
       <div className="profile-title">
-        <h1> Qui sommes-nous ?</h1>
+          <h1> Qui sommes-nous ?</h1><br /><br />
       </div>
       <div className='profile-grid' id="profile">
-        <div className='profile-content'>
+        <div className='comite-content'>
             <h2>Nawa </h2>
-              <h5>⎨iel, accords neutres, fém., masc. alternés, non-binaire⎬ </h5>
+            <h5>⎨iel, accords neutres, fém., masc. alternés, non-binaire, queer, bi, blanche⎬ </h5>
           <p>
             <p></p>
 
-            <p>Iel est lead communication ainsi que des évènements shibari au sein de Matriarchy et fait parti·e du bureau des membres.</p>
-            <p>Je participe à la création d’espaces, l’organisation et/ou l’encadrement d’événements shibari et/ou sexpositifs depuis 6 ans (gestion de l’Ecole des cordes, création de French Bonds et Chatonnade par le passé puis Collectif Matriarchy aujourd’hui).</p>
+            <p>Je suis lead communication ainsi que des événements shibari et participe à l’organisation de divers événements au sein de Matriarchy. Je fais parti·e du bureau des membres.</p>
+            <p>Féministe, queer. Je participe à la création d’espaces, l’organisation et/ou l’encadrement d’événements shibari et/ou sexpositifs depuis plus de 6 ans (gestion de l’Ecole des cordes, création de l’association French Bonds et de Chatonnade par le passé puis, aujourd'hui, membre actif du Collectif Matriarchy)</p>
           </p><br />
         </div>
         <div>
@@ -35,7 +35,7 @@ import Footer from './Footer';
       <div className='profile-grid' id="profile">
         <div className='comite-content'>
           <h2>Anahata </h2>
-            <h5>⎨aelle, accords neutres/ fém.,non-binaire, queer⎬</h5>
+            <h5>⎨aelle, accords neutres/ fém.,non-binaire, queer, bi ascendant lesbienne, blanche⎬</h5>
 
         <p>
             <p>Présidente de l’association et créatrice de l’association, je gère l’organisation interne et des évènements divers. J’écris aussi du contenu sur instagram.</p>

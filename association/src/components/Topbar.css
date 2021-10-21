@@ -266,6 +266,7 @@ a.dropdown-toggle .colorChange {
     width: 700px;
     margin-left: 22px;
     height: 70px;
+    margin-top: 32px;
   }
 
   .nav-item-init > li {
@@ -277,12 +278,16 @@ a.dropdown-toggle .colorChange {
     top: 0px;
    }
 
+   .container {
+    margin-top: -33px;
+  }
+
   .list {
-    background-color:#94b5c0d6;
+    background-color:#e9e5c7d6;
     padding: 8px;
     border-radius: 5px;
     display: block;
-    line-height: 26px;
+    line-height: 42px;
   }
 
   .navbar-light .navbar-toggler {
@@ -313,7 +318,7 @@ a.dropdown-toggle .colorChange {
   }
 
   .navbar {
-    width: 585px;
+    width: auto;
     margin-left: 20px;
     margin-top: 32px;
   }

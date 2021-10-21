@@ -37,6 +37,6 @@
 
 @media (max-device-width: 480px){
  .App {
-   width: 100vh;
+   width: auto;
  }
 }

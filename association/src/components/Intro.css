@@ -93,13 +93,15 @@ blockquote {
 
 @media (min-width: 1024px) and (max-width: 1286px){
 
+
+
 }
 @media (min-device-width: 480px) and (max-width: 1024px){
 
 
   .profile-content {
     width: 620px;
-    text-align: justify;
+    text-align: center;
     margin-left: 0px;
     margin-right: 70px;
     margin-left: 20px;
@@ -132,8 +134,7 @@ blockquote {
 
 @media (max-device-width: 480px){
   .profile-content {
-    margin: 20px;
-    width: 560px;
+    width: auto;
   }
 
   .profile-grid {
@@ -145,15 +146,5 @@ blockquote {
     display: flex;
     margin-left: 80px;
   }
-  .transition-profile {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  .image-transition {
-    height: 485px;
-    width: 600px;
-    margin-top: 90px;
-    margin-bottom: 90px;
-}
 
 }

@@ -20,11 +20,11 @@ function Contact() {
         <div className='contact-grid' id="contact">
           <div className='contact-content'>
 
-            <h5>Que ce soit pour collaborer, nous aider ou simplement si vous souhaitez nous poser vos questions, n'hésitez pas à nous envoyer un petit message 😊 </h5><br /><br />
+            <h5>Que ce soit pour collaborer, nous aider ou simplement si tu souhaites nous poser vos questions, n'hésite pas à nous envoyer un petit message 😊 </h5><br /><br />
             <h3> Par email </h3>
             <a href="mailto:matriarchy.co@gmail.com?subject=Votre question✨:" ><h5>matriarchy.co@gmail.com</h5><br /> </a>
 
-            <h3> Où en nous rejoignant sur les réseaux sociaux !</h3><br />
+            <h3> Ou en nous rejoignant sur les réseaux sociaux !</h3><br />
 
             <div className="social-media-contact">
               <a href="https://www.instagram.com/matriarchy_co/"> <i><img src={insta} className="social-logo-contact" alt="image du logo insta" /></i></a>

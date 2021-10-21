@@ -143,10 +143,10 @@ a .mentions-légales {
 
 @media (max-device-width: 480px){
     .footer-container {
-      display: flex;
+      display: block;
       height: auto;
       padding: 7px;
-      text-align: -webkit-auto;
+      text-align: center;
     }
     .contact-content {
       display: flex;
@@ -157,6 +157,10 @@ a .mentions-légales {
        margin-left: 6px;
     }
 
+    .mail-content{
+      margin-left: 70Px;
+    }
+
     .title-logo {
       margin: 20px;
     }
@@ -165,7 +169,7 @@ a .mentions-légales {
     }
 
     .footer-links {
-        display: flex;
+        display: block;
     }
  }
 

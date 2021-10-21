@@ -86,12 +86,16 @@
 
   .profile-content {
     width: 620px;
-    text-align: justify;
+    text-align: center;
     margin-left: 0px;
     margin-right: 70px;
     margin-left: 20px;
 }
 
+  .comite-content {
+    width: 600px;
+    margin: 30px;
+  }
 
   .profile-title >h1 {
 
@@ -118,9 +122,9 @@
 }
 
 @media (max-device-width: 480px){
-  .profile-content {
-    margin: 20px;
-    width: 560px;
+  .comite-content {
+    margin: 30px;
+    width: auto;
   }
 
   .profile-grid {
@@ -129,18 +133,8 @@
 
 
   .image-profile-comite{
-    display: flex;
-    margin-left: 80px;
+    display: inline-block;
+    margin: 0px;
   }
-  .transition-profile {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  .image-transition {
-    height: 485px;
-    width: 600px;
-    margin-top: 90px;
-    margin-bottom: 90px;
-}
 
 }

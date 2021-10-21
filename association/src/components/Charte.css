@@ -96,12 +96,17 @@
 @media (min-device-width: 480px) and (max-width: 1024px){
 
 
-  .profile-content {
-    width: 620px;
-    text-align: justify;
-    margin-left: 0px;
-    margin-right: 70px;
-    margin-left: 20px;
+
+.charte-content {
+  margin: 30px;
+}
+
+  .profile-grid {
+    display: block;
+  }
+
+.image-manifeste {
+    margin-left: -18px;
 }
 
 
@@ -130,29 +135,25 @@
 }
 
 @media (max-device-width: 480px){
-  .profile-content {
+  .charte-content {
     margin: 20px;
-    width: 560px;
+    width: auto;
   }
 
   .profile-grid {
     display: block;
   }
 
-
+.image-manifeste {
+    margin-top: 0px;
+    margin-left:0px;
+    width: 341px;;
+}
   .image-profile-home {
     display: flex;
-    margin-left: 80px;
+    width: 341px;
+    margin-left: 0px;
   }
-  .transition-profile {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  .image-transition {
-    height: 485px;
-    width: 600px;
-    margin-top: 90px;
-    margin-bottom: 90px;
-}
+
 
 }
