@@ -13,7 +13,7 @@ function Engager() {
   return (
      <>
       <Navbar />
-      <Banner3 name={cover2} title="Venez nous soutenir !" />
+      <Banner3 name={cover2} title="Viens nous soutenir !" />
       <div className="container-profile">
         <div className="profile-title">
 
