@@ -46,7 +46,7 @@ function Charte() {
           </div>
           <div>
 
-             <a href='https://drive.google.com/file/d/1ktLcVnGNYWz2SA7g1XRFdSIwMeg0zxLp/view?usp=sharing'>
+            <a href='https://drive.google.com/file/d/1ktLcVnGNYWz2SA7g1XRFdSIwMeg0zxLp/view?usp=sharing'>
 
               <img className='image-manifeste' src={manifeste} alt='profile' /></a>
           </div>
@@ -60,8 +60,8 @@ function Charte() {
               <p> Notre gouvernance ✨</p>
               <p>
                 Notre collectif fonctionne en gouvernance partagée, vous pouvez avoir un ou plusieurs rôles et changer, ralentir, dynamiser selon vos envies. Nous valorisons l'intelligence collective et déconstruisons l'autorité hiérarchique pour plus de coopération et d'échanges.</p>
-                <p> Notre équipe est composée d'un comité membres qui constitue le bureau de l'association. Cette équipe est la plus impliquée dans l'organisation et gère les problématiques d'urgence. </p>
-                <p> Les autres membres de l'association peuvent nous soutenir à leur rythme et peuvent prendre part, tant à l'organisation d'évènements qu'à la prise de décisions auprès du comité membres.</p>
+              <p> Notre équipe est composée d'un comité membres qui constitue le bureau de l'association. Cette équipe est la plus impliquée dans l'organisation et gère les problématiques d'urgence. </p>
+              <p> Les autres membres de l'association peuvent nous soutenir à leur rythme et peuvent prendre part, tant à l'organisation d'évènements qu'à la prise de décisions auprès du comité membres.</p>
             </p><br />
           </div>
           <div>

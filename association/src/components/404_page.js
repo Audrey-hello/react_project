@@ -15,7 +15,7 @@ const PageNotFound = () => {
       <Navbar/>
       <img src="https://media.giphy.com/media/FEuvG7U6wNYEE/giphy.gif" className="gif-image" />
       <div className="info">
-        <h3> Oups, cette page n'existe pas 🧐. Retentez plus tard ! </h3>
+        <h3> Oups, cette page n'existe pas 🧐. Retente plus tard ! </h3>
       </div>
       <Footer />
     </div >

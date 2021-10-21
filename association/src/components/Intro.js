@@ -45,20 +45,20 @@ function Intro() {
 
             <p>L’organisation se veut non-essentialiste et nous souhaitons éviter toute reproduction de systèmes de domination. </p><br /><br />
 
-            <h1>🌈    Qu’est-ce qu’on y fait ?</h1><br />
+            <h1>🌈   Qu’est-ce qu’on y fait ?</h1><br />
 
             <li> Nous créons des <strong>ateliers</strong> divers en lien avec nos valeurs (cercle de parole, ateliers découverte shibari, ateliers créatifs, burlesque, ateliers sextoys…). Que ce soit dans une optique de découverte, de déconstruction, d’empowerment, nous avons envie de créer du lien et des prises de conscience. </li><br />
-            <li><strong>Nos retraites</strong> nous organisons des retraites en non-mixité queer dans lesquelles vous pouvez vous-mêmes proposer des ateliers !</li><br />
-            <li> <strong>Les apéros</strong> rencontres sont des moments de partage en convivialité où vous pourrez nous poser toutes vos questions ou simplement discuter avec nous !</li><br />
+            <li><strong>Nos retraites</strong> nous organisons des retraites en non-mixité queer dans lesquelles tu peux toi-même proposer des ateliers !</li><br />
+            <li> <strong>Les apéros</strong> rencontres sont des moments de partage en convivialité où tu pourras nous poser toutes tes questions ou simplement discuter avec nous !</li><br />
 
             <a href="https://www.facebook.com/matriarchy.co/events/" className='btn-mobile'>
               <Button className='btn--outline'> Nos évènements</Button><br /><br />
             </a>
 
             <h1>🧐   Mais ça veut dire quoi tous ces termes militants ?</h1><br />
-            <p>Adelphité, intersectionnalité...vous êtes perdu·e·s avec tous ces termes ? Retrouvez notre glossaire dans la page Ressources !
+            <p>Adelphité, intersectionnalité...tu es perdu·e avec tous ces termes ? Retrouve notre glossaire dans la page Ressources !
 
-              Nous créons aussi du contenu pédagogique pour vous aider à cheminer sur cette voie et acquérir les concepts féministes.</p>
+              Nous créons aussi du contenu pédagogique pour t'aider à cheminer sur cette voie et acquérir les concepts féministes.</p>
 
             <a href='https://drive.google.com/file/d/1tOlFP5raTK6bfzJtR13M1vEI7rqxDVNI/view?usp=sharing'>
               <Button className={'btn--outline'}> Notre glossaire </Button>

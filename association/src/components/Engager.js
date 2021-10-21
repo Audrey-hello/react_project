@@ -26,8 +26,8 @@ function Engager() {
 
               <p> Participer à l'aventure✨</p>
 
-              <p>Vous voulez nous rejoindre mais vous ne savez pas trop comment ? Vous pouvez rejoindre notre équipe selon vos idées, vos compétences ou tout simplement ce qui vous plaira de faire. Que ce soit pour occuper un rôle au sein du collectif ou pour organiser des évènements, nous y allons à notre rythme, dans la bienveillance et le fun !</p>
-              <p>C'est aussi l'occasion de vivre une expérience en apprenant sur vous-mêmes, sur le fonctionnement d'un collectif sexpo féministe et vous enrichir de la diversité de ses membres.</p>
+              <p>Tu veux nous rejoindre mais tu ne sais pas trop comment ? Tu peux rejoindre notre équipe selon tes idées, tes compétences ou tout simplement ce qui te plaira de faire. Que ce soit pour occuper un rôle au sein du collectif ou pour organiser des évènements, nous y allons à notre rythme, dans la bienveillance et le fun !</p>
+              <p>C'est aussi l'occasion de vivre une expérience en apprenant sur toi-même, sur le fonctionnement d'un collectif sexpo féministe et t' enrichir de la diversité de ses membres.</p>
               <p> N'hésitez pas à nous contacter pour savoir comment nous aider !</p>
             </p><br />
 
@@ -48,9 +48,9 @@ function Engager() {
               <p>
               <p> Faire un don ✨</p>
                 <p>
-                  Si vous souhaitez soutenir notre cause vous pouvez nous faire un don ! C'est une façon simple de valoriser nos initiatives et de nous aider à nous développer. Et faire des choses encore plus chouettes de façon pérenne. Quelle que soit la somme que vous donnez, nous serons rempli.e.s de gratitude !</p>
+                  Si tu souhaite soutenir notre cause tu peux nous faire un don ! C'est une façon simple de valoriser nos initiatives et de nous aider à nous développer. Et faire des choses encore plus chouettes de façon pérenne. Quelle que soit la somme que tu donnes, nous serons rempli.e.s de gratitude !</p>
               </p><br />
-              <p>Pour nous verser un don c'est par ici 👇 Merci pour votre soutien 🧡</p>
+              <p>Pour nous verser un don c'est par ici 👇 Merci pour ton soutien 🧡</p>
 
             <a href='https://www.helloasso.com/associations/matriarchy/formulaires/1/widget' className='btn-mobile'>
               <Button className='btn--outline'> Faire un don </Button>

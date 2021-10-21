@@ -24,7 +24,7 @@ function Contenus() {
             <h2>Guide du consentement </h2>
 
             <p>
-              <p> Quelles sont les règles de consentement ? C'est quoi des biais de consentement ? La culture du viol et les violences sexistes et sexuelles ? On y répond dans le guide.</p>
+              <p> Quelles sont les règles de consentement ? C'est quoi des biais de consentement ? La culture du viol et les violences sexistes et sexuelles ? On y répond dans le guide !</p>
             </p><br />
 
             <a href='https://drive.google.com/file/d/1HO5PzKwS-yHhAQvvTSik7EMh2HuJi4Y0/view?usp=sharing'>
@@ -44,7 +44,7 @@ function Contenus() {
             <p>
 
               <p>
-                Si vous avez besoin d'en savoir un peu plus sur les concepts que nous utilisons et le jargon militant </p>
+                Si tu as besoin d'en savoir un peu plus sur les concepts que nous utilisons et le jargon militant </p>
                </p><br />
 
 

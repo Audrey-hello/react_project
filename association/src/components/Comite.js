@@ -6,6 +6,7 @@ import Navbar from './Navbar';
 import Nawa from './1.png';
 import Anahata from './hibou.png';
 import Leonor from './pieuvre.png';
+import Mey from './chatbleu.png';
 import Footer from './Footer';
 
  function Comite() {
@@ -32,11 +33,29 @@ import Footer from './Footer';
           <img className='image-profile-comite' src={Nawa} alt='profile' />
         </div>
       </div>
+        <div className='profile-grid' id="profile">
+          <div className='comite-content'>
+            <h2>Mey</h2>
+            <h5>⎨al, accords épicene/ alterné.,non-binaire, queer, bi, racisé, neuro atypique, avec un handicap physique non visible ⎬</h5>
+
+            <p>
+              <p>J’envisage le plaisir , le  jeu , l’humour et la vulnérabilité  comme des opportunités de questionner les dynamiques de pouvoir et les rôles cis heteronormés dans les connexion intimes, sexuelles et BDSM.
+              </p>
+
+              <p>Je m’engage depuis plusieurs années dans la communauté sx+ et lgbtqia+ notamment en concevant et  facilitant des retraites , des play partie et des atelier autour des sexualités.
+              </p>
+              <p>Je travaille à produire des réflexions politiques et à structurer les pratiques autour du mouvement sex positive avec l’intention de contribuer à l émergence d’une culture forte en matière de consentement d’inclusion et de santé communautaire dans les collectifs dont je fait partie et au niveau communautaire / inter associatif.</p>
+            </p><br />
+
+          </div>
+          <div style={{ marginTop: 40 }}>
+            <img className='image-profile-comite' src={Mey} alt='profile' />
+          </div>
+        </div>
       <div className='profile-grid' id="profile">
         <div className='comite-content'>
           <h2>Anahata </h2>
             <h5>⎨aelle, accords neutres/ fém.,non-binaire, queer, bi ascendant lesbienne, blanche⎬</h5>
-
         <p>
             <p>Présidente de l’association et créatrice de l’association, je gère l’organisation interne et des évènements divers. J’écris aussi du contenu sur instagram.</p>
 
