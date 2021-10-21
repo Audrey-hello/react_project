@@ -288,8 +288,7 @@ a.dropdown-toggle .colorChange {
     border-radius: 5px;
     display: block;
     line-height: 42px;
-    margin-left: -63px;
-    margin-top: 15px;
+
   }
 
   .navbar-light .navbar-toggler {
@@ -366,6 +365,8 @@ a.dropdown-toggle .colorChange {
     border-radius: 5px;
     display: block;
     line-height: 42px;
+    margin-left: -63px;
+    margin-top: 15px;
   }
 
   .nav-menu > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
