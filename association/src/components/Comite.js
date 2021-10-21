@@ -40,12 +40,12 @@ import Footer from './Footer';
             <h5>⎨al, accords épicene/ alterné.,non-binaire, queer, bi, racisé, neuro atypique, avec un handicap physique non visible ⎬</h5>
 
             <p>
-              <p>J’envisage le plaisir , le  jeu , l’humour et la vulnérabilité  comme des opportunités de questionner les dynamiques de pouvoir et les rôles cis heteronormés dans les connexion intimes, sexuelles et BDSM.
+              <p>J’envisage le plaisir, le  jeu, l’humour et la vulnérabilité comme des opportunités de questionner les dynamiques de pouvoir et les rôles cis heteronormés dans les connexion intimes, sexuelles et BDSM.
               </p>
 
-              <p>Je m’engage depuis plusieurs années dans la communauté sx+ et lgbtqia+ notamment en concevant et  facilitant des retraites , des play partie et des atelier autour des sexualités.
+              <p>Je m’engage depuis plusieurs années dans la communauté sx+ et lgbtqia+ notamment en concevant et  facilitant des retraites , des play parties et des ateliers autour des sexualités.
               </p>
-              <p>Je travaille à produire des réflexions politiques et à structurer les pratiques autour du mouvement sex positive avec l’intention de contribuer à l émergence d’une culture forte en matière de consentement d’inclusion et de santé communautaire dans les collectifs dont je fait partie et au niveau communautaire / inter associatif.</p>
+              <p>Je travaille à produire des réflexions politiques et à structurer les pratiques autour du mouvement sex positive avec l’intention de contribuer à l émergence d’une culture forte en matière de consentement, d’inclusion, et de santé communautaire dans les collectifs dont je fais partie et au niveau communautaire / inter associatif.</p>
             </p><br />
 
           </div>
