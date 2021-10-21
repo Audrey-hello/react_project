@@ -44,7 +44,7 @@ function App() {
           <Route path='/Charte' exact component={Charte} />
             <Route path='/Contenus' exact component={Contenus} />
           <Route path='/Comite' exact component={Comite} />
-            <Route path="/404_page" exact={true} component={PageNotFound} >
+            <Route path="*" component={PageNotFound} >
               <PageNotFound />
             </Route>
         </Switch>

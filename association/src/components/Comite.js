@@ -7,6 +7,7 @@ import Nawa from './1.png';
 import Anahata from './hibou.png';
 import Leonor from './pieuvre.png';
 import Mey from './chatbleu.png';
+import Victoire from './chauvesouris.png';
 import Footer from './Footer';
 
  function Comite() {
@@ -67,6 +68,23 @@ import Footer from './Footer';
           <img className='image-profile-comite' src={Anahata} alt='profile' />
         </div>
       </div>
+        <div className='profile-grid' id="profile">
+          <div className='comite-content'>
+            <h2>Victoire </h2>
+            <h5>⎨Rita/Vic, Pronom il/elle/iel, Genderfluid bi/pan ⎬</h5>
+
+            <p>
+              <p>Passionné.e de cuisine, militant.e féministe intersectionel.le et tireur.se de tarot analytique on the side, j'aime nourrir les autres et m'assurer de leur bien être 🙂.</p>
+
+              <p>Le collectif Matriarchy représente pour moi l'opportunité d'offrir un espace inclusif et safer pour les personnes queers. C'est aussi un lieu pour pouvoir nous permettre de s'exprimer, d'explorer, de déconstruire au sein d'une communauté bienveillante.
+              </p>
+              <p>Je fais également parti.e du cabaret féministe inclusif La Flaque depuis 5 ans où nous proposons un nouveau spectacle tous les mois avec lea meilleur des publics !</p>
+            </p><br />
+          </div>
+          <div style={{ marginTop: 40 }}>
+            <img className='image-profile-comite' src={Victoire} alt='profile' />
+          </div>
+        </div>
         <div className='profile-grid' id="profile">
           <div className='comite-content'>
             <h2>Léonor </h2>
