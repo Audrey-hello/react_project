@@ -45,7 +45,7 @@ function Contenus() {
             <p>
 
               <p>
-                Si tu as besoin d'en savoir un peu plus sur les concepts que nous utilisons et le jargon militant </p>
+                Si tu as besoin d'en savoir un peu plus sur les concepts que nous utilisons et le jargon militant. </p>
                </p><br />
 
 

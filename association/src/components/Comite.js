@@ -27,7 +27,7 @@ import Footer from './Footer';
             <p></p>
 
             <p>Je suis lead communication ainsi que des événements shibari et participe à l’organisation de divers événements au sein de Matriarchy. Je fais parti·e du bureau des membres.</p>
-            <p>Féministe, queer. Je participe à la création d’espaces, l’organisation et/ou l’encadrement d’événements shibari et/ou sexpositifs depuis plus de 6 ans (gestion de l’Ecole des cordes, création de l’association French Bonds et de Chatonnade par le passé puis, aujourd'hui, membre actif du Collectif Matriarchy)</p>
+            <p>Féministe, queer. Je participe à la création d’espaces, l’organisation et/ou l’encadrement d’événements shibari et/ou sexpositifs depuis plus de 6 ans (gestion de l’Ecole des cordes, création de l’association French Bonds et de Chatonnade par le passé puis, aujourd'hui, membre actif du Collectif Matriarchy).</p>
           </p><br />
         </div>
         <div>
@@ -37,7 +37,7 @@ import Footer from './Footer';
         <div className='profile-grid' id="profile">
           <div className='comite-content'>
             <h2>Mey</h2>
-            <h5>⎨al, accords épicene/ alterné.,non-binaire, queer, bi, racisé, neuro atypique, avec un handicap physique non visible ⎬</h5>
+            <h5>⎨al, accords épicènes/ alternés., non-binaire, queer, bi, racisé, neuro atypique, avec un handicap physique non visible ⎬</h5>
 
             <p>
               <p>J’envisage le plaisir, le  jeu, l’humour et la vulnérabilité comme des opportunités de questionner les dynamiques de pouvoir et les rôles cis heteronormés dans les connexion intimes, sexuelles et BDSM.
@@ -60,7 +60,7 @@ import Footer from './Footer';
         <p>
             <p>Présidente de l’association et créatrice de l’association, je gère l’organisation interne et des évènements divers. J’écris aussi du contenu sur instagram.</p>
 
-            <p>Je fréquente le milieu s+ depuis plus de 2 ans, notamment en ayant créé des retraites dans un collectif. C’était le début de Matriarchy. Ce nom subversif a été créé pour susciter des prises de conscience sur le patriarcat. J’ai voulu apporter ma vision féministe militante dans ce milieu puis j’y rencontré de merveilleuses personnes avec lesquelles on partageait la même vision.  Et c’est ainsi qu’on s’est rassemblé·e·s autour de Matriarchy. Sinon je suis aussi une adepte du shibari et j’adore créer des expériences de déconstruction du patriarcat (ma passion).
+            <p>Je fréquente le milieu s+ depuis plus de 2 ans, notamment en ayant créé des retraites dans un collectif. C’était le début de Matriarchy. Ce nom subversif a été créé pour susciter des prises de conscience sur le patriarcat. J’ai voulu apporter ma vision féministe militante dans ce milieu puis j’y ai rencontré de merveilleuses personnes avec qui partager cette vision.  Et c’est ainsi qu’on s’est rassemblé·e·s autour de Matriarchy. Sinon je suis aussi une adepte du shibari et j’adore créer des expériences de déconstruction du patriarcat (ma passion).
             </p>
           </p><br />
         </div>
@@ -71,7 +71,7 @@ import Footer from './Footer';
         <div className='profile-grid' id="profile">
           <div className='comite-content'>
             <h2>Victoire </h2>
-            <h5>⎨Rita/Vic, Pronom il/elle/iel, Genderfluid bi/pan ⎬</h5>
+            <h5>⎨Rita/Vic, pronom il/elle/iel, Genderfluid bi/pan ⎬</h5>
 
             <p>
               <p>Passionné.e de cuisine, militant.e féministe intersectionel.le et tireur.se de tarot analytique on the side, j'aime nourrir les autres et m'assurer de leur bien être 🙂.</p>

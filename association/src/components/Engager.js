@@ -26,7 +26,7 @@ function Engager() {
 
               <p> Participer à l'aventure✨</p>
 
-              <p>Tu veux nous rejoindre mais tu ne sais pas trop comment ? Tu peux rejoindre notre équipe selon tes idées, tes compétences ou tout simplement ce qui te plaira de faire. Que ce soit pour occuper un rôle au sein du collectif ou pour organiser des évènements, nous y allons à notre rythme, dans la bienveillance et le fun !</p>
+              <p>Tu veux nous rejoindre mais tu ne sais pas trop comment ? Viens avec tes idées, tes compétences ou tout simplement ce qui te plaira de faire. Que ce soit pour occuper un rôle au sein du collectif ou pour organiser des évènements, nous y allons à notre rythme, dans la bienveillance et le fun !</p>
               <p>C'est aussi l'occasion de vivre une expérience en apprenant sur toi-même, sur le fonctionnement d'un collectif sexpo féministe et t' enrichir de la diversité de ses membres.</p>
               <p> N'hésitez pas à nous contacter pour savoir comment nous aider !</p>
             </p><br />
@@ -48,7 +48,7 @@ function Engager() {
               <p>
               <p> Faire un don ✨</p>
                 <p>
-                  Si tu souhaite soutenir notre cause tu peux nous faire un don ! C'est une façon simple de valoriser nos initiatives et de nous aider à nous développer. Et faire des choses encore plus chouettes de façon pérenne. Quelle que soit la somme que tu donnes, nous serons rempli.e.s de gratitude !</p>
+                  Si tu souhaites soutenir notre cause tu peux nous faire un don ! C'est une façon simple de valoriser nos initiatives et de nous aider à nous développer. Et faire des choses encore plus chouettes de façon pérenne. Quelle que soit la somme que tu donnes, nous serons rempli.e.s de gratitude !</p>
               </p><br />
               <p>Pour nous verser un don c'est par ici 👇 Merci pour ton soutien 🧡</p>
 
