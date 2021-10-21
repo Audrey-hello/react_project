@@ -12,6 +12,7 @@ function Footer() {
     <div className='footer-container'>
       <div className="logo-footer">
         <h1 className="title-logo"> Matriarchy </h1>
+        <i className="title-footer">Tous droits réservés©</i>
       </div>
       <div className="footer-links">
         {/* <h2 className="title-footer"> En savoir plus </h2> */}
