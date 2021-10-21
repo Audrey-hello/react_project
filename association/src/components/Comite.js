@@ -45,7 +45,7 @@ import Footer from './Footer';
 
               <p>Je m’engage depuis plusieurs années dans la communauté sx+ et lgbtqia+ notamment en concevant et  facilitant des retraites , des play parties et des ateliers autour des sexualités.
               </p>
-              <p>Je travaille à produire des réflexions politiques et à structurer les pratiques autour du mouvement sex positive avec l’intention de contribuer à l émergence d’une culture forte en matière de consentement, d’inclusion, et de santé communautaire dans les collectifs dont je fais partie et au niveau communautaire / inter associatif.</p>
+              <p>Je travaille à produire des réflexions politiques et à structurer les pratiques autour du mouvement sex positive avec l’intention de contribuer à l' émergence d’une culture forte en matière de consentement, d’inclusion, et de santé communautaire dans les collectifs dont je fais parti.e et au niveau communautaire / inter associatif.</p>
             </p><br />
 
           </div>
