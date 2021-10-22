@@ -27,7 +27,7 @@ function Intro() {
             <li>sexpositive</li>
             <li>queer</li>
             <p><strong>Pour cela, nous militons pour l’inclusivité et la lutte contre les oppressions systémiques.</strong> </p>
-            <p>Nous valorisons l'humilité, la remise en question et la volonté d'apprendre.Pas besoin d'avoir un énorme background féministe pour faire parti.e du collectif ! Si nos valeurs te parlent et que tu es dans une démarche de co-construction c'est super. On a le droit à l'erreur, l'essentiel c'est de s'améliorer ensemble 😊.</p><br />
+            <p>Nous valorisons l'humilité, la remise en question et la volonté d'apprendre. Pas besoin d'avoir un énorme background féministe pour faire parti.e du collectif ! Si nos valeurs te parlent et que tu es dans une démarche de co-construction c'est super. On a le droit à l'erreur, l'essentiel c'est de s'améliorer ensemble 😊.</p><br />
           </div>
         </div>
       </div>
