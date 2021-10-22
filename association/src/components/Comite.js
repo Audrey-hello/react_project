@@ -40,8 +40,8 @@ import Footer from './Footer';
           <h5>⎨pronom il/elle/iel, genderfluid, bi/pan, afrofeministe, un mix d'Afrique et de Caraïbes⎬</h5>
 
           <p>
-            <p>Je suis trésorerière de l'association Matriarchy.</p>
-            <p>Le rêve? Une éducation à la sexualité decolonisée.
+              <p>Je suis trésorière de l'association Matriarchy.</p>
+              <p>Le rêve? Une éducation à la sexualité décolonisée.
               Cela fait quelques années maintenant que je questionne et recherche notre rapport aux corps et comment la sexualité tel que l'on aborde dans nos sociétés occidentales ne nous montre qu'un pan de l'histoire.
             </p>
 
@@ -111,7 +111,7 @@ import Footer from './Footer';
             <p>
               <p>J'adore cuisiner et aider à ce que les évènements se passent bien, anticiper, prévoir et vivre pleinement l'instant présent. Abonnée des événements shibari.</p>
 
-              <p>Une absolutiste convaincue que toute chose se pense, fervente adepte de dialectique, et de philosophie. J'ai toujours vécu selon ce qui me semblait juste, et depuis quelques mois j'apprends qu'il existe des mots et des personnes merveilleuses qui partagent ces croyances. Sinon, j'oscille à l'infini entre un tapis de yoga et mon backpack.
+              <p>Une absolutiste convaincue que toute chose se pense, fervente adepte de dialectique et de philosophie. J'ai toujours vécu selon ce qui me semblait juste, et depuis quelques mois j'apprends qu'il existe des mots et des personnes merveilleuses qui partagent ces croyances. Sinon, j'oscille à l'infini entre un tapis de yoga et mon backpack.
               </p>
             </p><br />
           </div>

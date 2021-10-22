@@ -30,9 +30,9 @@ function Charte() {
 
               <p>Le collectif est militant féministe intersectionnel luttant contre les violences systémiques existantes au sein de  notre société. Le collectif est non-essentialiste et travaille pour plus d'inclusivité.</p>
 
-              <p>Nous souhaitons expérimenter un système alternatif au patriarcat, c'est à dire en luttant contre les oppressions systémiques et rapport de domination. Pour cela nous souhaitons déconstruire ces mécanismes intégrés dans nos sociétés par de la réflexion, de l’éducation populaire, des ateliers, des retraites tout en véhiculant nos valeurs de bienveillance et d'inclusivité.</p>
+              <p>Nous souhaitons expérimenter un système alternatif au patriarcat, c'est-à-dire en luttant contre les oppressions systémiques et rapport de domination. Pour cela nous souhaitons déconstruire ces mécanismes intégrés dans nos sociétés par de la réflexion, de l’éducation populaire, des ateliers, des retraites tout en véhiculant nos valeurs de bienveillance et d'inclusivité.</p>
 
-              <p> Nous souhaitons préserver la planète et luttons contre les hiérarchies entre les espèces et toute forme de domination.</p>
+              <p> Nous souhaitons préserver la planète et lutter contre les hiérarchies entre les espèces et toute forme de domination.</p>
 
               <p>Nous souhaitons créer des espaces de vie en communauté, de partage et de soutien entre nos membres. Chaque membre a droit à l’erreur et nous tenons à être indulgent.e envers nous-mêmes et les autres. Nous souhaitons créer un espace de non-jugement dans lequel nous pouvons oser entreprendre de nouvelles choses et apprendre de chacun.e de nous.</p>
               <p> Retrouve notre manifeste "Matriarch_charte" pour en savoir plus sur nos valeurs. </p>
