@@ -137,6 +137,10 @@ blockquote {
     width: auto;
   }
 
+  .profile-content > h1 {
+    text-align: center;
+}
+
   .profile-grid {
     display: block;
   }

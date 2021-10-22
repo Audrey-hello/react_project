@@ -140,6 +140,10 @@
     width: auto;
   }
 
+  .charte-content > h2 {
+    text-align: center;
+  }
+
   .profile-grid {
     display: block;
   }

@@ -37,7 +37,7 @@ import Footer from './Footer';
       <div className='profile-grid' id="profile">
         <div className='comite-content'>
           <h2>Oya</h2>
-          <h5>⎨pronom il/elle/iel, Genderfluid, bi/pan, afrofeministe, un mix d'Afrique et de Caraïbes⎬</h5>
+          <h5>⎨pronom il/elle/iel, genderfluid, bi/pan, afrofeministe, un mix d'Afrique et de Caraïbes⎬</h5>
 
           <p>
             <p>Je suis trésorerière de l'association Matriarchy.</p>
@@ -89,7 +89,7 @@ import Footer from './Footer';
         <div className='profile-grid' id="profile">
           <div className='comite-content'>
             <h2>Victoire </h2>
-            <h5>⎨Rita/Vic, pronom il/elle/iel, Genderfluid bi/pan ⎬</h5>
+            <h5>⎨Rita/Vic, pronom il/elle/iel, genderfluid bi/pan ⎬</h5>
 
             <p>
               <p>Passionné.e de cuisine, militant.e féministe intersectionel.le et tireur.se de tarot analytique on the side, j'aime nourrir les autres et m'assurer de leur bien être 🙂.</p>
