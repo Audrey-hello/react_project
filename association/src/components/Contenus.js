@@ -49,7 +49,7 @@ function Contenus() {
                </p><br />
 
 
-            <a href='https://drive.google.com/file/d/1tOlFP5raTK6bfzJtR13M1vEI7rqxDVNI/view?usp=sharing' className='btn-mobile'>
+            <a href='https://drive.google.com/file/d/1xhpQKp91nz8cnng_kDotSOuLowlQZ_e2/view?usp=sharing' className='btn-mobile'>
               <Button className='btn--outline'> Glossaire </Button>
             </a>
           </div>

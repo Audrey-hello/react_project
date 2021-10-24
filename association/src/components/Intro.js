@@ -63,7 +63,7 @@ function Intro() {
 
             Nous créons aussi du contenu pédagogique pour t'aider à cheminer sur cette voie et acquérir les concepts féministes.</p>
 
-            <a href='https://drive.google.com/file/d/1tOlFP5raTK6bfzJtR13M1vEI7rqxDVNI/view?usp=sharing'>
+            <a href='https://drive.google.com/file/d/1xhpQKp91nz8cnng_kDotSOuLowlQZ_e2/view?usp=sharing'>
             <Button className={'btn--outline'}> Notre glossaire </Button>
             </ a>
           </div>

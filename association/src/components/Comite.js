@@ -37,7 +37,7 @@ import Footer from './Footer';
       <div className='profile-grid' id="profile">
         <div className='comite-content'>
           <h2>Oya</h2>
-          <h5>⎨pronom il/elle/iel, genderfluid, bi/pan, afrofeministe, un mix d'Afrique et de Caraïbes⎬</h5>
+          <h5>⎨pronom il/elle/iel, genderfluid, bi/pan, afroféministe, un mix d'Afrique et de Caraïbes⎬</h5>
 
           <p>
               <p>Je suis trésorière de l'association Matriarchy.</p>
@@ -59,6 +59,7 @@ import Footer from './Footer';
             <h5>⎨al, accords épicènes/ alternés., non-binaire, queer, bi, racisé, neuro atypique, avec un handicap physique non visible ⎬</h5>
 
             <p>
+              <p>Je suis membre du bureau et j'organise des évènements autour de la sexualité et du BDSM.</p>
               <p>J’envisage le plaisir, le  jeu, l’humour et la vulnérabilité comme des opportunités de questionner les dynamiques de pouvoir et les rôles cis heteronormés dans les connexion intimes, sexuelles et BDSM.
               </p>
 
