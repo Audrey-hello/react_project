@@ -8,6 +8,7 @@ import Anahata from './hibou.png';
 import Leonor from './pieuvre.png';
 import Mey from './licorne.png';
 import Oya from './panther.png';
+import Emilie from './ecureuil.png';
 import Victoire from './chauvesouris.png';
 import Footer from './Footer';
 
@@ -53,6 +54,21 @@ import Footer from './Footer';
           <img className='image-profile-comite' src={Oya} alt='profile' />
         </div>
       </div>
+        <div className='profile-grid' id="profile">
+          <div className='comite-content'>
+            <h2>Emilie</h2>
+            <h5>⎨pronom “elle”, queer, trans fem, pédé, meuf sans cis-passing, neuro-atypique⎬</h5>
+
+            <p>
+              <p>Je suis membre du bureau de Matriarchy. </p>
+              <p>Je fréquente les milieux sexe positif depuis un peu plus de deux ans. Je suis intéressée par la création d’hétérotopie permettant de questionner nos normes sociales et permettant aux personnes qui sortent de ces normes de trouver des endroits leur permettant de s’épanouir. Je suis féministe queer, j’ai à cœur de travailler à l’inclusion de tout.e.s les personnes marginalisé.e.s. Je suis particulièrement intéressée par développer et proposer des activités autours du toucher, des plaisirs physique directe, de la masturbation. J’essaie de déconstruire et questionner, sans pour autant les renier, mes attentes qui me viennent de mes fantasmes. Je m'intéresse aussi en ce moment à expérimenter ma sexualité sous un angle plus spirituel.
+              </p>
+            </p><br />
+          </div>
+          <div style={{ marginTop: 40 }}>
+            <img className='image-profile-comite' src={Emilie} alt='profile' />
+          </div>
+        </div>
         <div className='profile-grid' id="profile">
           <div className='comite-content'>
             <h2>Mey</h2>

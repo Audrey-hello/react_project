@@ -36,14 +36,14 @@ function App() {
             <Route path="/Intro" exact component={Intro} >
               <Intro />
             </Route>
-            <Route path="/Engager" exact component={Engager} >
+            <Route path="/engager" exact component={Engager} >
               <Engager />
             </Route>
           <Route path='/' exact component={Home}/>
-            <Route path='/Contact' exact component={Contact} />
-          <Route path='/Charte' exact component={Charte} />
-            <Route path='/Contenus' exact component={Contenus} />
-          <Route path='/Comite' exact component={Comite} />
+            <Route path='/contact' exact component={Contact} />
+          <Route path='/charte' exact component={Charte} />
+            <Route path='/contenus' exact component={Contenus} />
+          <Route path='/comite' exact component={Comite} />
             <Route path="*" component={PageNotFound} >
               <PageNotFound />
             </Route>
