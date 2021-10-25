@@ -59,7 +59,7 @@ function Intro() {
             </a>
 
             <h1>🧐   Mais ça veut dire quoi tous ces termes militants?</h1><br />
-            <p>Adelphité, intersectionnalité...tu es perdu·e avec tous ces termes?Retrouve notre glossaire dans la page Ressources !
+            <p>Adelphité, intersectionnalité...tu es perdu·e avec tous ces termes? Retrouve notre glossaire dans le lien ci-dessous!
 
             Nous créons aussi du contenu pédagogique pour t'aider à cheminer sur cette voie et acquérir les concepts féministes.</p>
 
