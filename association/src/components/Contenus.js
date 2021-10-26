@@ -22,7 +22,7 @@ function Contenus() {
         </div>
         <div className='contenus-grid' id="profile">
           <div className='contenus-content'>
-            <h2>Guide du consentement </h2>
+            <h2>Notre Guide du consentement </h2>
 
             <p>
               <p> Quelles sont les règles de consentement ? C'est quoi des biais de consentement ? La culture du viol et les violences sexistes et sexuelles ? On y répond dans le guide !</p>

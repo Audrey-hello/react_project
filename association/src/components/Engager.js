@@ -27,7 +27,7 @@ function Engager() {
               <p> Participer à l'aventure✨</p>
 
               <p>Tu veux nous rejoindre mais tu ne sais pas trop comment ? Viens avec tes idées, tes compétences ou tout simplement ce qui te plaira de faire. Que ce soit pour occuper un rôle au sein du collectif ou pour organiser des évènements, nous y allons à notre rythme, dans la bienveillance et le fun !</p>
-              <p>C'est aussi l'occasion de vivre une expérience en apprenant sur toi-même, sur le fonctionnement d'un collectif sexpo féministe et t' enrichir de la diversité de ses membres.</p>
+              <p>C'est aussi l'occasion de vivre une expérience en apprenant sur toi-même, sur le fonctionnement d'un collectif sexpo féministe et t'enrichir de la diversité de ses membres.</p>
               <p> N'hésitez pas à nous contacter pour savoir comment nous aider !</p>
             </p><br />
 

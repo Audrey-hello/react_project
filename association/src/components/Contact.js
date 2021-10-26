@@ -20,7 +20,7 @@ function Contact() {
         <div className='contact-grid' id="contact">
           <div className='contact-content'>
 
-            <h5>Que ce soit pour collaborer, nous aider ou simplement si tu souhaites nous poser tes questions, n' hésite pas à nous envoyer un petit message 😊 </h5><br /><br />
+            <h5>Que ce soit pour collaborer, nous aider ou simplement si tu souhaites nous poser tes questions, n'hésite pas à nous envoyer un petit message 😊 </h5><br /><br />
             <h3> Par email </h3>
             <a href="mailto:matriarchy.co@gmail.com?subject=Votre question✨:" ><h5>matriarchy.co@gmail.com</h5><br /> </a>
 

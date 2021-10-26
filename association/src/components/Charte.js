@@ -30,7 +30,7 @@ function Charte() {
 
               <p>Le collectif est militant féministe intersectionnel luttant contre les violences systémiques existantes au sein de  notre société. Le collectif est non-essentialiste et travaille pour plus d'inclusivité.</p>
 
-              <p>Nous souhaitons expérimenter un système alternatif au patriarcat, c'est-à-dire en luttant contre les oppressions systémiques et rapport de domination. Pour cela nous souhaitons déconstruire ces mécanismes intégrés dans nos sociétés par de la réflexion, de l’éducation populaire, des ateliers, des retraites tout en véhiculant nos valeurs de bienveillance et d'inclusivité.</p>
+              <p>Nous souhaitons expérimenter un système alternatif au patriarcat, c'est-à-dire en luttant contre les oppressions systémiques et rapport de domination. Pour cela, nous souhaitons déconstruire ces mécanismes intégrés dans nos sociétés par de la réflexion, de l’éducation populaire, des ateliers, des retraites tout en véhiculant nos valeurs de bienveillance et d'inclusivité.</p>
 
               <p> Nous souhaitons préserver la planète et lutter contre les hiérarchies entre les espèces et toute forme de domination.</p>
 
@@ -53,15 +53,15 @@ function Charte() {
         </div>
         <div className='profile-grid' id="profile">
           <div className='charte-content'>
-            <h2>Comment on fonctionne ?</h2>
+            <h2>Comment nous fonctionnons ?</h2>
 
             <p>
 
               <p> Notre gouvernance ✨</p>
               <p>
-                Notre collectif fonctionne en gouvernance partagée, vous pouvez avoir un ou plusieurs rôles et changer, ralentir, dynamiser selon vos envies. Nous valorisons l'intelligence collective et déconstruisons l'autorité hiérarchique pour plus de coopération et d'échanges.</p>
+                Notre collectif fonctionne en gouvernance partagée, chacan peut avoir un ou plusieurs rôles et changer, ralentir, dynamiser selon ses envies. Nous valorisons l'intelligence collective et déconstruisons l'autorité hiérarchique pour plus de coopération et d'échange.</p>
               <p> Notre équipe est composée d'un comité membres qui constitue le bureau de l'association. Cette équipe est la plus impliquée dans l'organisation et gère les problématiques d'urgence. </p>
-              <p> Les autres membres de l'association peuvent nous soutenir à leur rythme et peuvent prendre part tant à l'organisation d'évènements qu'à la prise de décisions auprès du comité membres.</p>
+              <p> Les autres membres de l'association peuvent nous soutenir à leur rythme et peuvent prendre part, tant à l'organisation d'évènements, qu'à la prise de décisions auprès du comité membres.</p>
             </p><br />
           </div>
           <div>
