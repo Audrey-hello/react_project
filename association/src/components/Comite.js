@@ -46,7 +46,7 @@ import Footer from './Footer';
               Cela fait quelques années maintenant que je questionne et recherche notre rapport aux corps et comment la sexualité telle qu'on l'aborde dans nos sociétés occidentales ne nous montre qu'un pan de l'histoire.
             </p>
 
-            <p>Initialement entrepreneure sociale dans le milieu carcéral et TDS domina, je travaille à offrir des espaces de réflexions et de discussions sur la sexualité et ses rapports sociaux, en particulier dans ses rapports de dominations quelles qu'ils soient.
+            <p>Initialement entrepreneure sociale dans le milieu carcéral et TDS domina, je travaille à offrir des espaces de réflexions et de discussions sur la sexualité et ses rapports sociaux, en particulier dans ses rapports de dominations quels qu'ils soient.
             </p>
           </p><br />
         </div>
@@ -91,7 +91,7 @@ import Footer from './Footer';
       <div className='profile-grid' id="profile">
         <div className='comite-content'>
           <h2>Anahata </h2>
-            <h5>⎨aelle, accords neutres/ fém.,non-binaire, queer, bi ascendant lesbienne, blanche⎬</h5>
+            <h5>⎨aelle, accords neutres/ fém., non-binaire, queer, bi ascendant lesbienne, blanche⎬</h5>
             <p>
             <p>Présidente de l’association et créatrice de l’association, je gère l’organisation interne et des évènements divers. J’écris aussi du contenu sur instagram.</p>
 

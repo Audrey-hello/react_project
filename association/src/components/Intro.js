@@ -22,7 +22,7 @@ function Intro() {
 
             <p>
 
-              Matriarchy est un collectif souhaitant créer un système alternatif au patriarcat au travers de retraites, ateliers et contenus pédagogiques. Nous fonctionnons en tant qu’association de type loi 1901 et souhaitons construire un espace de connexion autour de nos 3 valeurs clés: </p>
+              Matriarchy est un collectif souhaitant créer un système alternatif au patriarcat au travers de retraites, ateliers et contenus pédagogiques. Nous fonctionnons en tant qu’association de type loi 1901 et souhaitons construire un espace de connexion autour de nos 3 valeurs clés : </p>
             <li>féminisme intersectionnel</li>
             <li>sexpositive</li>
             <li>queer</li>
@@ -50,7 +50,7 @@ function Intro() {
 
             <h1>🌈   Qu’est-ce qu’on y fait?</h1><br />
 
-            <li> Nous créons des <strong>ateliers</strong> divers en lien avec nos valeurs (cercles de parole, ateliers découverte ou cours de shibari, ateliers créatifs, ateliers de burlesque, ateliers sextoys…).Que ce soit dans une optique de découverte, de déconstruction, d’empowerment, nous avons envie de créer du lien et des prises de conscience.</li><br />
+            <li> Nous créons des <strong>ateliers</strong> divers en lien avec nos valeurs (cercles de parole, ateliers découverte ou cours de shibari, ateliers créatifs, ateliers de burlesque, ateliers sextoys…). Que ce soit dans une optique de découverte, de déconstruction, d’empowerment, nous avons envie de créer du lien et des prises de conscience.</li><br />
             <li><strong>Nos retraites</strong> sont organisées en non-mixité queer dans lesquelles tu peux toi-même proposer des ateliers !</li><br />
             <li> <strong>Les apéros</strong> rencontre sont des moments de partage et de convivialité où tu pourras nous poser toutes tes questions sur notre collectif et ses actions ou simplement discuter avec nous !</li><br />
 
@@ -59,7 +59,7 @@ function Intro() {
             </a>
 
             <h1>🧐   Mais ça veut dire quoi tous ces termes militants?</h1><br />
-            <p>Adelphité, intersectionnalité... tu es perdu·e avec tous ces termes? Retrouve notre glossaire en lien ci-dessous !
+            <p>Adelphité, intersectionnalité... tu es perdu·e avec tous ces termes ? Retrouve notre glossaire en lien ci-dessous !
 
             Nous créons aussi du contenu pédagogique pour t'aider à cheminer sur cette voie et acquérir les concepts féministes.</p>
 
