@@ -45,7 +45,7 @@ function Profile2() {
           <div className='cards-btns'>
             <Link to={'./Coaching'}>
               <Button buttonStyle='btn--outline' buttonSize='btn--large'  >
-                ▻▻ Page du pack "En puissance"
+                ▻▻ Page du pack
               </Button>
             </Link>
           </div>
