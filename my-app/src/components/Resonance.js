@@ -51,7 +51,7 @@ function Resonance() {
               <li>Intégration d'APIs gérant les bases de données</li>
               <li> Hébergé sur Vercel</li>
             </p>
-            <p>Les fonctionnalités proposées permettent de créer du contenu dans une stratégie de référencement naturel et webmarketing Il y a notamment une application newsletter, une application de gestion de blog et un formulaire de contact mail. </p><br />
+            <p>Les fonctionnalités proposées permettent de créer du contenu dans une stratégie de référencement naturel et webmarketing. Il y a notamment une application newsletter, une application de gestion de blog et un formulaire de contact mail. </p><br />
             <a href='https://www.anaresonance.com/' target="_blank" rel="noopener noreferrer" className='btn-mobile'>
               <button className="btn btn--inline-reso">
                 Lien vers le site !
