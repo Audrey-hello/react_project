@@ -36,17 +36,17 @@ function Resonance() {
             <p>Site web permettant de donner des informations sur les activités proposées et délivrer du contenu avec un blog.</p><br />
 
             <div className="widgets-outils-reso">
-              <p>Ruby</p>
+              <p>React JS</p>
               <p>Javascript</p>
               <p>Html</p>
-              <p>Scss</p>
+              <p>Css</p>
             </div>
 
             <h2>  Les outils </h2> <br />
 
             <p>
               <li>Conception graphique & Webdesign (Canva)</li>
-              <li>Intégration HTML - CSS (Bootstrap)</li>
+              <li>Intégration HTML - CSS (+ Bootstrap)</li>
               <li>Développement sous Node & React JS</li>
               <li>Intégration d'APIs gérant les bases de données</li>
               <li> Hébergé sur Vercel</li>
