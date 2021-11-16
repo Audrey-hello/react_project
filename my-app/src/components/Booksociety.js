@@ -43,11 +43,11 @@ function Booksociety() {
             <li>Hébergé sur Heroku</li>
           </p>
           <p> Le site utilise des codes d'authentification pour avoir accès à la base de données.</p>
-          <a href='https://www.booksociety.me/' target="_blank" rel="noopener noreferrer" className='btn-mobile'>
+          {/* <a href='https://book-society-app.herokuapp.com/' target="_blank" rel="noopener noreferrer" className='btn-mobile'>
             <button className="btn btn--inline-bs">
               Lien vers le site
             </button>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
