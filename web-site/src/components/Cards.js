@@ -66,8 +66,8 @@ function Cards() {
             <p> <strong>N'hésite pas à me suivre sur les réseaux pour être informé.e. des prochaines sessions !</strong> </p>
 
             <div className="social-media-retraite">
-                <a href="https://www.instagram.com/ana.resonance/"><i><img src={instagram} className="social-logo-retraite" alt="logo instagram"/></i></a>
-                <a href="https://www.facebook.com/resonance.anahata" ><i><img src={facebook} className="social-logo-retraite" alt="logo facebook"/></i></a>
+                <a href=""><i><img src={instagram} className="social-logo-retraite" alt="logo instagram"/></i></a>
+                <a href="" ><i><img src={facebook} className="social-logo-retraite" alt="logo facebook"/></i></a>
             </div>
           </div>
         </div>

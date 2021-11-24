@@ -51,7 +51,7 @@ export default function Yoga() {
           <p> - Le compte yogaisdeadpodcast. </p>
           <p> - Henikapetal avec School of Sensual Arts.</p>
 
-          <a href="https://www.instagram.com/ana.resonance/" target="_blank" rel="noopener"><button  className="btn btn--follow">
+          <a href="" target="_blank" rel="noopener"><button  className="btn btn--follow">
             ▻▻ Suivre les prochaines sessions
           </button></a>
 

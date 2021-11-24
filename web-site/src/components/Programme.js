@@ -67,7 +67,7 @@ function Programme() {
 
           <blockquote><h5> Le programme n'est pas encore ouvert mais n'hésite pas à t'abonner à mon compte insta pour être au courant de la prochaine session 💫 </h5></blockquote>
 
-          <a href="https://www.instagram.com/ana.resonance/" style={{ marginBottom: 30 }} target="_blank" rel="noopener">
+          <a href="" style={{ marginBottom: 30 }} target="_blank" rel="noopener">
           <button className="btn btn--follow">
             ▻▻ Me suivre pour en savoir plus
           </button></a>
