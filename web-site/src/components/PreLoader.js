@@ -1,9 +1,8 @@
 import React from "react";
-import "./PreLoader.css";
-import loading from './loading.gif'
+import "../styles/PreLoader.css";
+import loading from '../img/loading.gif'
 
 function PreLoader() {
-
 
 
   return (
@@ -15,6 +14,5 @@ function PreLoader() {
     </div>
   );
 }
-
 
 export default PreLoader;

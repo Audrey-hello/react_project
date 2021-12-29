@@ -1,11 +1,11 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { Link } from 'react-router-dom';
-import './Footer.css';
-import instagram from './instagram.svg';
-import facebook from './facebook.svg';
-import mail from './mail.svg';
-import pinterest from './pinterest.svg';
-import tiktok from './tiktok.svg';
+import '../styles/Footer.css';
+import instagram from '../img/instagram.svg';
+import facebook from '../img/facebook.svg';
+import mail from '../img/mail.svg';
+import pinterest from '../img/pinterest.svg';
+import tiktok from '../img/tiktok.svg';
 
 
 function Footer() {
@@ -17,10 +17,10 @@ function Footer() {
       <div className="footer-links">
         <h2 className="title-footer"> Me suivre </h2>
         <div className="social-media-footer">
-          <a href=""><i><img src={instagram} className="social-logo" alt="image du logo insta" /></i></a>
-          <a href="" ><i><img src={tiktok} className="social-logo" alt="image du logo tiktok" /></i></a>
-          <a href="https://www.facebook.com/resonance.anahata" ><i><img src={facebook} className="social-logo" alt="image du logo facebook" /></i></a>
-          <a href="" ><i><img src={pinterest} className="social-logo-pint" alt="image du logo facebook" /></i></a>
+          <a href=""><i><img src={instagram} className="social-logo" alt="logo insta" /></i></a>
+          <a href="" ><i><img src={tiktok} className="social-logo" alt="logo tiktok" /></i></a>
+          <a href="https://www.facebook.com/resonance.anahata" ><i><img src={facebook} className="social-logo" alt="logo facebook" /></i></a>
+          <a href="" ><i><img src={pinterest} className="social-logo-pint" alt="logo facebook" /></i></a>
         </div>
       </div>
       <div className="contact-content">
@@ -28,7 +28,7 @@ function Footer() {
           <h2 className="title-footer" id='footer'>Me contacter</h2>
           <div className="social-logo-mail" >
             <Link to={'/Contact'} >
-            <img src={mail} className="social-logo-mail" alt="image du logo mail" />
+            <img src={mail} className="social-logo-mail" alt="logo mail" />
             </Link>
           </div>
         </div>

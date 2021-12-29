@@ -1,8 +1,8 @@
 import Topbar from './Topbar';
 import React from 'react';
-import './Profile2.css';
-import picture3 from './picture3.JPG';
-import cover_profile2 from './cover_profile2.png';
+import '../styles/Profile2.css';
+import picture3 from '../img/picture3.JPG';
+import cover_profile2 from '../img/cover_profile2.png';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import { useEffect } from "react";

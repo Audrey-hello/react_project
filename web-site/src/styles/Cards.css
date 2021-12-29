@@ -1,0 +1,439 @@
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 76px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 44px;
+  font-family: 'Poppins', sans-serif;
+  margin: 95px;
+  background-color: #ffff;
+  position: sticky;
+  scroll-behavior: smooth;
+}
+
+.cards-container {
+  font-family: 'Poppins', sans-serif;
+  position: sticky;
+  scroll-behavior: smooth;
+  background-color: #ffff;
+}
+
+.image-banner {
+  vertical-align: middle;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: sticky;
+  scroll-behavior: smooth;
+}
+
+.apropos-title {
+  margin: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-top: 40px;
+  font-size: 46px;
+  padding: 20px;
+}
+
+.social-media-retraite {
+    display: flex;
+    margin-top: 35px;
+}
+
+.card-category {
+  width: 600px;
+  text-align: justify;
+}
+
+.card-ateliers {
+  height: 520px;
+  width: 350px;
+  background: #335C67;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: block;
+  align-items: center;
+  border-radius: 15px;
+  padding: 12px;
+  color: white;
+}
+.card-ateliers:hover {
+  opacity:0.5;
+}
+
+.card-ateliers-yoga {
+  height: 520px;
+  width: 350px;
+  background:#B07669;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: block;
+  align-items: center;
+  border-radius: 15px;
+  padding: 12px;
+  color: white;
+}
+.card-ateliers-yoga:hover {
+  opacity:0.5;
+}
+
+.cards a {
+  text-decoration: none;
+}
+.themes p {
+  font-size: 22px;
+  margin-top: 37px;
+  font-weight: bold;
+}
+
+.card-ateliers-chaman {
+  height: 520px;
+  width: 350px;
+  background:  #B29683;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: block;
+  align-items: center;
+  border-radius: 15px;
+  padding: 7px;
+  color: white;
+  border-radius: 15px;
+  padding: 12px;
+  color: white;
+}
+
+.card-ateliers-chaman:hover {
+  opacity:0.5;
+}
+
+.card-item-pics {
+  position: relative;
+  width: 100%;
+  padding-top: 67%;
+  overflow: hidden;
+}
+
+
+.cards  h1 {
+  margin-top: 15px;
+}
+
+
+.title-container {
+  display: inline-block;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+
+.title-container2 {
+  margin-left: 152px;
+  margin-top: 20px;
+}
+
+
+.Retraites {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 45px;
+  background-color: #efeae5;
+  display: flex;
+  padding: 30px;
+}
+
+.image-retraites {
+  border-radius: 49%;
+  height: 297px;
+  padding: 9px;
+  width: 361Px;
+  margin-left: 27px;
+  margin-top: 60px;
+  object-fit: cover;
+  position: sticky;
+  scroll-behavior: smooth;
+}
+
+
+.image-yoga {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 197px;
+  width: 295Px;
+  margin-top: 28px;
+  margin-left: 13px;
+  position: relative;
+  position: sticky;
+  scroll-behavior: smooth;
+}
+
+.image-tambour {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 197px;
+  width: 295Px;
+  margin-top: 14px;
+  margin-left: 5px;
+  position: static;
+}
+
+.title-cards {
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+
+.text {
+  margin-top: 46px;
+  font-weight:400;
+}
+
+.rubrique-title {
+    background: linear-gradient(
+180deg
+, transparent 0%, #94b5c0  0);
+  width: 301px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  color: white;
+  font-size: 36px;
+  position: static;
+}
+
+.rubrique-title-retraites {
+    background: linear-gradient(
+180deg
+ , transparent 0%, #94b5c0 0);
+    width: 294px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    margin-left: 56px;
+    color: white;
+    font-size: 36px;
+}
+
+
+.text-retraite {
+  font-size: 16px;
+  padding: 37px;
+  width: 600px;
+  margin-left: 168px;
+  text-align: justify;
+  margin-top: 77px;
+}
+
+.social-logo-retraite {
+    align-items: center;
+    vertical-align: middle;
+    height: 48px;
+    object-fit: none;
+    align-items: center;
+    justify-content: space-around;
+    background: #94b5c0;
+    width: 48px;
+    border-radius: 23px;
+    margin-left: 185px;
+    margin-right: -154px;
+}
+
+a .social-logo-retraite:hover  {
+  background: #335C67;
+}
+
+  .btn-outlines {
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: black !important;
+    color: black;
+    width: 372px;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 56px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .themes {
+    margin-top: 32px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+@media (min-width: 600px) and (max-width: 1024px){
+  .banner-container img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+  .image-banner {
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .cards {
+    width: 100%;
+    align-items: center;
+    display: inline-block;
+    margin: 45px;
+    margin-left: 215px;
+}
+
+  .text-retraite {
+    margin-left: 18px;
+}
+  .title-container2 {
+    margin-left: 0px;
+}
+  .social-media-retraite {
+    margin-left: -127px;
+  }
+  .card-ateliers-chaman {
+    margin-top: 20px;
+    }
+
+  .card-ateliers {
+    margin-top: 20px;
+}
+
+}
+
+@media (min-width: 1024px) and (max-width: 1286px){
+  .cards{
+    width: 100%;
+    align-items: center;
+    display: inline-block;
+    margin: 45px;
+    margin-left: 390px;
+    }
+
+  .card-ateliers-chaman {
+    margin-top: 20px;
+    }
+
+  .card-ateliers {
+    margin-top: 20px;
+}
+
+  .Retraites {
+      display: inline-block;
+      width: 100%;
+    }
+
+    .title-container2 {
+      margin-left: 350px;
+    }
+
+    .text-retraite {
+      margin-left: 267px;
+    }
+}
+
+
+
+@media (max-width: 600px){
+
+.apropos-title {
+  margin-top: 0px;
+}
+.image-banner img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.image-banner {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.banner-container {
+  height: auto;
+}
+
+.cards{
+    width: 85%;
+    display: block;
+    margin: 29px;
+    position: left;
+}
+.card-ateliers-chaman {
+    width: 100%;
+    margin-bottom: 4%;
+    margin-top: 31px;
+    height: 560px;
+}
+.card-ateliers {
+    width: 100%;
+    margin-bottom: 4%;
+    margin-top: 31px;
+    height: 560px;
+    }
+
+.card-ateliers-yoga {
+  width: 100%;
+  height: 560px;
+}
+.image-yoga {
+  margin-left: 0;
+}
+
+.btn--outline {
+  width: 200px;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.image-profile {
+  margin-left: 0;
+}
+.Retraites {
+  display: inline-block;
+  width: 100vh;
+}
+.title-container2{
+  display: block;
+  margin-left: 51px;
+}
+
+.rubrique-title-retraites {
+    margin-left: -43px;
+}
+.image-retraites {
+  margin-left: -53px;
+  margin-top: 0px;
+  height: 222px;
+  width: 307Px;
+}
+
+.text-retraite {
+  display: block;
+  width: 300px;
+  margin-left: 0px;
+  text-align: justify;
+  padding: 0;
+  margin-top: 47px;
+  }
+
+.social-media-retraite {
+  margin-top: 24px;
+  margin-left: -100px;
+  margin-bottom: 24px;
+}
+
+
+.cards-container {
+  text-align: center;
+  }
+
+
+.btn-outline:hover {
+  background: #335C67;
+  color: white;
+    }
+  }

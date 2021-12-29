@@ -2,7 +2,6 @@ import React from "react";
 import "react-datepicker/dist/react-datepicker.css";
 
 
-
 function Popup(props)  {
   return (
     <div className="popup-box">

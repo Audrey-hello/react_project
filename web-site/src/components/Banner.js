@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/alt-text */
 
 import React from 'react';
-import './Banner.css';
-import cover from './cover.png'
+import '../styles/Banner.css';
+import cover from '../img/cover.png'
 
 function Banner() {
   return (

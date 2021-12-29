@@ -5,8 +5,8 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import sanityClient from "./Client.js";
 import Topbar from './Topbar';
-import './Content.css';
-import ressources2 from './ressources2.png';
+import '../styles/Content.css';
+import ressources2 from '../img/ressources2.png';
 import Footer from './Footer';
 
 export default function AllPosts() {

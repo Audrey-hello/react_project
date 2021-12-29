@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, {useState, useEffect} from 'react';
-import './Navbar.css';
+import '../styles/Navbar.css';
 import {Link} from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -54,7 +54,7 @@ return (
 
                       <div class="nav-item dropdown" >
                         <a aria-haspopup="true" aria-expanded="false" id="nav-dropdown" class="dropdown-toggle nav-link" role="button" style={{ color: colorChange, marginTop: '-2px' }} href="#">
-                        Coaching </a>
+                        Ateliers </a>
                         <NavDropdown
                           id="nav-dropdown"
                           title=""

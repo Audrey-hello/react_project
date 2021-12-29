@@ -1,0 +1,203 @@
+.footer-container {
+  background-color: #335C67;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  position: sticky;
+  scroll-behavior: smooth;
+}
+
+ .footer-links {
+    display: flex;
+    align-items: center;
+}
+
+.footer-email-form h2 {
+  margin-bottom: 32px;
+}
+
+.footer-input::placeholder {
+color: white;
+}
+
+.social-media-footer {
+  display: inline-flex;
+}
+
+.social-logo {
+  align-items: center;
+  vertical-align: middle;
+  width: 33px;
+  height: 38px;
+  object-fit: none;
+
+}
+
+.social-logo-pint {
+  width: 38px;
+  height: 40px;
+}
+
+
+.img .social-logo img:hover {
+  opacity: 3;
+
+}
+
+.social-logo > img, svg {
+  align-items: center;
+  vertical-align: middle;
+  width: 33px;
+  height: 38px;
+  object-fit: none;
+
+}
+
+.logo-footer p {
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+
+.contact-content {
+  display: flex;
+  align-items: center;
+}
+
+.title-footer {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 22px;
+}
+
+.title-logo {
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.title-logo p {
+  font-size: 12px;
+}
+
+
+.social-logo-mail {
+  align-items: center;
+  width: 33px;
+  height: 38px;
+  object-fit: none;
+}
+
+a .social-logo:hover  {
+  opacity: 0.5;
+}
+a .social-logo-pint:hover  {
+  opacity: 0.5;
+}
+
+.social-logo-mail:hover {
+  opacity: 0.5;
+}
+
+.contacter {
+  display: contents;
+}
+
+.mentions-légales {
+  display: grid;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.title-mention {
+  font-size: 19px;
+  margin-top: 31px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.lien-mention {
+  font-size: 12px;
+  margin: 5px;
+  text-decoration: none !important;
+  color: white !important;
+
+}
+
+.block-lien-mention {
+  margin-bottom: 15px;
+}
+
+a .mentions-légales {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+@media (max-width: 600px){
+    .footer-container {
+      display: inline-block;
+      height: auto;
+      text-align: -webkit-auto;
+    }
+    .contact-content {
+      display: inline-flex;
+    }
+
+    .logo-footer {
+       margin-left: 65px;
+    }
+
+    .title-logo {
+      margin: 20px;
+    }
+
+    .mentions-légales {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-left: 20px
+    }
+    .title-mention {
+      margin-top: 21px;
+  }
+    .footer-links {
+      display: inline-flex;
+    }
+ }
+@media (min-width: 600px) and (max-width: 1024px) {
+    .footer-container {
+      display: inline-block;
+      height: auto;
+      text-align: center;
+    }
+    .contact-content {
+      display: inline-flex;
+    }
+
+    .logo-footer {
+      margin-left: -47px;
+    }
+
+    .title-logo {
+      margin: 20px;
+    }
+
+    .mentions-légales {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-left: -28px;
+    }
+    .title-mention {
+      margin-top: 20px;
+  }
+    .footer-links {
+      display: inline-flex;
+    }
+ }
+
