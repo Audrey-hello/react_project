@@ -91,7 +91,7 @@ import Footer from './Footer';
       <div className='profile-grid' id="profile">
         <div className='comite-content'>
           <h2>Anahata </h2>
-            <h5>⎨aelle, accords neutres/ fém., libgragender(agenre/fem), queer, bi ascendant lesbienne, blanche⎬</h5>
+            <h5>⎨aelle, accords neutres/ fém., libragender(agenre/fem), queer, bi ascendant lesbienne, blanche⎬</h5>
             <p>
             <p>Présidente de l’association et créatrice de l’association, je gère l’organisation interne et des évènements divers. J’écris aussi du contenu sur instagram.</p>
 
