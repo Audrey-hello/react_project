@@ -28,7 +28,7 @@ function Contenus() {
               <p> Quelles sont les règles de consentement ? C'est quoi des biais de consentement ? La culture du viol et les violences sexistes et sexuelles ? On y répond dans le guide !</p>
             </p><br />
 
-            <a href='https://drive.google.com/file/d/1HO5PzKwS-yHhAQvvTSik7EMh2HuJi4Y0/view?usp=sharing'>
+            <a href='https://drive.google.com/file/d/1Y97arwKY43eCmiA-JipBpgfYsLceqtDs/view?usp=sharing'>
               <Button className='btn--outline'> Le guide </Button>
             </a>
           </div>

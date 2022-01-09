@@ -1,5 +1,4 @@
 import React from 'react';
-import gif from "./gif_rainbow.gif";
 import './Banner.css';
 import './Banner3.css';
 
