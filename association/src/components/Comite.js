@@ -4,7 +4,7 @@ import Banner3 from './Banner3';
 import sparkles from './team.gif';
 import Navbar from './Navbar';
 import Nawa from './1.png';
-import Anahata from './hibou.png';
+// import Anahata from './hibou.png';
 import Leonor from './pieuvre.png';
 import Mey from './licorne.png';
 import Oya from './panther.png';
@@ -12,48 +12,48 @@ import Emilie from './ecureuil.png';
 import Victoire from './chauvesouris.png';
 import Footer from './Footer';
 
- function Comite() {
+function Comite() {
   return (
-  <>
-    <Navbar />
-    <Banner3 name={sparkles} title="Notre équipe" />
-    <div className="container-profile">
-      <div className="profile-title">
+    <>
+      <Navbar />
+      <Banner3 name={sparkles} title="Notre équipe" />
+      <div className="container-profile">
+        <div className="profile-title">
           <h1> Qui sommes-nous ?</h1><br /><br />
-      </div>
-      <div className='profile-grid' id="profile">
-        <div className='comite-content'>
+        </div>
+        <div className='profile-grid' id="profile">
+          <div className='comite-content'>
             <h2>Nawa </h2>
             <h5>⎨iel, accords neutres, fém., masc. alternés, non-binaire, queer, bi, blanc, hypersensible, parent d'une ado⎬ </h5>
-          <p>
-            <p></p>
+            <p>
+              <p></p>
               <p>Je fais parti·e du bureau des membres. Je suis lead communication ainsi que des événements shibari et participe à l’organisation de divers événements au sein de Matriarchy.</p>
-            <p>Féministe, queer. Je participe à la création d’espaces, l’organisation et/ou l’encadrement d’événements shibari et/ou sexpositifs depuis plus de 6 ans (gestion de l’Ecole des cordes de 2016 à 2018, création/gestion de l’association de shibari French Bonds de 2017 à 2019 et participation à la création de Chatonnade en 2018/2019 et aujourd'hui, membre actif du Collectif Matriarchy).</p>
-          </p><br />
+              <p>Féministe, queer. Je participe à la création d’espaces, l’organisation et/ou l’encadrement d’événements shibari et/ou sexpositifs depuis plus de 6 ans (gestion de l’Ecole des cordes de 2016 à 2018, création/gestion de l’association de shibari French Bonds de 2017 à 2019 et participation à la création de Chatonnade en 2018/2019 et aujourd'hui, membre actif du Collectif Matriarchy).</p>
+            </p><br />
+          </div>
+          <div>
+            <img className='image-profile-comite' src={Nawa} alt='profile' />
+          </div>
         </div>
-        <div>
-          <img className='image-profile-comite' src={Nawa} alt='profile' />
-        </div>
-      </div>
-      <div className='profile-grid' id="profile">
-        <div className='comite-content'>
-          <h2>Oya</h2>
-          <h5>⎨pronom il/elle/iel, genderfluid, bi/pan, afroféministe, un mix d'Afrique et de Caraïbes⎬</h5>
+        <div className='profile-grid' id="profile">
+          <div className='comite-content'>
+            <h2>Oya</h2>
+            <h5>⎨pronom il/elle/iel, genderfluid, bi/pan, afroféministe, un mix d'Afrique et de Caraïbes⎬</h5>
 
-          <p>
-              <p>Je suis trésorière de l'association Matriarchy.</p>
+            <p>
+              <p>Je suis trésorière et co-président.e de l'association Matriarchy.</p>
               <p>Le rêve? Une éducation à la sexualité décolonisée.
-              Cela fait quelques années maintenant que je questionne et recherche notre rapport aux corps et comment la sexualité telle qu'on l'aborde dans nos sociétés occidentales ne nous montre qu'un pan de l'histoire.
-            </p>
+                Cela fait quelques années maintenant que je questionne et recherche notre rapport aux corps et comment la sexualité telle qu'on l'aborde dans nos sociétés occidentales ne nous montre qu'un pan de l'histoire.
+              </p>
 
-            <p>Initialement entrepreneure sociale dans le milieu carcéral et TDS domina, je travaille à offrir des espaces de réflexions et de discussions sur la sexualité et ses rapports sociaux, en particulier dans ses rapports de dominations quels qu'ils soient.
-            </p>
-          </p><br />
+              <p>Initialement entrepreneure sociale dans le milieu carcéral et TDS domina, je travaille à offrir des espaces de réflexions et de discussions sur la sexualité et ses rapports sociaux, en particulier dans ses rapports de dominations quels qu'ils soient.
+              </p>
+            </p><br />
+          </div>
+          <div style={{ marginTop: 40 }}>
+            <img className='image-profile-comite' src={Oya} alt='profile' />
+          </div>
         </div>
-        <div style={{ marginTop: 40 }}>
-          <img className='image-profile-comite' src={Oya} alt='profile' />
-        </div>
-      </div>
         <div className='profile-grid' id="profile">
           <div className='comite-content'>
             <h2>Emilie</h2>
@@ -75,7 +75,7 @@ import Footer from './Footer';
             <h5>⎨al, accords épicènes/ alternés., non-binaire, queer, bi, racisé, neuro atypique, avec un handicap physique non visible ⎬</h5>
 
             <p>
-              <p>Je suis membre du bureau et j'organise des évènements autour de la sexualité et du BDSM.</p>
+              <p>Je suis co-président.e de Matriarchy et j'organise des évènements autour de la sexualité et du BDSM.</p>
               <p>J’envisage le plaisir, le  jeu, l’humour et la vulnérabilité comme des opportunités de questionner les dynamiques de pouvoir et les rôles cis heteronormés dans les connexions intimes, sexuelles et BDSM.
               </p>
 
@@ -88,7 +88,7 @@ import Footer from './Footer';
             <img className='image-profile-comite' src={Mey} alt='profile' />
           </div>
         </div>
-      <div className='profile-grid' id="profile">
+        {/* <div className='profile-grid' id="profile">
         <div className='comite-content'>
           <h2>Anahata </h2>
             <h5>⎨aelle, accords neutres/ fém., libragender(agenre/fem), queer, bi ascendant lesbienne, blanche⎬</h5>
@@ -102,7 +102,7 @@ import Footer from './Footer';
           <div style={{ marginTop: 70 }}>
           <img className='image-profile-comite' src={Anahata} alt='profile' />
         </div>
-      </div>
+      </div> */}
         <div className='profile-grid' id="profile">
           <div className='comite-content'>
             <h2>Victoire </h2>
@@ -136,9 +136,9 @@ import Footer from './Footer';
             <img className='image-profile-comite' src={Leonor} alt='profile' />
           </div>
         </div>
-    </div>
+      </div>
       <Footer />
-  </>
+    </>
 
   )
 };
