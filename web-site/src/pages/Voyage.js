@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
 import '../styles/Voyage.css';
-import voyage from '../img/voyage.jpg';
+import voyage from '../img/picture13.jpg';
 import Topbar from '../components/Topbar';
 import Footer from '../components/Footer';
 import GoToTop from '../components/GoToTop';
@@ -39,7 +39,7 @@ export default function Voyage() {
 
           <p> Depuis les recherches ont avancé, apportant plus d'explications sur ce qui se passe au niveau cérébral lorsqu'on effectue un voyage. Les vibrations émises par le tambour nous mènent à ce qu'on appelle un état modifié de conscience nous plongeant ainsi dans une sorte de rêve, voir de transe.</p>
 
-          <p> C'est une expérience qui reste unique pour chacun.e et les ressentis sont différents. On peut y trouver <strong>un état de relaxation, un travail sur le lâcher prise, un arrêt du brouhaha mental, des réponses à nos questions, une meilleure compréhension de nos états émotionnels</strong>...Vous venez y chercher ce que vous souhaitez ! </p>
+          <p> C'est une expérience qui reste unique pour chacun.e et les ressentis sont différents. On peut y trouver <strong>un état de relaxation, de réancrage, un travail sur le lâcher prise, des réponses à nos questions, une meilleure compréhension de nos états émotionnels</strong>...Vous venez y chercher ce que vous souhaitez ! </p>
 
           <a href="" target="_blank" rel="noopener"><button className="btn btn--follow">
             ▻▻ Suivre les prochaines sessions

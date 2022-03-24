@@ -16,9 +16,6 @@ import PageNotFound from '../pages/404_page';
 import LazyLoad from 'react-lazyload';
 
 
-
-
-
 function App() {
 
 

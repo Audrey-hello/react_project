@@ -54,7 +54,7 @@ function Content() {
       <div className="blog-cards-content">
         <div className="title-Articles">
           <h1> Articles Blog </h1>
-          <h3> Bien-être & Empowerment </h3>
+          <h3> Un peu de lecture 📖 </h3>
         </div>
         <div className="text-allposts">
            <div className="content-blog-posts">

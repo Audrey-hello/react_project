@@ -61,9 +61,9 @@ return (
                           show={show}
                           onMouseEnter={showDropdown}
                           onMouseLeave={hideDropdown}>
-                        <NavDropdown.Item as={Link} to="/Yoga">Yoga</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/Yoga">Yoga Vinyasa </NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="/Voyage">Voyage au tambour</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="/Coaching"> Séances 1:1 Coaching</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/Coaching"> Accompagnement 1:1 </NavDropdown.Item>
                         </NavDropdown>
                       </div>
 

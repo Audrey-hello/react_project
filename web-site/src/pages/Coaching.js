@@ -63,37 +63,36 @@ export default function Coaching() {
         </div>
 
         <div className='coaching-content'>
-          <h2>  Coaching empowerment pour être bien avec soi et avec les autres </h2>
-          <p>Ces sessions sont destinées à donner des clés de compréhension sur ce qu’on vit, que ce soit en tant que femme, personne queer, personne en minorité.</p><br>
+          <h2>  Accompagnement pour être bien avec soi et avec les autres </h2>
+          <p>Ces sessions sont destinées à <mark>donner des clés de compréhension sur ce qu’on vit </mark>, que ce soit en tant que femme, personne queer, trans, en minorité.</p><br>
 
-          </br><p> Cela peut être <strong>analyser une situation, comprendre les mécanismes et les concepts derrière, obtenir des outils d'émancipation et de déblocage, apprendre à libérer la parole et prendre sa place...</strong> Voici quelques exemples :</p>
+          </br><p> Cela peut être <strong>analyser une situation, comprendre les mécanismes et les concepts derrière, obtenir des outils, apprendre à libérer la parole et prendre sa place...</strong> Voici quelques exemples :</p>
 
             <p>
-            <li>Tu ressens un blocage pour entreprendre ou prendre la parole car tu ne te sens pas légitime ou moins fort.e que les autres.</li>
+            <li>Tu ressens un blocage pour entreprendre ou prendre la parole car <mark>tu ne te sens pas légitime</mark> ou moins fort.e que les autres.</li>
             <li>Tu souhaites te libérer des injonctions qui pèsent sur toi.</li>
-            <li>Tu souhaites partager la charge mentale.</li>
-            <li>Tu ne veux plus te sacrifier pour les autres et arrêter de culpabiliser.</li>
-            <li>Tu as vécu une oppression (sexisme etc.) et tu ne sais pas comment en parler.</li>
-            <li>Tu souhaites trouver un espace d'écoute pour parler de ce que tu vis.</li>
+            <li>Tu souhaites plus partager la charge mentale.</li>
+            <li>Tu ne veux plus te sacrifier pour les autres et <mark>arrêter de culpabiliser</mark>.</li>
+            <li>Tu as vécu une oppression (sexisme etc.) et tu ne sais pas comment réagir/en parler.</li>
+            <li>Tu souhaites trouver <mark>un espace d'écoute sans jugement </mark>pour parler de ce que tu vis.</li>
             <li>Tu souhaites trouver ta voie sur laquelle tu te sentiras aligné.e.</li>
-            <li>Tu as envie de déconstruire tes croyances limitantes.</li>
+            <li>Tu as envie de déconstruire des normes intériorisées (et c'est pfacile!).</li>
             <li>Tu souhaites mieux gérer ta colère et ton sentiment d'injustice.</li></p> <br />
 
-          <p> Vouloir se faire accompagner sur ce chemin, c’est avoir l’envie de débloquer des limites que l’on se met, <strong>se sentir plus puissant.e</strong>, oser réaliser des choses qu’on ne se permettaient pas avant.
+          <p> Vouloir se faire accompagner sur ce chemin, c’est avoir l’envie de débloquer des limites que l’on se met, <strong>se sentir confiant.e </strong>, oser réaliser des choses qu’on ne se permettaient pas avant.
 
-          Ce que j’ai envie d’apporter avec les séances de coaching c’est aussi une plus grande compréhension de toi-même et de ce que tu ressens.
-          Et ainsi acquérir des outils pour te sentir plus aligné.e.</p>
+          Ce que j’ai envie d’apporter avec cet accompagnement, c’est aussi une <mark>plus grande compréhension de toi-même et de ce que tu ressens.</mark></p>
 
         </div>
       </div>
       <div className="content-coaching">
         <div className='coaching-text'>
 
-          <h2> Pourquoi ce type de coaching ?</h2>
+          <h2> Ma vision de cet échange 1:1</h2>
 
-          <p> Passionnée par le développement personnel et le féminisme, j'ai créé un coaching basé sur l'empowerment et la recherche d'alignement. Ayant étudié différents outils de coaching qui m'ont beaucoup aidé, j'ai eu envie d'y associer toutes mes connaissances sur la déconstruction du genre et des oppressions systémiques. Le féminisme m’a ainsi permis de mettre des mots sur ma colère, comprendre pourquoi je ressentais de la frustration, des incompréhensions sur le système tel qu’il est fait. J'ai réussi à dépasser des barrières et de nombreuses injonctions pour me sentir plus puissante, plus en conscience et alignée.</p>
+          <p> Passionnée de sociologie et le féminisme, j'ai créé un accompagnement basé sur l'affirmation et la compréhension de soi. Ayant utilisé différents outils qui m'ont beaucoup aidé à mieux prendre soin de moi, j'ai eu envie d'y associer toutes mes connaissances sur la déconstruction des normes et des oppressions systémiques. Le féminisme m’a ainsi permis de mettre des mots sur ce que je vivais et comprendre pourquoi je ressentais des incompréhensions sur le système tel qu’il est fait. J'ai réussi à dépasser des barrières et de nombreuses injonctions pour me sentir plus alignée avec qui j'étais.</p>
 
-          <p> J’ai organisé des retraites, des ateliers et j'ai créé une association qui fait de la pédagogie sur les violences systémiques. Je souhaite t'accompagner sur cette voie par le coaching car je trouve encore plus puissant de pouvoir transmettre ces outils. À toi de jouer ! </p>
+          <p> J’ai organisé des retraites, des ateliers et j'ai créé une association qui fait de la pédagogie sur les violences systémiques. Je souhaite t'accompagner sur cette voie car je trouve encore plus puissant de pouvoir transmettre ces outils. À toi de jouer ! </p>
         </div>
         <div>
           <img className='image-profile-coaching2' src={picture10}  alt="moi de profil"/>
@@ -102,8 +101,8 @@ export default function Coaching() {
       < div className="Appel">
         <div className='appel-text'>
           <h2> ▸▸ Prendre rendez-vous </h2><br/>
-          <p style={{ lineHeight: 1.5 }}> <strong> Appelle-moi si une session de coaching avec moi t'intéresse !  </strong><br/>
-            Nous discuterons ensemble de tes objectifs et de ce que je propose. Nous déciderons à la fin de l'appel si on organise une première session ensemble et des tarifs ✨ <strong> En plus cet appel de 30 mn est gratuit.</strong> </p>
+          <p style={{ lineHeight: 1.5 }}> <strong> Appelle-moi si une session avec moi t'intéresse !  </strong><br/>
+            Nous discuterons ensemble de tes objectifs et de ce que je propose. Nous déciderons à la fin de l'appel si on organise une première session ensemble et des tarifs ✨ <strong>  Je propose des tarifs en fonction de tes revenus !</strong>  Donc même si tu as un petit budget, tu peux venir 😊<strong> En plus cet appel de 30 mn est gratuit.</strong> </p>
         </div>
         <PopupButton
           className="btn--events"
