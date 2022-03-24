@@ -42,7 +42,7 @@ export default function Yoga() {
 
           <li>Je propose des cours collectif de débutant.e à intermédiaire.</li><br />
           <li>Des cours individuels sont aussi proposés dans une optique d'accompagnement.</li><br />
-          <li>Pour bénéficier de plusieurs outils complémentaires au yoga, rejoignez le programme "Metta" !</li><br />
+          <li>Pour bénéficier de plusieurs outils complémentaires au yoga, rejoignez le programme !</li><br />
 
           <h3> Ressources </h3><br />
 

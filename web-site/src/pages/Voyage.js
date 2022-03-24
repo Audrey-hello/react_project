@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
 import '../styles/Voyage.css';
-import voyage from '../img/picture13.jpg';
+import voyage from '../img/voyage.png';
 import Topbar from '../components/Topbar';
 import Footer from '../components/Footer';
 import GoToTop from '../components/GoToTop';

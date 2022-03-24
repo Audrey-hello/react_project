@@ -30,7 +30,7 @@
 }
 
 .mark, mark {
-
+  background-color: transparent !important;
   background: linear-gradient(180deg , transparent 50%, #94b6c28a 0);
 }
 
