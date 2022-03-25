@@ -32,7 +32,7 @@ function Profile2() {
         <div className='profile-content2'>
           <h2> Mon chemin et mes valeurs </h2>
 
-          <br/><p>Je m’appelle Ana et je suis passionnée par ce qui nous permet de <strong>prendre conscience du monde </strong> qui nous entoure et de ce qui nous aide à nous sentir bien. J'ai expérimenté différentes pratiques et univers qui m'ont permis de trouver ma voie. Engagée pour la cause lgbtqia+ et créative, <strong>j’ai de même créé une association queer qui soutient les femmes et minorités.</strong> </p>
+          <br/><p>Je m’appelle Ana et je suis passionnée par ce qui nous permet de <strong>prendre conscience du monde </strong> qui nous entoure et de ce qui nous aide à nous sentir bien💫. J'ai expérimenté différentes pratiques et univers qui m'ont permis de trouver ma voie. Engagée pour la cause lgbtqia+ et créative, <strong>j’ai de même créé une association queer qui soutient les femmes et minorités.</strong> </p>
 
           <p> J'accompagne désormais des personnes à <strong><mark>trouver leur place</mark>, à se découvrir et explorer le monde qui nous entoure, déconstruire des visions qui nous limitent, à s'affirmer et à s'aimer </strong></p>
 
@@ -40,7 +40,17 @@ function Profile2() {
 
           <p>Exploratrice et inspirée par des univers magiques et passionnants, <strong>je vous accompagne dans une aventure alliant le bien-être et son rapport aux autres.</strong></p>
 
-          <p> <blockquote>N'hésite pas à regarder mon <strong>pack "En puissance"</strong> offert gratuitement qui te donne déjà plein d'outils et un aperçu sur ce que propose Résonance.</blockquote></p>
+
+          <h5>✦ Ce que vous n'avez pas besoin de savoir mais que je vous partage quand même 👀  ✦</h5>
+          <p className='list_style'><li>La gentillesse est une qualité très importante pour moi et que je trouve pas assez valorisée.</li>
+          <li>J'ai déjà parcouru un marathon en moins de 4h (j'aime bouger 😅).</li>
+          <li>Je suis engagée sur les causes féministes et LGBTQIA+ 🌈</li>
+          <li>Je suis très obstinée, je peux m'investir à fond sur quelque chose qui me plaît même si ça me sert concrétement à rien 🙃</li>
+          <li>J'adore écrire des histoires, notamment en m'inspirant de ce que je vis (bientôt un livre ?).</li>
+          <li>Je suis très curieuse, je n'ai pas peur de me lancer dans de nouvelles activités et explorer différents milieux. Et le faire à fond ! Cela me permet aussi de rencontrer des personnes très différentes et j'adore ça.</li>
+            <li>Je suis une grosse introvertie (profil INFP pour celleux qui kiff ces choses) mais j'aime rencontrer des gens. On dit de moi que je suis très sympa 😉</li></p>
+
+          <br/><p> <blockquote>Psssst: n'hésite pas à regarder mon <strong>pack "En puissance"</strong> offert gratuitement qui te donne déjà plein d'outils et un aperçu sur ce que propose Résonance.</blockquote></p>
 
           <div className='cards-btns'>
             <Link to={'./Coaching'}>

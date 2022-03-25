@@ -68,6 +68,10 @@
   scroll-behavior: smooth;
 }
 
+.list_style {
+  list-style-type: auto;
+}
+
 @media (min-width: 992px) and (max-width: 1286px) {
   .profile2-grid {
     display: inline-block;
