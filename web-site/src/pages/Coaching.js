@@ -40,7 +40,7 @@ export default function Coaching() {
       <div className="container-coaching">
 
         <div className="Pack">
-          <h5> Reçois ton pack "En puissance" gratuitement et bénéficie d'outils concrets pour commencer ! ⬇</h5>
+          <h5> Reçois ton pack gratuitement et bénéficie d'outils concrets pour commencer ! ⬇</h5>
           <img
            className='image-profile-coaching'
             type="button"
@@ -79,7 +79,8 @@ export default function Coaching() {
             <li>Tu as envie de déconstruire des normes intériorisées (et c'est pfacile!).</li>
             <li>Tu souhaites mieux gérer ta colère et ton sentiment d'injustice.</li></p> <br />
 
-          <p> Vouloir se faire accompagner sur ce chemin, c’est avoir l’envie de débloquer des limites que l’on se met, <strong>se sentir confiant.e </strong>, oser réaliser des choses qu’on ne se permettaient pas avant.
+          <p> Vouloir se faire accompagner sur ce chemin, c’est avoir l’envie de déconstruire des limites que l’on se met, <strong>se sentir plus confiant.e </strong>, oser réaliser des choses qu’on ne se permettaient pas avant.<mark> Et surtout se sentir écouté.e !
+            <br/></mark>J'aime aussi partager mon expérience militant.e et écouter ce que vous avez besoin de partager. Et comme j'aime créer des rencontres ☺️, <mark>j'organise des sessions avec d'autres personnes partageants les mêmes questionnements. Et c'est tellement enrichissant ! On se sent moins seul.e et plus compris 💜.</mark>
 
           Ce que j’ai envie d’apporter avec cet accompagnement, c’est aussi une <mark>plus grande compréhension de toi-même et de ce que tu ressens.</mark></p>
 

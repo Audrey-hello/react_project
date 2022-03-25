@@ -48,7 +48,7 @@ function Programme() {
 
             <p> <strong>Sur une période de 4 mois</strong>, tu seras suivi.e individuellement avec des sessions collectives.
               En fonction de tes besoins, tu auras accès à des sessions de yoga et d'accompagnement pédagogique. N'hésite pas à regarder les onglets dédiés sur ma page pour savoir ce que je propose ! Un point sera fait de façon régulière et tu auras accès à du contenu écrit pour t'aider à bénéficier des effets du programme dans ton quotidien.</p>
-            <li> Il y aura 12 ateliers répartis sur les 4 mois. </li>
+            <li> Il y aura 12 ateliers répartis sur les 4 mois : cercle de parole sur une thématique, yoga, autres activités personnalisées 😃. </li>
             <li> Un point individuel toutes les 2 semaines. </li>
             <li> Un appel de groupe une fois par mois.</li>
             <li> L'accès à une communauté pour vous apporter du soutien.</li>
@@ -56,7 +56,7 @@ function Programme() {
 
 
             <h3> Est-ce fait pour toi ? </h3>
-            <p> Il est n'est pas facile de trouver le temps et l'énergie d'avancer dans ses projets, d'y voir clair, de se sentir légitime et de questionner notre rapport au monde. <strong> Avoir un suivi permet de véritablement avancer sans se mettre de pression.</strong> Cela te permettra de te sentir moin seul.e, accompagné.e par une vision qui prend en compte l'impact des oppressions systémiques. J'ai une approche <mark><strong> déculpabilisante</strong> et tournée vers le monde qui t'entoure.</mark>
+            <p> Pas facile de trouver le temps et l'énergie d'avancer dans ses projets, d'y voir clair, de se sentir légitime et de questionner notre rapport au monde. <strong> Avoir un suivi permet de véritablement avancer sans se mettre de pression.</strong> Cela te permettra de te sentir moin seul.e, accompagné.e par une vision qui prend en compte l'impact des oppressions systémiques. J'ai une approche <mark><strong> déculpabilisante</strong> et tournée vers le monde qui t'entoure.</mark>
               Si tu sens que tu as besoin <mark>qu'on te donne des objectifs</mark>, d'échanger, d'en apprendre plus sur les phénomènes systémiques et que tu es curieu.x.se d'explorer de nouveaux horizons alors ce programme est fait pour toi. Tu pourras de même rencontrer d'autres personnes partageant les même problématiques que toi et vous soutenir !
             </p> <br />
 
