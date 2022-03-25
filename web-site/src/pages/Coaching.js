@@ -5,7 +5,7 @@ import '../styles/Voyage.css';
 import '../styles/Coaching.css';
 import picture10 from '../img/picture10.JPG';
 import Pack from '../img/Pack.png';
-import { useState} from "react";
+import {useState} from "react";
 import Topbar from '../components/Topbar';
 import Popup from "../components/Popup";
 import Footer from '../components/Footer';
@@ -26,7 +26,7 @@ export default function Coaching() {
       <div className="coaching-banner" >
         <Topbar />
         <ReactPlayer
-          url={[{ src: 'coaching2.mp4' }]}
+          url={[{ src: 'coaching.mp4' }]}
           className="video"
           width="100%"
           height="100%"

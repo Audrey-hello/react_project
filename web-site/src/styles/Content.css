@@ -138,11 +138,12 @@ blockquote p {
     object-fit: contain;
   }
   .container-cards-blog {
-      display: inline-block;
+    display: inline-block;
   }
   .image-blog {
     height: 424Px;
     width: 305px;
+    margin-left: 25px;
 }
   .card-blog {
     background: transparent;
@@ -159,7 +160,7 @@ blockquote p {
     width: 400px;
   }
   .card-blog h1 {
-    margin-right: 115px;
+    margin-right: 50px;
     font-size: 30px;
   }
   .card-blog hr {
