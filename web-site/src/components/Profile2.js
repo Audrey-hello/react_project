@@ -41,7 +41,7 @@ function Profile2() {
           <p>Exploratrice et inspirée par des univers magiques et passionnants, <strong>je vous accompagne dans une aventure alliant le bien-être et son rapport aux autres.</strong></p>
 
 
-          <h5>✦ Ce que vous n'avez pas besoin de savoir mais que je vous partage quand même 👀  ✦</h5>
+          <h5>✦ Ce que vous n'avez pas besoin de savoir sur moi mais que je vous partage quand même 🐙 ✦</h5>
           <p className='list_style'><li>La gentillesse est une qualité très importante pour moi et que je trouve pas assez valorisée.</li>
           <li>J'ai déjà parcouru un marathon en moins de 4h (j'aime bouger 😅).</li>
           <li>Je suis engagée sur les causes féministes et LGBTQIA+ 🌈</li>
