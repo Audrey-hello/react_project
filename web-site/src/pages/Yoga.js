@@ -17,7 +17,7 @@ export default function Yoga() {
       <div className="yoga-banner" id='yoga'>
         <Topbar />
         <ReactPlayer
-          url='yoga2.mp4'
+          url='yoga.mp4'
           className="video"
           width="100%"
           height="100%"
