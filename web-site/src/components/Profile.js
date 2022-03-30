@@ -13,7 +13,7 @@ function Profile() {
           <br/>
 
           <p>Je m’appelle Ana et je suis passionnée par ce qui nous permet de prendre conscience du monde qui nous entoure et de ce qui nous aide à nous sentir bien. Après avoir travaillé pendant plusieurs années en finance (oui je me suis perdu.e 😅), j’ai décidé de changer de façon radicale ma façon de vivre plus alignée avec qui j'étais.</p>
-          <p> Adorant observer les êtres humains et analyser notre société, je me définis comme étant féministe intersectionnelle, empathique, ambitieuse et entrepreneuse.<mark> J'aime accompagner les femmes et minorités pour créer des rencontres et des réseaux d'entraides </mark> aussi pour les aider à prendre leur place ! </p>
+          <p> Adorant observer les êtres humains et analyser notre société, je me définis comme étant féministe intersectionnelle, empathique, ambitieuse et entrepreneuse.<mark> J'aime accompagner les femmes et minorités pour créer des rencontres et des réseaux d'entraides </mark> mais aussi pour aider à prendre sa place ! </p>
           <div className='cards-btns'>
             <Link to='/profile2' className='btn-mobile'>
               <button className="btn btn--inline">

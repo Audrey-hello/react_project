@@ -38,17 +38,17 @@ function Profile2() {
 
           <p>Je suis une adepte de sociologie, du yoga, d'entraide et de tout ce qui m’inspire sur le moment. J’aime allier des prises de consciences sur nos rapports à autrui et notre rôle dans la société afin de <mark>contribuer à plus d'inclusivité et de diversité !</mark> </p>
 
-          <p>Exploratrice et inspirée par des univers magiques et passionnants, <strong>je vous accompagne dans une aventure alliant le bien-être et son rapport aux autres.</strong></p>
+          <p>Exploratrice et inspirée par des univers magiques et passionnants, <strong>je t'accompagne dans une aventure alliant le bien-être et son rapport aux autres.</strong></p>
 
 
-          <h5>✦ Ce que vous n'avez pas besoin de savoir sur moi mais que je vous partage quand même 🐙 ✦</h5>
+          <h5>✦ Ce que tu n'as pas besoin de savoir sur moi mais que je te partage quand même 🐙 ✦</h5>
           <p className='list_style'><li>La gentillesse est une qualité très importante pour moi et que je trouve pas assez valorisée.</li>
           <li>J'ai déjà parcouru un marathon en moins de 4h (j'aime bouger 😅).</li>
           <li>Je suis engagée sur les causes féministes et LGBTQIA+ 🌈</li>
-          <li>Je suis très obstinée, je peux m'investir à fond sur quelque chose qui me plaît même si ça me sert concrétement à rien 🙃</li>
+          <li>Je suis très obstinée, je peux m'investir à fond sur quelque chose qui me plaît même si ça me sert concrétement à rien 🙃.</li>
           <li>J'adore écrire des histoires, notamment en m'inspirant de ce que je vis (bientôt un livre ?).</li>
           <li>Je suis très curieuse, je n'ai pas peur de me lancer dans de nouvelles activités et explorer différents milieux. Et le faire à fond ! Cela me permet aussi de rencontrer des personnes très différentes et j'adore ça.</li>
-            <li>Je suis une grosse introvertie (profil INFP pour celleux qui kiff ces choses) mais j'aime rencontrer des gens. On dit de moi que je suis très sympa 😉</li></p>
+            <li>Je suis une grosse introvertie (profil INFP pour celleux qui kiff ces choses) mais j'aime rencontrer des gens. On dit de moi que je suis très sympa 😉.</li></p>
 
           <br/><p> <blockquote>Psssst: n'hésite pas à regarder mon <strong>pack "En puissance"</strong> offert gratuitement qui te donne déjà plein d'outils et un aperçu sur ce que propose Résonance.</blockquote></p>
 
