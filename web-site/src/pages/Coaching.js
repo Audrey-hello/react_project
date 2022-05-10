@@ -3,7 +3,7 @@ import React from 'react';
 import ReactPlayer from 'react-player';
 import '../styles/Voyage.css';
 import '../styles/Coaching.css';
-import picture10 from '../img/picture10.JPG';
+import coaching from '../img/coaching.jpg';
 import Pack from '../img/Pack.png';
 import {useState} from "react";
 import Topbar from '../components/Topbar';
@@ -96,7 +96,7 @@ export default function Coaching() {
           <p> J’ai organisé des retraites, des ateliers et j'ai créé une association qui fait de la pédagogie sur les violences systémiques. Je souhaite t'accompagner sur cette voie car je trouve encore plus puissant de pouvoir transmettre ces outils. À toi de jouer ! </p>
         </div>
         <div>
-          <img className='image-profile-coaching2' src={picture10}  alt="moi de profil"/>
+          <img className='image-profile-coaching2' src={coaching}  alt="groupe de femmes"/>
         </div>
       </div>
       < div className="Appel">

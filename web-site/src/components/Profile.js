@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
 import '../styles/Profile.css';
-import picture12 from '../img/picture12.JPG';
+import profile_home from '../img/profile_home.jpg';
 
 
 function Profile() {
@@ -23,7 +23,7 @@ function Profile() {
           </div>
         </div>
         <div>
-          <img className='image-profile-home' src={picture12} alt='profile' />
+          <img className='image-profile-home' src={profile_home} alt='profile' />
         </div>
       </div>
     </div>

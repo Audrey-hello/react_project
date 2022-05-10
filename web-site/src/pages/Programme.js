@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import '../styles/Programme.css';
 import cover from '../img/CoverB&C.png';
 import BandC from '../img/Boost&Care.png'
-import picture7 from '../img/picture7.JPG';
+import group from '../img/Boost&care_group.jpg';
 import Topbar from '../components/Topbar';
 import Footer from '../components/Footer';
 
@@ -37,7 +37,7 @@ function Programme() {
         <div className="cards-content-events">
           <div className="photo-metta">
             <img src={BandC} className="image-metta" alt=" logo du programme metta" />
-            <img src={picture7} className="image-metta2" alt="moi les bras croisés" />
+            <img src={group} className="image-metta2" alt="un groupe de femmes" />
           </div>
           <div className="content-metta">
             <h3> Quel est l'objectif ?</h3>

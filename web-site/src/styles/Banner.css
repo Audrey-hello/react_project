@@ -22,6 +22,7 @@
   height: 100vh;
   position: sticky;
   scroll-behavior: smooth;
+  filter: brightness(0.8);
 }
 
 
