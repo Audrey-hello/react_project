@@ -14,6 +14,7 @@ h1 {
   padding: 20px;
   background-color: #efeae5;
   display: block;
+  position: sticky;
 }
 
 .profile-grid {

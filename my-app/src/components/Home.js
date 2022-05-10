@@ -1,9 +1,10 @@
-import './App.css'
-import Projets from './Projets';
+import './App.css';
 import Profile from './Profile';
+import Projets from './Projets';
 import Footer from './Footer';
 import Topbar from './Topbar';
 import Banner from './Banner';
+
 
 
 function Home() {
@@ -12,7 +13,7 @@ function Home() {
       <Topbar />
       <Banner />
       <Profile />
-      <Projets/>
+      <Projets />
       <Footer />
     </>
   );

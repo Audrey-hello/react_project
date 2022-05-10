@@ -1,6 +1,7 @@
 
 .container-projets {
-  background-color: #efeae5;
+  background-color: transparent;
+  position: sticky;
   padding: 20px;
 }
 

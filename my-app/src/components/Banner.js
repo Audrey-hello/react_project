@@ -1,7 +1,7 @@
 
 import './Banner.css';
 import React from 'react';
-import cover from './cover.png';
+import cover from './cover_home.jpg';
 
 
 function Banner() {

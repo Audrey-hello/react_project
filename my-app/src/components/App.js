@@ -5,9 +5,10 @@ import Home from './Home';
 import Topbar from './Topbar';
 import Profile from './Profile';
 import Resonance from './Resonance';
+import Tousunpeu from './Tousunpeu';
 import Booksociety from './Booksociety';
 import Apolo from './Apolo';
-import Projets from "./Projets.js";
+import Projets from './Projets';
 import Banner from "./Banner.js";
 import PageNotFound from './404_page';
 
@@ -33,11 +34,14 @@ function App() {
           <Route path="/topbar" exact component={Topbar} >
             <Topbar />
           </Route>
+          <Route path="/profile" exact component={Profile} >
+            <Profile />
+          </Route>
           <Route path="/projets" exact component={Projets} >
             <Projets />
           </Route>
-          <Route path="/profile" exact component={Profile} >
-            <Profile />
+          <Route path="/Tousunpeusauvage" exact component={Tousunpeu} >
+            <Tousunpeu/>
           </Route>
           <Route path="/Resonance" exact component={Resonance} >
             <Resonance/>

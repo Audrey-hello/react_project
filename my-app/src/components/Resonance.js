@@ -2,8 +2,6 @@
 import React, { useEffect } from 'react';
 import './Resonance.css';
 import reso_gif from './Reso_video.gif';
-import resonance from './site_resonance.png';
-import { Link } from 'react-router-dom';
 import Aos from "aos";
 import "aos/dist/aos.css";
 

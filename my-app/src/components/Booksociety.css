@@ -8,7 +8,8 @@
 }
 
 .container-bs {
-  background-color: #ffff;
+  background-color: #fff;
+  position: sticky;
   padding: 20px;
 }
 

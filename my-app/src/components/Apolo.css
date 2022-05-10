@@ -21,8 +21,9 @@
 }
 
 .container-apolo {
-  background-color: #ffff;
+  background-color: #efeae5;
   padding: 20px;
+  position: sticky;
 }
 
 .apolo-text{
