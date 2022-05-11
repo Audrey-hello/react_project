@@ -1,6 +1,7 @@
 
 .container-resonance {
   background-color: #efeae5;
+  position: sticky;
   padding: 20px;
 }
 .video_reso{
