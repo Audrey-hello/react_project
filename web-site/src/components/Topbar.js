@@ -15,7 +15,7 @@ function Topbar() {
   const [colorChange, setColorchange] = useState('');
   useEffect(() => {
     if (location.pathname === '/'){
-      setColorchange("black") }
+      setColorchange("white") }
     else {
      setColorchange('white');
     }
