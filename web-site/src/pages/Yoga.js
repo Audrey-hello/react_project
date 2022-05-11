@@ -2,7 +2,7 @@
 import React from 'react';
 import "../styles/Yoga.css";
 import ReactPlayer from 'react-player';
-import yoga from '../img/yoga.jpg';
+import yoga from '../img/yoga.png';
 import Topbar from '../components/Topbar';
 import Footer from '../components/Footer';
 import GoToTop from '../components/GoToTop';
