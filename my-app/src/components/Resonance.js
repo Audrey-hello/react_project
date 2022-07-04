@@ -1,7 +1,7 @@
 
 import React, { useEffect } from 'react';
 import './Resonance.css';
-import reso_gif from './Reso_video.gif';
+import reso_gif from './reso.gif';
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -34,23 +34,20 @@ function Resonance() {
             <p>Site web permettant de donner des informations sur les activités proposées et délivrer du contenu avec un blog.</p><br />
 
             <div className="widgets-outils-reso">
-              <p>React JS</p>
-              <p>Javascript</p>
-              <p>Html</p>
-              <p>Css</p>
+              <p>Webflow</p>
+              <p>Tally</p>
+              <p>Sendinblue</p>
             </div>
 
             <h2>  Les outils </h2> <br />
 
             <p>
               <li>Conception graphique & Webdesign (Canva)</li>
-              <li>Intégration HTML - CSS (+ Bootstrap)</li>
-              <li>Développement sous Node & React JS</li>
-              <li>Intégration d'APIs gérant les bases de données</li>
-              <li> Hébergé sur Vercel</li>
+              <li>Développement No code sur Webdflow</li>
+
             </p>
-            <p>Les fonctionnalités proposées permettent de créer du contenu dans une stratégie de référencement naturel et webmarketing. Il y a notamment une application newsletter, une application de gestion de blog et un formulaire de contact mail. </p><br />
-            <a href='https://www.anaresonance.com/' target="_blank" rel="noopener noreferrer" className='btn-mobile'>
+            <p>Les fonctionnalités proposées permettent de créer du contenu dans une stratégie de référencement naturel et webmarketing. Il y a notamment une application newsletter connectée et un CMS interne pour le blog </p><br />
+            <a href='https://resonance-cc3b12.webflow.io' target="_blank" rel="noopener noreferrer" className='btn-mobile'>
               <button className="btn btn--inline-reso">
                 Lien vers le site !
               </button>
