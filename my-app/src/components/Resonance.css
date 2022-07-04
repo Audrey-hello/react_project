@@ -40,7 +40,7 @@
   border: solid;
   width: 150px;
   text-align: center;
-  background-color: #335C67;
+  background-color: #5b0d5f;
   border-width: thin;
   color: white;
   border-color: black;
@@ -99,7 +99,7 @@
 }
 
 .btn--inline-reso:hover {
-  background: #335C67;
+  background: #5b0d5f;
   color: white !important;
   font-size: bold !important;
 }
