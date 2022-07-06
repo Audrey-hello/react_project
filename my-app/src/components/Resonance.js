@@ -31,7 +31,7 @@ function Resonance() {
         <div >
           <div className='resonance-text' data-aos="fade-right">
             <h2>  Développement complet du site </h2> <br />
-            <p>Site web permettant de donner des informations sur les activités proposées et délivrer du contenu avec un blog.</p><br />
+            <p>Résonance est une entreprise organisant des ateliers bien-être et RSE. Le site web permet de donner des informations sur les activités proposées et générer du contenu avec un blog.</p><br />
 
             <div className="widgets-outils-reso">
               <p>Webflow</p>
@@ -43,7 +43,7 @@ function Resonance() {
 
             <p>
               <li>Conception graphique & Webdesign (Canva)</li>
-              <li>Développement No code sur Webdflow</li>
+              <li>Développement No code sur Webflow</li>
 
             </p>
             <p>Les fonctionnalités proposées permettent de créer du contenu dans une stratégie de référencement naturel et webmarketing. Il y a notamment une application newsletter connectée et un CMS interne pour le blog </p><br />
