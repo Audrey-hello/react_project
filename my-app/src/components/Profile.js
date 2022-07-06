@@ -34,7 +34,7 @@ function Profile() {
               <li> Figma </li>
               <li> Notion </li>
               <li> Airtable </li>
-              <li> Wordpress </li>
+              <li> Wordpress, Webflow, Bubble </li>
               <li> Et plein d'autres outils géniaux! </li>
 
 
